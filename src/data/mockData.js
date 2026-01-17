@@ -1,0 +1,72 @@
+export const countryData = {
+    "United States of America": {
+        name: "United States",
+        code: "US",
+        population: "331M",
+        gdp: "$23T",
+        growth: "+2.3%",
+        activeUsers: "142M",
+        segments: [
+            { name: "Tech", value: 45 },
+            { name: "Finance", value: 30 },
+            { name: "Retail", value: 25 },
+        ],
+        risk: "Low",
+    },
+    "China": {
+        name: "China",
+        code: "CN",
+        population: "1.4B",
+        gdp: "$18T",
+        growth: "+5.1%",
+        activeUsers: "520M",
+        segments: [
+            { name: "Manufacturing", value: 50 },
+            { name: "Tech", value: 30 },
+            { name: "Export", value: 20 },
+        ],
+        risk: "Medium",
+    },
+    "India": {
+        name: "India",
+        code: "IN",
+        population: "1.38B",
+        gdp: "$3T",
+        growth: "+8.2%",
+        activeUsers: "340M",
+        segments: [
+            { name: "Services", value: 40 },
+            { name: "Agriculture", value: 35 },
+            { name: "Tech", value: 25 },
+        ],
+        risk: "Medium",
+    },
+    "Germany": {
+        name: "Germany",
+        code: "DE",
+        population: "83M",
+        gdp: "$4T",
+        growth: "+1.9%",
+        activeUsers: "65M",
+        segments: [
+            { name: "Auto", value: 40 },
+            { name: "Engineering", value: 35 },
+            { name: "Services", value: 25 },
+        ],
+        risk: "Low",
+    },
+    "Brazil": {
+        name: "Brazil",
+        code: "BR",
+        population: "212M",
+        gdp: "$1.4T",
+        growth: "+2.1%",
+        activeUsers: "110M",
+        segments: [
+            { name: "Agriculture", value: 45 },
+            { name: "Mining", value: 25 },
+            { name: "Services", value: 30 },
+        ],
+        risk: "High",
+    }
+};
