@@ -46,7 +46,7 @@ function App() {
         {selectedCountryData && (
           <Dashboard
             key="dashboard"
-            selectedCountryData={selectedCountryData}
+            selectedCountryName={selectedCountryData.NAME || selectedCountryData.name || selectedCountryData.ADMIN || "Unknown"}
             onClose={() => setSelectedCountryData(null)}
           />
         )}
