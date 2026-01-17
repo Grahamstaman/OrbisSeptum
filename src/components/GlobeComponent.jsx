@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Globe from 'react-globe.gl';
 
-const GlobeComponent = ({ onCountryClick }) => {
+const GlobeComponent = ({ onCountryClick, isRotationPaused }) => {
     const globeEl = useRef();
     const [countries, setCountries] = useState({ features: [] });
     const [hoverD, setHoverD] = useState(null);
@@ -14,12 +14,11 @@ const GlobeComponent = ({ onCountryClick }) => {
     }, []);
 
     useEffect(() => {
-        // Auto-rotate
         if (globeEl.current) {
-            globeEl.current.controls().autoRotate = true;
+            globeEl.current.controls().autoRotate = !isRotationPaused;
             globeEl.current.controls().autoRotateSpeed = 0.5;
         }
-    }, []); // Fixed: empty dependency array as ref access in effect is stable
+    }, [isRotationPaused]);
 
     return (
         <div className="absolute inset-0 z-0">
@@ -69,7 +68,7 @@ const GlobeComponent = ({ onCountryClick }) => {
                             globeEl.current.pointOfView({ lat: center.lat, lng: center.lng, altitude: 1.8 }, 1000);
                         }
                     }
-                    onCountryClick(d.properties.NAME);
+                    onCountryClick(d.properties);
                 }}
                 atmosphereColor="#3a228a"
                 atmosphereAltitude={0.2}

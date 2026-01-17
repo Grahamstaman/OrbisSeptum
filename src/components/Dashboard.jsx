@@ -4,16 +4,70 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { BarChart3, Users, Landmark, Activity, X } from 'lucide-react';
 import { countryData } from '../data/mockData';
 
-const Dashboard = ({ selectedCountryName, onClose }) => {
+const Dashboard = ({ selectedCountryData, onClose }) => {
     const [activeTab, setActiveTab] = useState('overview');
+    const [loading, setLoading] = useState(false);
+    const [wbData, setWbData] = useState({ gdp: null, population: null, growth: null });
+
+    const countryName = selectedCountryData.NAME;
+    const countryCode = selectedCountryData.ISO_A2;
 
     // Normalized lookup (the GeoJSON names might differ slightly, but we use strict names in mockData)
     // For demo, we default to United States if not found, or show empty state if strict.
     // We'll try to find exact match or partial.
-    const country = countryData[selectedCountryName] || countryData["United States of America"];
-    const isFallback = !countryData[selectedCountryName];
+    const country = countryData[countryName] || countryData["United States of America"];
+    const isFallback = !countryData[countryName];
 
-    if (!selectedCountryName && !isFallback) return null;
+    useEffect(() => {
+        if (!countryCode) return;
+
+        const fetchData = async () => {
+            setLoading(true);
+            try {
+                // GDP (USD): NY.GDP.MKTP.CD
+                // Population: SP.POP.TOTL
+                // GDP Growth (%): NY.GDP.MKTP.KD.ZG
+                const urls = [
+                    `https://api.worldbank.org/v2/country/${countryCode}/indicator/NY.GDP.MKTP.CD?format=json&mrnev=1`,
+                    `https://api.worldbank.org/v2/country/${countryCode}/indicator/SP.POP.TOTL?format=json&mrnev=1`,
+                    `https://api.worldbank.org/v2/country/${countryCode}/indicator/NY.GDP.MKTP.KD.ZG?format=json&mrnev=1`
+                ];
+
+                const responses = await Promise.all(urls.map(url => fetch(url).then(res => res.json())));
+
+                const formatValue = (val, type) => {
+                    if (val === null || val === undefined) return 'N/A';
+                    if (type === 'money') {
+                        if (val >= 1e12) return `$${(val / 1e12).toFixed(2)}T`;
+                        if (val >= 1e9) return `$${(val / 1e9).toFixed(2)}B`;
+                        if (val >= 1e6) return `$${(val / 1e6).toFixed(2)}M`;
+                        return `$${val.toLocaleString()}`;
+                    }
+                    if (type === 'pop') {
+                        if (val >= 1e9) return `${(val / 1e9).toFixed(2)}B`;
+                        if (val >= 1e6) return `${(val / 1e6).toFixed(2)}M`;
+                        return val.toLocaleString();
+                    }
+                    if (type === 'percent') return `${val.toFixed(2)}%`;
+                    return val;
+                };
+
+                setWbData({
+                    gdp: formatValue(responses[0]?.[1]?.[0]?.value, 'money'),
+                    population: formatValue(responses[1]?.[1]?.[0]?.value, 'pop'),
+                    growth: formatValue(responses[2]?.[1]?.[0]?.value, 'percent')
+                });
+            } catch (error) {
+                console.error("Failed to fetch World Bank data:", error);
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        fetchData();
+    }, [countryCode]);
+
+    if (!countryName && !isFallback) return null;
 
     const tabs = [
         { id: 'overview', label: 'Overview', icon: Activity },
@@ -40,7 +94,7 @@ const Dashboard = ({ selectedCountryName, onClose }) => {
                         <div className="w-2 h-8 bg-cyan-500 rounded-full shadow-[0_0_10px_rgba(6,182,212,0.6)]"></div>
                         <div>
                             <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-white/60">
-                                {selectedCountryName}
+                                {countryName}
                             </h2>
                             {isFallback && <span className="text-xs text-orange-400 font-mono">Mock Data (Select US, CN, IN, DE, BR)</span>}
                         </div>
@@ -115,10 +169,18 @@ const Dashboard = ({ selectedCountryName, onClose }) => {
                             )}
                             {activeTab === 'economics' && (
                                 <div className="grid grid-cols-2 gap-4">
-                                    <StatCard label="GDP" value={country.gdp} />
-                                    <StatCard label="Growth" value={country.growth} color="text-green-400" />
-                                    <StatCard label="Population" value={country.population} />
-                                    <StatCard label="Avg. Income" value="$45k" />
+                                    {loading ? (
+                                        <div className="col-span-2 text-center text-white/50 text-sm animate-pulse py-8">
+                                            Fetching Live World Bank Data...
+                                        </div>
+                                    ) : (
+                                        <>
+                                            <StatCard label="GDP (USD)" value={wbData.gdp} />
+                                            <StatCard label="GDP Growth" value={wbData.growth} color={wbData.growth && wbData.growth.startsWith('-') ? "text-red-400" : "text-green-400"} />
+                                            <StatCard label="Population" value={wbData.population} />
+                                            <StatCard label="Avg. Income" value="$45k" />
+                                        </>
+                                    )}
                                 </div>
                             )}
                             {activeTab === 'demographics' && (
