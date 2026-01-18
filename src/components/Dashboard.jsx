@@ -338,35 +338,6 @@ const Dashboard = ({ selectedCountryName, onClose }) => {
     );
 };
 
-const StatCard = ({ label, value, color = "text-white" }) => (
-    <div className="p-3 rounded-xl bg-white/5 border border-white/5">
-        <div className="text-xs text-white/40 mb-1 uppercase">{label}</div>
-        <div className={`text-xl font-bold font-mono ${color}`}>{value || "-"}</div>
-    </div>
-);
 
-// New Component to display Official + Live Data
-const DualStatCard = ({ label, baseValue, growth, year }) => {
-    const liveValue = useLiveEstimate(baseValue, growth, year);
-
-    return (
-        <div className="p-3 rounded-xl bg-white/5 border border-white/5">
-            <div className="text-xs text-white/40 mb-1 uppercase">{label}</div>
-
-            {/* Live Number */}
-            <div className="text-lg font-bold font-mono text-white tracking-tight">
-                {liveValue}
-                <span className="text-[10px] text-cyan-400 font-normal ml-2 animate-pulse">
-                    ● LIVE
-                </span>
-            </div>
-
-            {/* Official Number */}
-            <div className="text-[10px] text-white/30 mt-1 font-mono">
-                Official ({year}): {baseValue}
-            </div>
-        </div>
-    );
-};
 
 export default Dashboard;
