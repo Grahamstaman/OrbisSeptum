@@ -30,7 +30,7 @@ function App() {
           <div className="flex items-center gap-2">
             <div className={`w-2 h-2 ${isRotationPaused ? 'bg-yellow-500' : 'bg-green-500'} rounded-full animate-pulse shadow-[0_0_10px_#0f0]`}></div>
             <p className="text-xs text-cyan-300 font-mono tracking-widest opacity-80">
-              {isRotationPaused ? 'SYSTEM STANDBY' : 'SYSTEM ONLINE'} // MONITORING GLOBAL STREAMS
+              {isRotationPaused ? 'SYSTEM STANDBY' : 'SYSTEM ONLINE'} // GLOBAL SITUATION MONITORING
             </p>
           </div>
 

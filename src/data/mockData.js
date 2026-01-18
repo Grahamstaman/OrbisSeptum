@@ -4,36 +4,36 @@ export const countryData = {
     "Afghanistan": {
         "name": "Afghanistan",
         "code": "AF",
-        "gdp": "$14.5B",
-        "population": "40.6M",
-        "growth": "-6.2%",
+        "gdp": "$0.0B",
+        "population": "42.6M",
+        "growth": "0.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 45
-            },
-            {
-                "name": "Agriculture",
-                "value": 34
+                "value": 0
             },
             {
                 "name": "Industry",
-                "value": 16
+                "value": 0
+            },
+            {
+                "name": "Agriculture",
+                "value": 0
             }
         ],
-        "activeUsers": "0M",
-        "risk": "High"
+        "activeUsers": "0.4M",
+        "risk": "Medium"
     },
     "Angola": {
         "name": "Angola",
         "code": "AO",
-        "gdp": "$131.2B",
-        "population": "35.6M",
-        "growth": "+4.2%",
+        "gdp": "$101.0B",
+        "population": "37.9M",
+        "growth": "+4.4%",
         "segments": [
             {
                 "name": "Services",
-                "value": 44
+                "value": 41
             },
             {
                 "name": "Industry",
@@ -41,64 +41,64 @@ export const countryData = {
             },
             {
                 "name": "Agriculture",
-                "value": 19
+                "value": 22
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.4M",
         "risk": "Low"
     },
     "Albania": {
         "name": "Albania",
         "code": "AL",
-        "gdp": "$19.0B",
-        "population": "2.5M",
-        "growth": "+4.8%",
+        "gdp": "$27.0B",
+        "population": "2.4M",
+        "growth": "+4.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 46
+                "value": 49
             },
             {
                 "name": "Industry",
-                "value": 23
+                "value": 22
             },
             {
                 "name": "Agriculture",
-                "value": 17
+                "value": 15
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "United Arab Emirates": {
         "name": "United Arab Emirates",
         "code": "AE",
-        "gdp": "$511.4B",
-        "population": "10.1M",
-        "growth": "+7.5%",
+        "gdp": "$552.3B",
+        "population": "11.0M",
+        "growth": "+4.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 50
+                "value": 55
             },
             {
                 "name": "Industry",
-                "value": 49
+                "value": 44
             },
             {
                 "name": "Agriculture",
                 "value": 1
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Low"
     },
     "Argentina": {
         "name": "Argentina",
         "code": "AR",
-        "gdp": "$634.0B",
-        "population": "45.4M",
-        "growth": "+6.0%",
+        "gdp": "$638.4B",
+        "population": "45.7M",
+        "growth": "-1.3%",
         "segments": [
             {
                 "name": "Services",
@@ -110,33 +110,33 @@ export const countryData = {
             },
             {
                 "name": "Agriculture",
-                "value": 7
+                "value": 6
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Low"
+        "activeUsers": "0.5M",
+        "risk": "High"
     },
     "Armenia": {
         "name": "Armenia",
         "code": "AM",
-        "gdp": "$19.5B",
+        "gdp": "$26.0B",
         "population": "3.0M",
-        "growth": "+12.6%",
+        "growth": "+5.9%",
         "segments": [
             {
                 "name": "Services",
-                "value": 56
+                "value": 62
             },
             {
                 "name": "Industry",
-                "value": 25
+                "value": 23
             },
             {
                 "name": "Agriculture",
-                "value": 10
+                "value": 8
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Antarctica": {
@@ -159,7 +159,7 @@ export const countryData = {
                 "value": 0
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Fr. S. Antarctic Lands": {
@@ -182,42 +182,19 @@ export const countryData = {
                 "value": 0
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Australia": {
         "name": "Australia",
         "code": "AU",
-        "gdp": "$1.7T",
-        "population": "26.0M",
-        "growth": "+4.3%",
+        "gdp": "$1.8T",
+        "population": "27.2M",
+        "growth": "+1.4%",
         "segments": [
             {
                 "name": "Services",
-                "value": 63
-            },
-            {
-                "name": "Industry",
-                "value": 27
-            },
-            {
-                "name": "Agriculture",
-                "value": 3
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Low"
-    },
-    "Austria": {
-        "name": "Austria",
-        "code": "AT",
-        "gdp": "$473.2B",
-        "population": "9.0M",
-        "growth": "+5.3%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 62
+                "value": 66
             },
             {
                 "name": "Industry",
@@ -225,41 +202,64 @@ export const countryData = {
             },
             {
                 "name": "Agriculture",
+                "value": 2
+            }
+        ],
+        "activeUsers": "0.3M",
+        "risk": "Medium"
+    },
+    "Austria": {
+        "name": "Austria",
+        "code": "AT",
+        "gdp": "$534.8B",
+        "population": "9.2M",
+        "growth": "-0.7%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 64
+            },
+            {
+                "name": "Industry",
+                "value": 25
+            },
+            {
+                "name": "Agriculture",
                 "value": 1
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Low"
+        "activeUsers": "0.1M",
+        "risk": "High"
     },
     "Azerbaijan": {
         "name": "Azerbaijan",
         "code": "AZ",
-        "gdp": "$78.8B",
-        "population": "10.1M",
-        "growth": "+4.7%",
+        "gdp": "$74.3B",
+        "population": "10.2M",
+        "growth": "+4.1%",
         "segments": [
             {
                 "name": "Industry",
-                "value": 56
+                "value": 43
             },
             {
                 "name": "Services",
-                "value": 32
+                "value": 42
             },
             {
                 "name": "Agriculture",
-                "value": 5
+                "value": 6
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Burundi": {
         "name": "Burundi",
         "code": "BI",
-        "gdp": "$4.0B",
-        "population": "13.3M",
-        "growth": "+2.3%",
+        "gdp": "$3.1B",
+        "population": "14.0M",
+        "growth": "+4.1%",
         "segments": [
             {
                 "name": "Services",
@@ -271,87 +271,87 @@ export const countryData = {
             },
             {
                 "name": "Industry",
-                "value": 17
+                "value": 18
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Belgium": {
         "name": "Belgium",
         "code": "BE",
-        "gdp": "$591.1B",
-        "population": "11.7M",
-        "growth": "+4.0%",
+        "gdp": "$671.4B",
+        "population": "11.9M",
+        "growth": "+1.1%",
         "segments": [
             {
                 "name": "Services",
-                "value": 69
+                "value": 71
             },
             {
                 "name": "Industry",
-                "value": 20
+                "value": 19
             },
             {
                 "name": "Agriculture",
                 "value": 1
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Low"
+        "activeUsers": "0.1M",
+        "risk": "Medium"
     },
     "Benin": {
         "name": "Benin",
         "code": "BJ",
-        "gdp": "$17.4B",
-        "population": "13.8M",
-        "growth": "+6.3%",
+        "gdp": "$21.5B",
+        "population": "14.5M",
+        "growth": "+7.5%",
         "segments": [
             {
                 "name": "Services",
-                "value": 47
+                "value": 49
             },
             {
                 "name": "Agriculture",
-                "value": 27
+                "value": 24
             },
             {
                 "name": "Industry",
                 "value": 17
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Burkina Faso": {
         "name": "Burkina Faso",
         "code": "BF",
-        "gdp": "$18.6B",
-        "population": "22.5M",
-        "growth": "+1.6%",
+        "gdp": "$23.1B",
+        "population": "23.5M",
+        "growth": "+4.8%",
         "segments": [
             {
                 "name": "Services",
-                "value": 47
+                "value": 44
             },
             {
                 "name": "Industry",
-                "value": 26
+                "value": 27
             },
             {
                 "name": "Agriculture",
                 "value": 21
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.2M",
         "risk": "Medium"
     },
     "Bangladesh": {
         "name": "Bangladesh",
         "code": "BD",
-        "gdp": "$460.1B",
-        "population": "169.4M",
-        "growth": "+7.1%",
+        "gdp": "$450.1B",
+        "population": "173.6M",
+        "growth": "+4.2%",
         "segments": [
             {
                 "name": "Services",
@@ -366,42 +366,42 @@ export const countryData = {
                 "value": 11
             }
         ],
-        "activeUsers": "1M",
+        "activeUsers": "1.7M",
         "risk": "Low"
     },
     "Bulgaria": {
         "name": "Bulgaria",
         "code": "BG",
-        "gdp": "$90.5B",
-        "population": "6.5M",
-        "growth": "+4.1%",
+        "gdp": "$113.3B",
+        "population": "6.4M",
+        "growth": "+3.4%",
         "segments": [
             {
                 "name": "Services",
-                "value": 60
+                "value": 64
             },
             {
                 "name": "Industry",
-                "value": 25
+                "value": 21
             },
             {
                 "name": "Agriculture",
-                "value": 4
+                "value": 2
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Medium"
+        "activeUsers": "0.1M",
+        "risk": "Low"
     },
     "Bahamas": {
         "name": "Bahamas",
         "code": "BS",
-        "gdp": "$13.9B",
+        "gdp": "$15.8B",
         "population": "0.4M",
-        "growth": "+10.9%",
+        "growth": "+3.4%",
         "segments": [
             {
                 "name": "Services",
-                "value": 80
+                "value": 77
             },
             {
                 "name": "Industry",
@@ -409,64 +409,64 @@ export const countryData = {
             },
             {
                 "name": "Agriculture",
-                "value": 0
+                "value": 1
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Bosnia and Herz.": {
         "name": "Bosnia and Herz.",
         "code": "BA",
-        "gdp": "$24.5B",
+        "gdp": "$29.6B",
         "population": "3.2M",
-        "growth": "+4.2%",
+        "growth": "+3.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 55
+                "value": 57
             },
             {
                 "name": "Industry",
-                "value": 25
+                "value": 22
             },
             {
                 "name": "Agriculture",
                 "value": 5
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Belarus": {
         "name": "Belarus",
         "code": "BY",
-        "gdp": "$73.8B",
-        "population": "9.2M",
-        "growth": "-4.7%",
+        "gdp": "$76.0B",
+        "population": "9.1M",
+        "growth": "+4.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 48
+                "value": 50
             },
             {
                 "name": "Industry",
-                "value": 33
+                "value": 31
             },
             {
                 "name": "Agriculture",
-                "value": 8
+                "value": 7
             }
         ],
-        "activeUsers": "0M",
-        "risk": "High"
+        "activeUsers": "0.1M",
+        "risk": "Medium"
     },
     "Belize": {
         "name": "Belize",
         "code": "BZ",
-        "gdp": "$2.8B",
+        "gdp": "$3.2B",
         "population": "0.4M",
-        "growth": "+9.3%",
+        "growth": "+3.5%",
         "segments": [
             {
                 "name": "Services",
@@ -481,15 +481,15 @@ export const countryData = {
                 "value": 8
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Bolivia": {
         "name": "Bolivia",
         "code": "BO",
-        "gdp": "$51.0B",
-        "population": "12.1M",
-        "growth": "+3.7%",
+        "gdp": "$54.9B",
+        "population": "12.4M",
+        "growth": "-1.1%",
         "segments": [
             {
                 "name": "Services",
@@ -497,114 +497,114 @@ export const countryData = {
             },
             {
                 "name": "Industry",
-                "value": 32
+                "value": 31
             },
             {
                 "name": "Agriculture",
                 "value": 9
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Medium"
+        "activeUsers": "0.1M",
+        "risk": "High"
     },
     "Brazil": {
         "name": "Brazil",
         "code": "BR",
-        "gdp": "$2.0T",
-        "population": "210.3M",
-        "growth": "+3.0%",
+        "gdp": "$2.2T",
+        "population": "212.0M",
+        "growth": "+3.4%",
         "segments": [
             {
                 "name": "Services",
-                "value": 58
+                "value": 59
             },
             {
                 "name": "Industry",
-                "value": 23
+                "value": 21
             },
             {
                 "name": "Agriculture",
                 "value": 6
             }
         ],
-        "activeUsers": "2M",
+        "activeUsers": "2.1M",
         "risk": "Low"
     },
     "Brunei": {
         "name": "Brunei",
         "code": "BN",
-        "gdp": "$16.7B",
+        "gdp": "$15.3B",
         "population": "0.5M",
-        "growth": "-1.6%",
+        "growth": "+4.1%",
         "segments": [
             {
                 "name": "Industry",
-                "value": 68
+                "value": 62
             },
             {
                 "name": "Services",
-                "value": 33
+                "value": 39
             },
             {
                 "name": "Agriculture",
                 "value": 1
             }
         ],
-        "activeUsers": "0M",
-        "risk": "High"
+        "activeUsers": "0.0M",
+        "risk": "Medium"
     },
     "Bhutan": {
         "name": "Bhutan",
         "code": "BT",
-        "gdp": "$2.9B",
+        "gdp": "$0.0B",
         "population": "0.8M",
-        "growth": "+5.2%",
+        "growth": "0.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 51
+                "value": 0
             },
             {
                 "name": "Industry",
-                "value": 32
+                "value": 0
             },
             {
                 "name": "Agriculture",
-                "value": 15
+                "value": 0
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Botswana": {
         "name": "Botswana",
         "code": "BW",
-        "gdp": "$20.3B",
-        "population": "2.4M",
-        "growth": "+5.5%",
+        "gdp": "$19.4B",
+        "population": "2.5M",
+        "growth": "-3.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 56
+                "value": 63
             },
             {
                 "name": "Industry",
-                "value": 37
+                "value": 29
             },
             {
                 "name": "Agriculture",
                 "value": 2
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Medium"
+        "activeUsers": "0.0M",
+        "risk": "High"
     },
     "Central African Rep.": {
         "name": "Central African Rep.",
         "code": "CF",
-        "gdp": "$2.4B",
-        "population": "5.1M",
-        "growth": "+0.5%",
+        "gdp": "$2.8B",
+        "population": "5.3M",
+        "growth": "+1.5%",
         "segments": [
             {
                 "name": "Services",
@@ -612,45 +612,45 @@ export const countryData = {
             },
             {
                 "name": "Agriculture",
-                "value": 36
+                "value": 28
             },
             {
                 "name": "Industry",
-                "value": 21
+                "value": 20
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Canada": {
         "name": "Canada",
         "code": "CA",
         "gdp": "$2.2T",
-        "population": "38.9M",
-        "growth": "+4.2%",
+        "population": "41.3M",
+        "growth": "+1.6%",
         "segments": [
             {
                 "name": "Services",
-                "value": 70
+                "value": 0
             },
             {
                 "name": "Industry",
-                "value": 28
+                "value": 0
             },
             {
                 "name": "Agriculture",
-                "value": 2
+                "value": 0
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Low"
+        "activeUsers": "0.4M",
+        "risk": "Medium"
     },
     "Switzerland": {
         "name": "Switzerland",
         "code": "CH",
-        "gdp": "$828.5B",
-        "population": "8.8M",
-        "growth": "+3.0%",
+        "gdp": "$936.6B",
+        "population": "9.0M",
+        "growth": "+1.3%",
         "segments": [
             {
                 "name": "Services",
@@ -665,72 +665,125 @@ export const countryData = {
                 "value": 1
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Low"
+        "activeUsers": "0.1M",
+        "risk": "Medium"
     },
     "Chile": {
         "name": "Chile",
         "code": "CL",
-        "gdp": "$301.2B",
-        "population": "19.6M",
-        "growth": "+2.2%",
+        "gdp": "$330.3B",
+        "population": "19.8M",
+        "growth": "+2.6%",
         "segments": [
             {
                 "name": "Services",
-                "value": 55
+                "value": 56
             },
             {
                 "name": "Industry",
-                "value": 31
+                "value": 30
             },
             {
                 "name": "Agriculture",
-                "value": 3
+                "value": 4
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.2M",
         "risk": "Low"
     },
     "China": {
         "name": "China",
         "code": "CN",
-        "gdp": "$17.79T",
-        "population": "1409670000",
-        "growth": "-0.15%",
-        "dataYear": 2023,
-        "activeUsers": "14M",
-        "risk": "Medium",
+        "gdp": "$18.7T",
+        "population": "1.41B",
+        "growth": "+5.0%",
         "segments": [
-            { "name": "Services", "value": 54 },
-            { "name": "Industry", "value": 38 },
-            { "name": "Agriculture", "value": 8 }
+            {
+                "name": "Services",
+                "value": 57
+            },
+            {
+                "name": "Industry",
+                "value": 36
+            },
+            {
+                "name": "Agriculture",
+                "value": 7
+            }
         ],
+        "activeUsers": "14.1M",
+        "risk": "Low",
         "demographics": {
             "age": [
-                { "name": "0-14", "value": 16 },
-                { "name": "15-64", "value": 69 },
-                { "name": "65+", "value": 15 }
+                {
+                    "name": "0-14",
+                    "value": 16
+                },
+                {
+                    "name": "15-64",
+                    "value": 69
+                },
+                {
+                    "name": "65+",
+                    "value": 15
+                }
             ],
             "gender": [
-                { "name": "Male", "value": 51.0 },
-                { "name": "Female", "value": 49.0 }
+                {
+                    "name": "Male",
+                    "value": 51
+                },
+                {
+                    "name": "Female",
+                    "value": 49
+                }
             ],
             "ethnicity": [
-                { "name": "Han Chinese", "value": 91 },
-                { "name": "Ethnic Minorities", "value": 9 }
+                {
+                    "name": "Han Chinese",
+                    "value": 91
+                },
+                {
+                    "name": "Ethnic Minorities",
+                    "value": 9
+                }
             ]
-        }
+        },
+        "dataYear": 2023
     },
     "Côte d'Ivoire": {
         "name": "Côte d'Ivoire",
         "code": "CI",
-        "gdp": "$70.9B",
-        "population": "30.4M",
-        "growth": "+6.4%",
+        "gdp": "$87.1B",
+        "population": "31.9M",
+        "growth": "+6.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 53
+                "value": 52
+            },
+            {
+                "name": "Industry",
+                "value": 24
+            },
+            {
+                "name": "Agriculture",
+                "value": 16
+            }
+        ],
+        "activeUsers": "0.3M",
+        "risk": "Medium"
+    },
+    "Cameroon": {
+        "name": "Cameroon",
+        "code": "CM",
+        "gdp": "$53.3B",
+        "population": "29.1M",
+        "growth": "+3.5%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 51
             },
             {
                 "name": "Industry",
@@ -738,137 +791,114 @@ export const countryData = {
             },
             {
                 "name": "Agriculture",
-                "value": 17
+                "value": 18
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "Cameroon": {
-        "name": "Cameroon",
-        "code": "CM",
-        "gdp": "$44.3B",
-        "population": "27.6M",
-        "growth": "+3.7%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 49
-            },
-            {
-                "name": "Industry",
-                "value": 27
-            },
-            {
-                "name": "Agriculture",
-                "value": 17
-            }
-        ],
-        "activeUsers": "0M",
+        "activeUsers": "0.3M",
         "risk": "Medium"
     },
     "Dem. Rep. Congo": {
         "name": "Dem. Rep. Congo",
         "code": "CD",
-        "gdp": "$70.4B",
-        "population": "102.4M",
-        "growth": "+9.3%",
+        "gdp": "$71.0B",
+        "population": "109.3M",
+        "growth": "+6.1%",
         "segments": [
             {
                 "name": "Services",
-                "value": 44
+                "value": 47
             },
             {
                 "name": "Industry",
-                "value": 42
+                "value": 40
             },
             {
                 "name": "Agriculture",
                 "value": 10
             }
         ],
-        "activeUsers": "1M",
+        "activeUsers": "1.1M",
         "risk": "Medium"
     },
     "Congo": {
         "name": "Congo",
         "code": "CG",
-        "gdp": "$15.8B",
-        "population": "6.0M",
-        "growth": "+1.5%",
-        "segments": [
-            {
-                "name": "Industry",
-                "value": 49
-            },
-            {
-                "name": "Services",
-                "value": 37
-            },
-            {
-                "name": "Agriculture",
-                "value": 8
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "Colombia": {
-        "name": "Colombia",
-        "code": "CO",
-        "gdp": "$345.6B",
-        "population": "51.7M",
-        "growth": "+7.3%",
+        "gdp": "$15.7B",
+        "population": "6.3M",
+        "growth": "+2.6%",
         "segments": [
             {
                 "name": "Services",
-                "value": 55
+                "value": 45
             },
             {
                 "name": "Industry",
-                "value": 26
+                "value": 40
             },
             {
                 "name": "Agriculture",
                 "value": 9
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Low"
+        "activeUsers": "0.1M",
+        "risk": "Medium"
+    },
+    "Colombia": {
+        "name": "Colombia",
+        "code": "CO",
+        "gdp": "$418.8B",
+        "population": "52.9M",
+        "growth": "+1.6%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 58
+            },
+            {
+                "name": "Industry",
+                "value": 23
+            },
+            {
+                "name": "Agriculture",
+                "value": 9
+            }
+        ],
+        "activeUsers": "0.5M",
+        "risk": "Medium"
     },
     "Costa Rica": {
         "name": "Costa Rica",
         "code": "CR",
-        "gdp": "$69.2B",
+        "gdp": "$95.4B",
         "population": "5.1M",
-        "growth": "+4.6%",
+        "growth": "+4.3%",
         "segments": [
             {
                 "name": "Services",
-                "value": 67
+                "value": 69
             },
             {
                 "name": "Industry",
-                "value": 21
+                "value": 20
             },
             {
                 "name": "Agriculture",
                 "value": 4
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Cuba": {
         "name": "Cuba",
         "code": "CU",
         "gdp": "$0.0B",
-        "population": "11.1M",
-        "growth": "+1.8%",
+        "population": "11.0M",
+        "growth": "-1.1%",
         "segments": [
             {
                 "name": "Services",
-                "value": 75
+                "value": 73
             },
             {
                 "name": "Industry",
@@ -879,8 +909,8 @@ export const countryData = {
                 "value": 1
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Medium"
+        "activeUsers": "0.1M",
+        "risk": "High"
     },
     "N. Cyprus": {
         "name": "N. Cyprus",
@@ -902,38 +932,38 @@ export const countryData = {
                 "value": 0
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Cyprus": {
         "name": "Cyprus",
         "code": "CY",
-        "gdp": "$31.2B",
-        "population": "1.3M",
-        "growth": "+8.3%",
+        "gdp": "$37.6B",
+        "population": "1.4M",
+        "growth": "+3.9%",
         "segments": [
             {
                 "name": "Services",
-                "value": 77
+                "value": 76
             },
             {
                 "name": "Industry",
-                "value": 10
+                "value": 11
             },
             {
                 "name": "Agriculture",
                 "value": 1
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Czechia": {
         "name": "Czechia",
         "code": "CZ",
-        "gdp": "$301.8B",
-        "population": "10.7M",
-        "growth": "+2.8%",
+        "gdp": "$347.0B",
+        "population": "10.9M",
+        "growth": "+1.2%",
         "segments": [
             {
                 "name": "Services",
@@ -948,19 +978,19 @@ export const countryData = {
                 "value": 2
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Low"
+        "activeUsers": "0.1M",
+        "risk": "Medium"
     },
     "Germany": {
         "name": "Germany",
         "code": "DE",
-        "gdp": "$4.2T",
-        "population": "83.2M",
-        "growth": "+1.8%",
+        "gdp": "$4.7T",
+        "population": "83.5M",
+        "growth": "-0.5%",
         "segments": [
             {
                 "name": "Services",
-                "value": 63
+                "value": 64
             },
             {
                 "name": "Industry",
@@ -971,15 +1001,15 @@ export const countryData = {
                 "value": 1
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Medium"
+        "activeUsers": "0.8M",
+        "risk": "High"
     },
     "Djibouti": {
         "name": "Djibouti",
         "code": "DJ",
-        "gdp": "$3.6B",
-        "population": "1.1M",
-        "growth": "+5.2%",
+        "gdp": "$4.2B",
+        "population": "1.2M",
+        "growth": "+7.0%",
         "segments": [
             {
                 "name": "Services",
@@ -987,118 +1017,118 @@ export const countryData = {
             },
             {
                 "name": "Industry",
-                "value": 15
+                "value": 16
             },
             {
                 "name": "Agriculture",
                 "value": 3
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Denmark": {
         "name": "Denmark",
         "code": "DK",
-        "gdp": "$400.1B",
-        "population": "5.9M",
-        "growth": "+0.4%",
+        "gdp": "$424.5B",
+        "population": "6.0M",
+        "growth": "+3.5%",
         "segments": [
             {
                 "name": "Services",
-                "value": 66
+                "value": 64
             },
             {
                 "name": "Industry",
-                "value": 21
+                "value": 24
             },
             {
                 "name": "Agriculture",
                 "value": 1
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Medium"
+        "activeUsers": "0.1M",
+        "risk": "Low"
     },
     "Dominican Rep.": {
         "name": "Dominican Rep.",
         "code": "DO",
-        "gdp": "$113.5B",
-        "population": "11.2M",
-        "growth": "+5.2%",
+        "gdp": "$124.3B",
+        "population": "11.4M",
+        "growth": "+5.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 58
+                "value": 60
             },
             {
                 "name": "Industry",
-                "value": 31
+                "value": 29
             },
             {
                 "name": "Agriculture",
                 "value": 4
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Low"
     },
     "Algeria": {
         "name": "Algeria",
         "code": "DZ",
-        "gdp": "$225.6B",
-        "population": "45.5M",
-        "growth": "+3.6%",
+        "gdp": "$269.3B",
+        "population": "46.8M",
+        "growth": "+3.7%",
         "segments": [
             {
                 "name": "Services",
-                "value": 43
+                "value": 47
             },
             {
                 "name": "Industry",
-                "value": 43
+                "value": 36
             },
             {
                 "name": "Agriculture",
-                "value": 11
+                "value": 14
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.5M",
         "risk": "Low"
     },
     "Ecuador": {
         "name": "Ecuador",
         "code": "EC",
-        "gdp": "$116.1B",
-        "population": "17.8M",
-        "growth": "+5.9%",
+        "gdp": "$124.7B",
+        "population": "18.1M",
+        "growth": "-2.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 58
+                "value": 57
             },
             {
                 "name": "Industry",
-                "value": 30
+                "value": 27
             },
             {
                 "name": "Agriculture",
-                "value": 7
+                "value": 9
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Low"
+        "activeUsers": "0.2M",
+        "risk": "High"
     },
     "Egypt": {
         "name": "Egypt",
         "code": "EG",
-        "gdp": "$476.7B",
-        "population": "112.6M",
-        "growth": "+6.6%",
+        "gdp": "$389.1B",
+        "population": "116.5M",
+        "growth": "+2.4%",
         "segments": [
             {
                 "name": "Services",
-                "value": 51
+                "value": 49
             },
             {
                 "name": "Industry",
@@ -1106,17 +1136,17 @@ export const countryData = {
             },
             {
                 "name": "Agriculture",
-                "value": 11
+                "value": 14
             }
         ],
-        "activeUsers": "1M",
+        "activeUsers": "1.2M",
         "risk": "Low"
     },
     "Eritrea": {
         "name": "Eritrea",
         "code": "ER",
         "gdp": "$0.0B",
-        "population": "3.4M",
+        "population": "3.5M",
         "growth": "0.0%",
         "segments": [
             {
@@ -1132,107 +1162,107 @@ export const countryData = {
                 "value": 0
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Spain": {
         "name": "Spain",
         "code": "ES",
-        "gdp": "$1.4T",
-        "population": "47.8M",
-        "growth": "+6.4%",
+        "gdp": "$1.7T",
+        "population": "48.8M",
+        "growth": "+3.5%",
         "segments": [
             {
                 "name": "Services",
-                "value": 68
+                "value": 69
             },
             {
                 "name": "Industry",
-                "value": 21
+                "value": 19
             },
             {
                 "name": "Agriculture",
-                "value": 2
+                "value": 3
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.5M",
         "risk": "Low"
     },
     "Estonia": {
         "name": "Estonia",
         "code": "EE",
-        "gdp": "$38.2B",
-        "population": "1.3M",
-        "growth": "-1.2%",
+        "gdp": "$43.1B",
+        "population": "1.4M",
+        "growth": "-0.1%",
         "segments": [
             {
                 "name": "Services",
-                "value": 63
+                "value": 66
             },
             {
                 "name": "Industry",
-                "value": 23
+                "value": 20
             },
             {
                 "name": "Agriculture",
                 "value": 2
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "High"
     },
     "Ethiopia": {
         "name": "Ethiopia",
         "code": "ET",
-        "gdp": "$123.1B",
-        "population": "125.4M",
-        "growth": "+5.3%",
+        "gdp": "$149.7B",
+        "population": "132.1M",
+        "growth": "+7.6%",
         "segments": [
-            {
-                "name": "Agriculture",
-                "value": 38
-            },
             {
                 "name": "Services",
                 "value": 37
             },
             {
+                "name": "Agriculture",
+                "value": 35
+            },
+            {
                 "name": "Industry",
-                "value": 23
+                "value": 25
             }
         ],
-        "activeUsers": "1M",
+        "activeUsers": "1.3M",
         "risk": "Low"
     },
     "Finland": {
         "name": "Finland",
         "code": "FI",
-        "gdp": "$280.3B",
+        "gdp": "$298.7B",
         "population": "5.6M",
-        "growth": "+0.8%",
+        "growth": "+0.4%",
         "segments": [
             {
                 "name": "Services",
-                "value": 59
+                "value": 62
             },
             {
                 "name": "Industry",
-                "value": 25
+                "value": 23
             },
             {
                 "name": "Agriculture",
                 "value": 2
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Fiji": {
         "name": "Fiji",
         "code": "FJ",
-        "gdp": "$5.0B",
+        "gdp": "$6.0B",
         "population": "0.9M",
-        "growth": "+17.7%",
+        "growth": "+3.5%",
         "segments": [
             {
                 "name": "Services",
@@ -1240,14 +1270,14 @@ export const countryData = {
             },
             {
                 "name": "Industry",
-                "value": 18
+                "value": 16
             },
             {
                 "name": "Agriculture",
-                "value": 14
+                "value": 13
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Falkland Is.": {
@@ -1270,61 +1300,61 @@ export const countryData = {
                 "value": 0
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "France": {
         "name": "France",
-        "code": "FR",
-        "gdp": "$3.0T",
-        "population": "67.9M",
-        "growth": "+0.7%",
+        "code": "-99",
+        "gdp": "$0.0B",
+        "population": "0.0M",
+        "growth": "0.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 70
+                "value": 0
             },
             {
                 "name": "Industry",
-                "value": 19
+                "value": 0
             },
             {
                 "name": "Agriculture",
-                "value": 2
+                "value": 0
             }
         ],
-        "activeUsers": "5M",
-        "risk": "Low"
+        "activeUsers": "0.0M",
+        "risk": "Medium"
     },
     "Gabon": {
         "name": "Gabon",
         "code": "GA",
-        "gdp": "$20.4B",
-        "population": "2.4M",
-        "growth": "+3.0%",
+        "gdp": "$20.9B",
+        "population": "2.5M",
+        "growth": "+3.4%",
         "segments": [
             {
                 "name": "Industry",
-                "value": 56
+                "value": 53
             },
             {
                 "name": "Services",
-                "value": 33
+                "value": 37
             },
             {
                 "name": "Agriculture",
                 "value": 7
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "United Kingdom": {
         "name": "United Kingdom",
         "code": "GB",
-        "gdp": "$3.2T",
-        "population": "67.6M",
-        "growth": "+5.1%",
+        "gdp": "$3.7T",
+        "population": "69.2M",
+        "growth": "+1.1%",
         "segments": [
             {
                 "name": "Services",
@@ -1339,199 +1369,15 @@ export const countryData = {
                 "value": 1
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Low"
+        "activeUsers": "0.7M",
+        "risk": "Medium"
     },
     "Georgia": {
         "name": "Georgia",
         "code": "GE",
-        "gdp": "$25.0B",
+        "gdp": "$34.2B",
         "population": "3.7M",
-        "growth": "+11.0%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 59
-            },
-            {
-                "name": "Industry",
-                "value": 21
-            },
-            {
-                "name": "Agriculture",
-                "value": 7
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "Ghana": {
-        "name": "Ghana",
-        "code": "GH",
-        "gdp": "$73.9B",
-        "population": "33.1M",
-        "growth": "+3.8%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 43
-            },
-            {
-                "name": "Industry",
-                "value": 31
-            },
-            {
-                "name": "Agriculture",
-                "value": 20
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "Guinea": {
-        "name": "Guinea",
-        "code": "GN",
-        "gdp": "$19.9B",
-        "population": "14.1M",
-        "growth": "+4.0%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 38
-            },
-            {
-                "name": "Agriculture",
-                "value": 28
-            },
-            {
-                "name": "Industry",
-                "value": 27
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "Gambia": {
-        "name": "Gambia",
-        "code": "GM",
-        "gdp": "$2.2B",
-        "population": "2.6M",
-        "growth": "+5.5%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 56
-            },
-            {
-                "name": "Agriculture",
-                "value": 23
-            },
-            {
-                "name": "Industry",
-                "value": 16
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "Guinea-Bissau": {
-        "name": "Guinea-Bissau",
-        "code": "GW",
-        "gdp": "$1.9B",
-        "population": "2.1M",
-        "growth": "+5.5%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 43
-            },
-            {
-                "name": "Agriculture",
-                "value": 40
-            },
-            {
-                "name": "Industry",
-                "value": 13
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "Eq. Guinea": {
-        "name": "Eq. Guinea",
-        "code": "GQ",
-        "gdp": "$13.7B",
-        "population": "1.8M",
-        "growth": "+3.2%",
-        "segments": [
-            {
-                "name": "Industry",
-                "value": 56
-            },
-            {
-                "name": "Services",
-                "value": 41
-            },
-            {
-                "name": "Agriculture",
-                "value": 2
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "Greece": {
-        "name": "Greece",
-        "code": "GR",
-        "gdp": "$218.0B",
-        "population": "10.4M",
-        "growth": "+5.5%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 68
-            },
-            {
-                "name": "Industry",
-                "value": 17
-            },
-            {
-                "name": "Agriculture",
-                "value": 4
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Low"
-    },
-    "Greenland": {
-        "name": "Greenland",
-        "code": "GL",
-        "gdp": "$3.2B",
-        "population": "0.1M",
-        "growth": "+2.0%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 61
-            },
-            {
-                "name": "Industry",
-                "value": 20
-            },
-            {
-                "name": "Agriculture",
-                "value": 16
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "Guatemala": {
-        "name": "Guatemala",
-        "code": "GT",
-        "gdp": "$95.6B",
-        "population": "17.8M",
-        "growth": "+4.2%",
+        "growth": "+9.7%",
         "segments": [
             {
                 "name": "Services",
@@ -1539,49 +1385,233 @@ export const countryData = {
             },
             {
                 "name": "Industry",
-                "value": 23
+                "value": 20
             },
             {
                 "name": "Agriculture",
-                "value": 9
+                "value": 5
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
-    "Guyana": {
-        "name": "Guyana",
-        "code": "GY",
-        "gdp": "$14.7B",
-        "population": "0.8M",
-        "growth": "+63.3%",
+    "Ghana": {
+        "name": "Ghana",
+        "code": "GH",
+        "gdp": "$82.3B",
+        "population": "34.4M",
+        "growth": "+5.6%",
         "segments": [
             {
+                "name": "Services",
+                "value": 41
+            },
+            {
                 "name": "Industry",
-                "value": 68
+                "value": 32
+            },
+            {
+                "name": "Agriculture",
+                "value": 21
+            }
+        ],
+        "activeUsers": "0.3M",
+        "risk": "Medium"
+    },
+    "Guinea": {
+        "name": "Guinea",
+        "code": "GN",
+        "gdp": "$25.0B",
+        "population": "14.8M",
+        "growth": "+5.4%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 36
+            },
+            {
+                "name": "Agriculture",
+                "value": 31
+            },
+            {
+                "name": "Industry",
+                "value": 25
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "Medium"
+    },
+    "Gambia": {
+        "name": "Gambia",
+        "code": "GM",
+        "gdp": "$2.4B",
+        "population": "2.8M",
+        "growth": "+5.6%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 57
+            },
+            {
+                "name": "Agriculture",
+                "value": 20
+            },
+            {
+                "name": "Industry",
+                "value": 15
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
+    },
+    "Guinea-Bissau": {
+        "name": "Guinea-Bissau",
+        "code": "GW",
+        "gdp": "$2.2B",
+        "population": "2.2M",
+        "growth": "+4.1%",
+        "segments": [
+            {
+                "name": "Agriculture",
+                "value": 42
             },
             {
                 "name": "Services",
-                "value": 19
+                "value": 38
+            },
+            {
+                "name": "Industry",
+                "value": 16
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
+    },
+    "Eq. Guinea": {
+        "name": "Eq. Guinea",
+        "code": "GQ",
+        "gdp": "$12.8B",
+        "population": "1.9M",
+        "growth": "+0.9%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 51
+            },
+            {
+                "name": "Industry",
+                "value": 46
+            },
+            {
+                "name": "Agriculture",
+                "value": 3
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
+    },
+    "Greece": {
+        "name": "Greece",
+        "code": "GR",
+        "gdp": "$256.2B",
+        "population": "10.4M",
+        "growth": "+2.1%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 68
+            },
+            {
+                "name": "Industry",
+                "value": 15
+            },
+            {
+                "name": "Agriculture",
+                "value": 4
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "Low"
+    },
+    "Greenland": {
+        "name": "Greenland",
+        "code": "GL",
+        "gdp": "$0.0B",
+        "population": "0.1M",
+        "growth": "0.0%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 0
+            },
+            {
+                "name": "Industry",
+                "value": 0
+            },
+            {
+                "name": "Agriculture",
+                "value": 0
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
+    },
+    "Guatemala": {
+        "name": "Guatemala",
+        "code": "GT",
+        "gdp": "$113.2B",
+        "population": "18.4M",
+        "growth": "+3.7%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 62
+            },
+            {
+                "name": "Industry",
+                "value": 22
             },
             {
                 "name": "Agriculture",
                 "value": 10
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.2M",
+        "risk": "Low"
+    },
+    "Guyana": {
+        "name": "Guyana",
+        "code": "GY",
+        "gdp": "$24.7B",
+        "population": "0.8M",
+        "growth": "+43.8%",
+        "segments": [
+            {
+                "name": "Industry",
+                "value": 76
+            },
+            {
+                "name": "Services",
+                "value": 14
+            },
+            {
+                "name": "Agriculture",
+                "value": 8
+            }
+        ],
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Honduras": {
         "name": "Honduras",
         "code": "HN",
-        "gdp": "$31.4B",
-        "population": "10.5M",
-        "growth": "+4.1%",
+        "gdp": "$37.1B",
+        "population": "10.8M",
+        "growth": "+3.6%",
         "segments": [
             {
                 "name": "Services",
-                "value": 57
+                "value": 58
             },
             {
                 "name": "Industry",
@@ -1589,41 +1619,41 @@ export const countryData = {
             },
             {
                 "name": "Agriculture",
-                "value": 12
+                "value": 11
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Croatia": {
         "name": "Croatia",
         "code": "HR",
-        "gdp": "$71.2B",
+        "gdp": "$93.0B",
         "population": "3.9M",
-        "growth": "+7.3%",
+        "growth": "+3.8%",
         "segments": [
             {
                 "name": "Services",
-                "value": 60
+                "value": 61
             },
             {
                 "name": "Industry",
-                "value": 20
+                "value": 19
             },
             {
                 "name": "Agriculture",
                 "value": 3
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Haiti": {
         "name": "Haiti",
         "code": "HT",
-        "gdp": "$20.3B",
-        "population": "11.5M",
-        "growth": "-1.7%",
+        "gdp": "$25.2B",
+        "population": "11.8M",
+        "growth": "-4.2%",
         "segments": [
             {
                 "name": "Services",
@@ -1631,26 +1661,26 @@ export const countryData = {
             },
             {
                 "name": "Industry",
-                "value": 29
+                "value": 33
             },
             {
                 "name": "Agriculture",
-                "value": 20
+                "value": 16
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "High"
     },
     "Hungary": {
         "name": "Hungary",
         "code": "HU",
-        "gdp": "$177.0B",
+        "gdp": "$222.7B",
         "population": "9.6M",
-        "growth": "+4.2%",
+        "growth": "+0.6%",
         "segments": [
             {
                 "name": "Services",
-                "value": 58
+                "value": 60
             },
             {
                 "name": "Industry",
@@ -1661,38 +1691,38 @@ export const countryData = {
                 "value": 3
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Low"
+        "activeUsers": "0.1M",
+        "risk": "Medium"
     },
     "Indonesia": {
         "name": "Indonesia",
         "code": "ID",
-        "gdp": "$1.3T",
-        "population": "278.8M",
-        "growth": "+5.3%",
+        "gdp": "$1.4T",
+        "population": "283.5M",
+        "growth": "+5.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 42
+                "value": 44
             },
             {
                 "name": "Industry",
-                "value": 41
+                "value": 39
             },
             {
                 "name": "Agriculture",
-                "value": 12
+                "value": 13
             }
         ],
-        "activeUsers": "2M",
+        "activeUsers": "2.8M",
         "risk": "Low"
     },
     "India": {
         "name": "India",
         "code": "IN",
-        "gdp": "$3.3T",
-        "population": "1.43B",
-        "growth": "+7.6%",
+        "gdp": "$3.9T",
+        "population": "1.45B",
+        "growth": "+6.5%",
         "segments": [
             {
                 "name": "Services",
@@ -1704,160 +1734,114 @@ export const countryData = {
             },
             {
                 "name": "Agriculture",
-                "value": 17
+                "value": 16
             }
         ],
-        "activeUsers": "14M",
+        "activeUsers": "14.5M",
         "risk": "Low"
     },
     "Ireland": {
         "name": "Ireland",
         "code": "IE",
-        "gdp": "$548.3B",
-        "population": "5.2M",
-        "growth": "+7.5%",
+        "gdp": "$609.2B",
+        "population": "5.4M",
+        "growth": "+2.6%",
         "segments": [
             {
                 "name": "Services",
-                "value": 54
+                "value": 61
             },
             {
                 "name": "Industry",
-                "value": 41
+                "value": 34
             },
             {
                 "name": "Agriculture",
                 "value": 1
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Low"
     },
     "Iran": {
         "name": "Iran",
         "code": "IR",
-        "gdp": "$422.7B",
-        "population": "89.5M",
-        "growth": "+4.4%",
+        "gdp": "$475.3B",
+        "population": "91.6M",
+        "growth": "+3.7%",
         "segments": [
             {
                 "name": "Services",
-                "value": 45
+                "value": 50
             },
             {
                 "name": "Industry",
-                "value": 41
+                "value": 36
             },
             {
                 "name": "Agriculture",
                 "value": 11
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.9M",
         "risk": "Low"
     },
     "Iraq": {
         "name": "Iraq",
         "code": "IQ",
-        "gdp": "$287.4B",
-        "population": "44.1M",
-        "growth": "+8.0%",
+        "gdp": "$279.6B",
+        "population": "46.0M",
+        "growth": "-1.5%",
         "segments": [
             {
                 "name": "Industry",
-                "value": 65
+                "value": 52
             },
             {
                 "name": "Services",
-                "value": 33
+                "value": 46
             },
             {
                 "name": "Agriculture",
-                "value": 2
+                "value": 3
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Low"
+        "activeUsers": "0.5M",
+        "risk": "High"
     },
     "Iceland": {
         "name": "Iceland",
         "code": "IS",
-        "gdp": "$29.2B",
+        "gdp": "$33.3B",
         "population": "0.4M",
-        "growth": "+8.8%",
+        "growth": "-1.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 64
+                "value": 65
             },
             {
                 "name": "Industry",
-                "value": 21
+                "value": 20
             },
             {
                 "name": "Agriculture",
                 "value": 4
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Medium"
+        "activeUsers": "0.0M",
+        "risk": "High"
     },
     "Israel": {
         "name": "Israel",
         "code": "IL",
-        "gdp": "$525.2B",
-        "population": "9.6M",
-        "growth": "+6.3%",
+        "gdp": "$540.4B",
+        "population": "10.0M",
+        "growth": "+0.9%",
         "segments": [
             {
                 "name": "Services",
-                "value": 70
-            },
-            {
-                "name": "Industry",
-                "value": 19
-            },
-            {
-                "name": "Agriculture",
-                "value": 1
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Low"
-    },
-    "Italy": {
-        "name": "Italy",
-        "code": "IT",
-        "gdp": "$2.1T",
-        "population": "59.0M",
-        "growth": "+4.8%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 65
-            },
-            {
-                "name": "Industry",
-                "value": 23
-            },
-            {
-                "name": "Agriculture",
-                "value": 2
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Low"
-    },
-    "Jamaica": {
-        "name": "Jamaica",
-        "code": "JM",
-        "gdp": "$18.8B",
-        "population": "2.8M",
-        "growth": "+6.4%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 59
+                "value": 73
             },
             {
                 "name": "Industry",
@@ -1865,18 +1849,41 @@ export const countryData = {
             },
             {
                 "name": "Agriculture",
-                "value": 7
+                "value": 1
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
-    "Jordan": {
-        "name": "Jordan",
-        "code": "JO",
-        "gdp": "$48.8B",
-        "population": "11.3M",
-        "growth": "+2.6%",
+    "Italy": {
+        "name": "Italy",
+        "code": "IT",
+        "gdp": "$2.4T",
+        "population": "59.0M",
+        "growth": "+0.7%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 65
+            },
+            {
+                "name": "Industry",
+                "value": 22
+            },
+            {
+                "name": "Agriculture",
+                "value": 2
+            }
+        ],
+        "activeUsers": "0.6M",
+        "risk": "Medium"
+    },
+    "Jamaica": {
+        "name": "Jamaica",
+        "code": "JM",
+        "gdp": "$22.0B",
+        "population": "2.8M",
+        "growth": "-0.5%",
         "segments": [
             {
                 "name": "Services",
@@ -1884,68 +1891,91 @@ export const countryData = {
             },
             {
                 "name": "Industry",
-                "value": 24
+                "value": 16
+            },
+            {
+                "name": "Agriculture",
+                "value": 8
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "High"
+    },
+    "Jordan": {
+        "name": "Jordan",
+        "code": "JO",
+        "gdp": "$53.4B",
+        "population": "11.6M",
+        "growth": "+2.5%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 60
+            },
+            {
+                "name": "Industry",
+                "value": 25
             },
             {
                 "name": "Agriculture",
                 "value": 5
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Japan": {
         "name": "Japan",
         "code": "JP",
-        "gdp": "$4.3T",
-        "population": "125.1M",
-        "growth": "+0.9%",
+        "gdp": "$4.0T",
+        "population": "124.0M",
+        "growth": "+0.1%",
         "segments": [
             {
                 "name": "Services",
-                "value": 70
+                "value": 0
             },
             {
                 "name": "Industry",
-                "value": 28
+                "value": 0
             },
             {
                 "name": "Agriculture",
-                "value": 1
+                "value": 0
             }
         ],
-        "activeUsers": "1M",
+        "activeUsers": "1.2M",
         "risk": "Medium"
     },
     "Kazakhstan": {
         "name": "Kazakhstan",
         "code": "KZ",
-        "gdp": "$225.5B",
-        "population": "20.0M",
-        "growth": "+3.2%",
+        "gdp": "$291.5B",
+        "population": "20.6M",
+        "growth": "+5.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 53
+                "value": 58
             },
             {
                 "name": "Industry",
-                "value": 35
+                "value": 32
             },
             {
                 "name": "Agriculture",
-                "value": 5
+                "value": 4
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.2M",
         "risk": "Low"
     },
     "Kenya": {
         "name": "Kenya",
         "code": "KE",
-        "gdp": "$114.4B",
-        "population": "54.3M",
-        "growth": "+4.9%",
+        "gdp": "$120.3B",
+        "population": "56.4M",
+        "growth": "+4.7%",
         "segments": [
             {
                 "name": "Services",
@@ -1953,49 +1983,49 @@ export const countryData = {
             },
             {
                 "name": "Agriculture",
-                "value": 21
+                "value": 22
             },
             {
                 "name": "Industry",
-                "value": 18
+                "value": 16
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.6M",
         "risk": "Low"
     },
     "Kyrgyzstan": {
         "name": "Kyrgyzstan",
         "code": "KG",
-        "gdp": "$12.1B",
-        "population": "7.0M",
+        "gdp": "$17.5B",
+        "population": "7.2M",
         "growth": "+9.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 51
+                "value": 52
             },
             {
                 "name": "Industry",
-                "value": 24
+                "value": 25
             },
             {
                 "name": "Agriculture",
-                "value": 11
+                "value": 9
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Cambodia": {
         "name": "Cambodia",
         "code": "KH",
-        "gdp": "$40.0B",
-        "population": "17.2M",
-        "growth": "+5.1%",
+        "gdp": "$46.4B",
+        "population": "17.6M",
+        "growth": "+6.0%",
         "segments": [
             {
                 "name": "Industry",
-                "value": 41
+                "value": 42
             },
             {
                 "name": "Services",
@@ -2006,15 +2036,15 @@ export const countryData = {
                 "value": 17
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.2M",
         "risk": "Medium"
     },
     "South Korea": {
         "name": "South Korea",
         "code": "KR",
-        "gdp": "$1.8T",
-        "population": "51.7M",
-        "growth": "+2.7%",
+        "gdp": "$1.9T",
+        "population": "51.8M",
+        "growth": "+2.0%",
         "segments": [
             {
                 "name": "Services",
@@ -2022,14 +2052,14 @@ export const countryData = {
             },
             {
                 "name": "Industry",
-                "value": 33
+                "value": 34
             },
             {
                 "name": "Agriculture",
                 "value": 1
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.5M",
         "risk": "Low"
     },
     "Kosovo": {
@@ -2052,130 +2082,130 @@ export const countryData = {
                 "value": 0
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Kuwait": {
         "name": "Kuwait",
         "code": "KW",
-        "gdp": "$183.5B",
-        "population": "4.6M",
-        "growth": "+6.8%",
+        "gdp": "$160.2B",
+        "population": "4.9M",
+        "growth": "-2.6%",
         "segments": [
             {
                 "name": "Industry",
-                "value": 66
+                "value": 57
             },
             {
                 "name": "Services",
-                "value": 45
+                "value": 56
             },
             {
                 "name": "Agriculture",
                 "value": 0
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Low"
+        "activeUsers": "0.0M",
+        "risk": "High"
     },
     "Laos": {
         "name": "Laos",
         "code": "LA",
-        "gdp": "$15.5B",
-        "population": "7.6M",
-        "growth": "+2.7%",
+        "gdp": "$16.5B",
+        "population": "7.8M",
+        "growth": "+4.1%",
         "segments": [
             {
                 "name": "Services",
-                "value": 40
+                "value": 44
             },
             {
                 "name": "Industry",
-                "value": 34
+                "value": 29
             },
             {
                 "name": "Agriculture",
-                "value": 15
+                "value": 17
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Lebanon": {
         "name": "Lebanon",
         "code": "LB",
-        "gdp": "$21.0B",
-        "population": "5.7M",
-        "growth": "-0.6%",
+        "gdp": "$0.0B",
+        "population": "5.8M",
+        "growth": "0.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 89
+                "value": 0
             },
             {
                 "name": "Industry",
-                "value": 2
+                "value": 0
             },
             {
                 "name": "Agriculture",
-                "value": 1
+                "value": 0
             }
         ],
-        "activeUsers": "0M",
-        "risk": "High"
+        "activeUsers": "0.1M",
+        "risk": "Medium"
     },
     "Liberia": {
         "name": "Liberia",
         "code": "LR",
-        "gdp": "$4.0B",
-        "population": "5.4M",
-        "growth": "+4.8%",
+        "gdp": "$4.8B",
+        "population": "5.6M",
+        "growth": "+4.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 37
+                "value": 42
             },
             {
                 "name": "Agriculture",
-                "value": 36
+                "value": 34
             },
             {
                 "name": "Industry",
-                "value": 21
+                "value": 23
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Libya": {
         "name": "Libya",
         "code": "LY",
-        "gdp": "$43.2B",
-        "population": "7.2M",
-        "growth": "-8.3%",
+        "gdp": "$48.5B",
+        "population": "7.4M",
+        "growth": "+1.9%",
         "segments": [
             {
                 "name": "Industry",
-                "value": 77
+                "value": 73
             },
             {
                 "name": "Services",
-                "value": 27
+                "value": 28
             },
             {
                 "name": "Agriculture",
                 "value": 2
             }
         ],
-        "activeUsers": "0M",
-        "risk": "High"
+        "activeUsers": "0.1M",
+        "risk": "Medium"
     },
     "Sri Lanka": {
         "name": "Sri Lanka",
         "code": "LK",
-        "gdp": "$74.1B",
-        "population": "22.2M",
-        "growth": "-7.3%",
+        "gdp": "$99.0B",
+        "population": "21.9M",
+        "growth": "+5.0%",
         "segments": [
             {
                 "name": "Services",
@@ -2183,68 +2213,68 @@ export const countryData = {
             },
             {
                 "name": "Industry",
-                "value": 30
+                "value": 26
             },
             {
                 "name": "Agriculture",
                 "value": 8
             }
         ],
-        "activeUsers": "0M",
-        "risk": "High"
+        "activeUsers": "0.2M",
+        "risk": "Medium"
     },
     "Lesotho": {
         "name": "Lesotho",
         "code": "LS",
-        "gdp": "$2.4B",
+        "gdp": "$2.3B",
         "population": "2.3M",
-        "growth": "+2.4%",
+        "growth": "+2.9%",
         "segments": [
             {
                 "name": "Services",
-                "value": 50
+                "value": 48
             },
             {
                 "name": "Industry",
-                "value": 30
+                "value": 31
             },
             {
                 "name": "Agriculture",
-                "value": 6
+                "value": 7
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Lithuania": {
         "name": "Lithuania",
         "code": "LT",
-        "gdp": "$71.0B",
-        "population": "2.8M",
-        "growth": "+2.5%",
+        "gdp": "$84.9B",
+        "population": "2.9M",
+        "growth": "+2.8%",
         "segments": [
             {
                 "name": "Services",
-                "value": 61
+                "value": 64
             },
             {
                 "name": "Industry",
-                "value": 26
+                "value": 23
             },
             {
                 "name": "Agriculture",
-                "value": 4
+                "value": 3
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Luxembourg": {
         "name": "Luxembourg",
         "code": "LU",
-        "gdp": "$80.8B",
+        "gdp": "$93.3B",
         "population": "0.7M",
-        "growth": "-1.1%",
+        "growth": "+0.4%",
         "segments": [
             {
                 "name": "Services",
@@ -2252,49 +2282,49 @@ export const countryData = {
             },
             {
                 "name": "Industry",
-                "value": 9
+                "value": 10
             },
             {
                 "name": "Agriculture",
                 "value": 0
             }
         ],
-        "activeUsers": "0M",
-        "risk": "High"
+        "activeUsers": "0.0M",
+        "risk": "Medium"
     },
     "Latvia": {
         "name": "Latvia",
         "code": "LV",
-        "gdp": "$38.0B",
+        "gdp": "$43.7B",
         "population": "1.9M",
-        "growth": "+1.9%",
+        "growth": "-0.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 62
+                "value": 65
             },
             {
                 "name": "Industry",
-                "value": 21
+                "value": 18
             },
             {
                 "name": "Agriculture",
-                "value": 5
+                "value": 4
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Medium"
+        "activeUsers": "0.0M",
+        "risk": "High"
     },
     "Morocco": {
         "name": "Morocco",
         "code": "MA",
-        "gdp": "$131.2B",
-        "population": "37.3M",
-        "growth": "+1.8%",
+        "gdp": "$160.6B",
+        "population": "38.1M",
+        "growth": "+3.8%",
         "segments": [
             {
                 "name": "Services",
-                "value": 54
+                "value": 53
             },
             {
                 "name": "Industry",
@@ -2302,40 +2332,40 @@ export const countryData = {
             },
             {
                 "name": "Agriculture",
-                "value": 10
+                "value": 11
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Medium"
+        "activeUsers": "0.4M",
+        "risk": "Low"
     },
     "Moldova": {
         "name": "Moldova",
         "code": "MD",
-        "gdp": "$14.5B",
-        "population": "2.5M",
-        "growth": "-4.6%",
+        "gdp": "$18.2B",
+        "population": "2.4M",
+        "growth": "+0.1%",
         "segments": [
             {
                 "name": "Services",
-                "value": 59
+                "value": 62
             },
             {
                 "name": "Industry",
-                "value": 19
+                "value": 17
             },
             {
                 "name": "Agriculture",
-                "value": 8
+                "value": 7
             }
         ],
-        "activeUsers": "0M",
-        "risk": "High"
+        "activeUsers": "0.0M",
+        "risk": "Medium"
     },
     "Madagascar": {
         "name": "Madagascar",
         "code": "MG",
-        "gdp": "$15.3B",
-        "population": "30.4M",
+        "gdp": "$17.4B",
+        "population": "32.0M",
         "growth": "+4.2%",
         "segments": [
             {
@@ -2351,15 +2381,15 @@ export const countryData = {
                 "value": 22
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.3M",
         "risk": "Medium"
     },
     "Mexico": {
         "name": "Mexico",
         "code": "MX",
-        "gdp": "$1.5T",
-        "population": "128.6M",
-        "growth": "+3.7%",
+        "gdp": "$1.9T",
+        "population": "130.9M",
+        "growth": "+1.4%",
         "segments": [
             {
                 "name": "Services",
@@ -2367,22 +2397,22 @@ export const countryData = {
             },
             {
                 "name": "Industry",
-                "value": 33
+                "value": 32
             },
             {
                 "name": "Agriculture",
                 "value": 4
             }
         ],
-        "activeUsers": "1M",
-        "risk": "Low"
+        "activeUsers": "1.3M",
+        "risk": "Medium"
     },
     "Macedonia": {
         "name": "Macedonia",
         "code": "MK",
-        "gdp": "$13.9B",
+        "gdp": "$17.0B",
         "population": "1.8M",
-        "growth": "+2.8%",
+        "growth": "+3.0%",
         "segments": [
             {
                 "name": "Services",
@@ -2390,26 +2420,26 @@ export const countryData = {
             },
             {
                 "name": "Industry",
-                "value": 23
+                "value": 24
             },
             {
                 "name": "Agriculture",
-                "value": 7
+                "value": 6
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Mali": {
         "name": "Mali",
         "code": "ML",
-        "gdp": "$22.5B",
-        "population": "23.1M",
-        "growth": "+3.7%",
+        "gdp": "$26.8B",
+        "population": "24.5M",
+        "growth": "+5.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 35
+                "value": 36
             },
             {
                 "name": "Agriculture",
@@ -2417,22 +2447,22 @@ export const countryData = {
             },
             {
                 "name": "Industry",
-                "value": 26
+                "value": 23
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.2M",
         "risk": "Medium"
     },
     "Myanmar": {
         "name": "Myanmar",
         "code": "MM",
-        "gdp": "$62.3B",
-        "population": "53.8M",
-        "growth": "+4.0%",
+        "gdp": "$74.1B",
+        "population": "54.5M",
+        "growth": "-1.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 39
+                "value": 41
             },
             {
                 "name": "Industry",
@@ -2440,287 +2470,287 @@ export const countryData = {
             },
             {
                 "name": "Agriculture",
-                "value": 22
+                "value": 21
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Medium"
+        "activeUsers": "0.5M",
+        "risk": "High"
     },
     "Montenegro": {
         "name": "Montenegro",
         "code": "ME",
-        "gdp": "$6.3B",
+        "gdp": "$8.3B",
         "population": "0.6M",
-        "growth": "+7.7%",
+        "growth": "+3.2%",
         "segments": [
             {
                 "name": "Services",
-                "value": 63
+                "value": 64
             },
             {
                 "name": "Industry",
-                "value": 13
+                "value": 12
             },
             {
                 "name": "Agriculture",
-                "value": 4
+                "value": 3
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Mongolia": {
         "name": "Mongolia",
         "code": "MN",
-        "gdp": "$17.1B",
-        "population": "3.4M",
-        "growth": "+5.0%",
+        "gdp": "$23.8B",
+        "population": "3.5M",
+        "growth": "+5.1%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 44
+            },
+            {
+                "name": "Industry",
+                "value": 38
+            },
+            {
+                "name": "Agriculture",
+                "value": 7
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
+    },
+    "Mozambique": {
+        "name": "Mozambique",
+        "code": "MZ",
+        "gdp": "$22.7B",
+        "population": "34.6M",
+        "growth": "+2.1%",
         "segments": [
             {
                 "name": "Services",
                 "value": 41
             },
             {
-                "name": "Industry",
-                "value": 35
-            },
-            {
                 "name": "Agriculture",
-                "value": 13
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "Mozambique": {
-        "name": "Mozambique",
-        "code": "MZ",
-        "gdp": "$18.9B",
-        "population": "32.7M",
-        "growth": "+4.4%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 39
-            },
-            {
-                "name": "Agriculture",
-                "value": 26
+                "value": 25
             },
             {
                 "name": "Industry",
-                "value": 23
+                "value": 22
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.3M",
         "risk": "Medium"
     },
     "Mauritania": {
         "name": "Mauritania",
         "code": "MR",
-        "gdp": "$9.6B",
-        "population": "4.9M",
-        "growth": "+6.8%",
+        "gdp": "$10.9B",
+        "population": "5.2M",
+        "growth": "+6.3%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 42
+            },
+            {
+                "name": "Industry",
+                "value": 31
+            },
+            {
+                "name": "Agriculture",
+                "value": 19
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "Medium"
+    },
+    "Malawi": {
+        "name": "Malawi",
+        "code": "MW",
+        "gdp": "$11.3B",
+        "population": "21.7M",
+        "growth": "+1.7%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 44
+            },
+            {
+                "name": "Agriculture",
+                "value": 32
+            },
+            {
+                "name": "Industry",
+                "value": 17
+            }
+        ],
+        "activeUsers": "0.2M",
+        "risk": "Medium"
+    },
+    "Malaysia": {
+        "name": "Malaysia",
+        "code": "MY",
+        "gdp": "$422.2B",
+        "population": "35.6M",
+        "growth": "+5.1%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 54
+            },
+            {
+                "name": "Industry",
+                "value": 37
+            },
+            {
+                "name": "Agriculture",
+                "value": 8
+            }
+        ],
+        "activeUsers": "0.4M",
+        "risk": "Low"
+    },
+    "Namibia": {
+        "name": "Namibia",
+        "code": "NA",
+        "gdp": "$13.4B",
+        "population": "3.0M",
+        "growth": "+3.7%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 54
+            },
+            {
+                "name": "Industry",
+                "value": 29
+            },
+            {
+                "name": "Agriculture",
+                "value": 7
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
+    },
+    "New Caledonia": {
+        "name": "New Caledonia",
+        "code": "NC",
+        "gdp": "$8.5B",
+        "population": "0.3M",
+        "growth": "-13.5%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 0
+            },
+            {
+                "name": "Industry",
+                "value": 0
+            },
+            {
+                "name": "Agriculture",
+                "value": 0
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "High"
+    },
+    "Niger": {
+        "name": "Niger",
+        "code": "NE",
+        "gdp": "$19.9B",
+        "population": "27.0M",
+        "growth": "+10.3%",
         "segments": [
             {
                 "name": "Services",
                 "value": 45
             },
             {
-                "name": "Industry",
-                "value": 29
-            },
-            {
                 "name": "Agriculture",
-                "value": 21
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "Malawi": {
-        "name": "Malawi",
-        "code": "MW",
-        "gdp": "$12.4B",
-        "population": "20.6M",
-        "growth": "+0.9%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 49
-            },
-            {
-                "name": "Agriculture",
-                "value": 28
-            },
-            {
-                "name": "Industry",
-                "value": 17
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "Malaysia": {
-        "name": "Malaysia",
-        "code": "MY",
-        "gdp": "$407.8B",
-        "population": "34.7M",
-        "growth": "+9.0%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 51
-            },
-            {
-                "name": "Industry",
-                "value": 39
-            },
-            {
-                "name": "Agriculture",
-                "value": 9
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Low"
-    },
-    "Namibia": {
-        "name": "Namibia",
-        "code": "NA",
-        "gdp": "$12.6B",
-        "population": "2.9M",
-        "growth": "+5.4%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 55
-            },
-            {
-                "name": "Industry",
-                "value": 27
-            },
-            {
-                "name": "Agriculture",
-                "value": 9
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "New Caledonia": {
-        "name": "New Caledonia",
-        "code": "NC",
-        "gdp": "$9.6B",
-        "population": "0.3M",
-        "growth": "+3.5%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 0
-            },
-            {
-                "name": "Industry",
-                "value": 0
-            },
-            {
-                "name": "Agriculture",
-                "value": 0
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "Niger": {
-        "name": "Niger",
-        "code": "NE",
-        "gdp": "$15.4B",
-        "population": "25.3M",
-        "growth": "+11.9%",
-        "segments": [
-            {
-                "name": "Agriculture",
-                "value": 41
-            },
-            {
-                "name": "Services",
                 "value": 34
             },
             {
                 "name": "Industry",
-                "value": 19
+                "value": 18
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.3M",
         "risk": "Medium"
     },
     "Nigeria": {
         "name": "Nigeria",
         "code": "NG",
-        "gdp": "$647.0B",
-        "population": "223.2M",
-        "growth": "+4.3%",
+        "gdp": "$252.3B",
+        "population": "232.7M",
+        "growth": "+4.1%",
         "segments": [
             {
                 "name": "Services",
-                "value": 51
+                "value": 54
             },
             {
                 "name": "Agriculture",
-                "value": 29
+                "value": 26
             },
             {
                 "name": "Industry",
-                "value": 19
+                "value": 18
             }
         ],
-        "activeUsers": "2M",
+        "activeUsers": "2.3M",
         "risk": "Low"
     },
     "Nicaragua": {
         "name": "Nicaragua",
         "code": "NI",
-        "gdp": "$15.6B",
-        "population": "6.7M",
+        "gdp": "$19.7B",
+        "population": "6.9M",
         "growth": "+3.6%",
         "segments": [
             {
                 "name": "Services",
-                "value": 46
+                "value": 47
             },
             {
                 "name": "Industry",
-                "value": 26
+                "value": 28
             },
             {
                 "name": "Agriculture",
-                "value": 17
+                "value": 14
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Netherlands": {
         "name": "Netherlands",
         "code": "NL",
-        "gdp": "$1.0T",
-        "population": "17.7M",
-        "growth": "+5.0%",
+        "gdp": "$1.2T",
+        "population": "18.0M",
+        "growth": "+1.1%",
         "segments": [
             {
                 "name": "Services",
-                "value": 69
+                "value": 70
             },
             {
                 "name": "Industry",
-                "value": 19
+                "value": 18
             },
             {
                 "name": "Agriculture",
                 "value": 2
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Low"
+        "activeUsers": "0.2M",
+        "risk": "Medium"
     },
     "Norway": {
         "name": "Norway",
@@ -2742,88 +2772,19 @@ export const countryData = {
                 "value": 0
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Nepal": {
         "name": "Nepal",
         "code": "NP",
-        "gdp": "$41.2B",
+        "gdp": "$42.9B",
         "population": "29.7M",
-        "growth": "+5.6%",
+        "growth": "+3.7%",
         "segments": [
             {
                 "name": "Services",
-                "value": 52
-            },
-            {
-                "name": "Agriculture",
-                "value": 21
-            },
-            {
-                "name": "Industry",
-                "value": 12
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "New Zealand": {
-        "name": "New Zealand",
-        "code": "NZ",
-        "gdp": "$249.5B",
-        "population": "5.1M",
-        "growth": "+3.5%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 67
-            },
-            {
-                "name": "Industry",
-                "value": 20
-            },
-            {
-                "name": "Agriculture",
-                "value": 5
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Low"
-    },
-    "Oman": {
-        "name": "Oman",
-        "code": "OM",
-        "gdp": "$109.9B",
-        "population": "4.7M",
-        "growth": "+8.0%",
-        "segments": [
-            {
-                "name": "Industry",
-                "value": 59
-            },
-            {
-                "name": "Services",
-                "value": 42
-            },
-            {
-                "name": "Agriculture",
-                "value": 2
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Low"
-    },
-    "Pakistan": {
-        "name": "Pakistan",
-        "code": "PK",
-        "gdp": "$374.9B",
-        "population": "243.7M",
-        "growth": "+4.8%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 52
+                "value": 55
             },
             {
                 "name": "Agriculture",
@@ -2831,22 +2792,91 @@ export const countryData = {
             },
             {
                 "name": "Industry",
+                "value": 11
+            }
+        ],
+        "activeUsers": "0.3M",
+        "risk": "Medium"
+    },
+    "New Zealand": {
+        "name": "New Zealand",
+        "code": "NZ",
+        "gdp": "$260.2B",
+        "population": "5.3M",
+        "growth": "+1.3%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 0
+            },
+            {
+                "name": "Industry",
+                "value": 0
+            },
+            {
+                "name": "Agriculture",
+                "value": 0
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "Medium"
+    },
+    "Oman": {
+        "name": "Oman",
+        "code": "OM",
+        "gdp": "$107.1B",
+        "population": "5.3M",
+        "growth": "+1.6%",
+        "segments": [
+            {
+                "name": "Industry",
+                "value": 54
+            },
+            {
+                "name": "Services",
+                "value": 46
+            },
+            {
+                "name": "Agriculture",
+                "value": 3
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "Medium"
+    },
+    "Pakistan": {
+        "name": "Pakistan",
+        "code": "PK",
+        "gdp": "$371.6B",
+        "population": "251.3M",
+        "growth": "+3.0%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 51
+            },
+            {
+                "name": "Agriculture",
+                "value": 24
+            },
+            {
+                "name": "Industry",
                 "value": 20
             }
         ],
-        "activeUsers": "2M",
+        "activeUsers": "2.5M",
         "risk": "Low"
     },
     "Panama": {
         "name": "Panama",
         "code": "PA",
-        "gdp": "$76.5B",
-        "population": "4.4M",
-        "growth": "+11.0%",
+        "gdp": "$86.5B",
+        "population": "4.5M",
+        "growth": "+2.7%",
         "segments": [
             {
                 "name": "Services",
-                "value": 68
+                "value": 69
             },
             {
                 "name": "Industry",
@@ -2857,107 +2887,15 @@ export const countryData = {
                 "value": 3
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Peru": {
         "name": "Peru",
         "code": "PE",
-        "gdp": "$246.1B",
-        "population": "33.5M",
-        "growth": "+2.8%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 50
-            },
-            {
-                "name": "Industry",
-                "value": 35
-            },
-            {
-                "name": "Agriculture",
-                "value": 7
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Low"
-    },
-    "Philippines": {
-        "name": "Philippines",
-        "code": "PH",
-        "gdp": "$404.4B",
-        "population": "114.0M",
-        "growth": "+7.6%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 61
-            },
-            {
-                "name": "Industry",
-                "value": 29
-            },
-            {
-                "name": "Agriculture",
-                "value": 10
-            }
-        ],
-        "activeUsers": "1M",
-        "risk": "Low"
-    },
-    "Papua New Guinea": {
-        "name": "Papua New Guinea",
-        "code": "PG",
-        "gdp": "$31.7B",
-        "population": "10.2M",
-        "growth": "+5.7%",
-        "segments": [
-            {
-                "name": "Industry",
-                "value": 40
-            },
-            {
-                "name": "Services",
-                "value": 39
-            },
-            {
-                "name": "Agriculture",
-                "value": 17
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "Poland": {
-        "name": "Poland",
-        "code": "PL",
-        "gdp": "$695.6B",
-        "population": "36.8M",
-        "growth": "+5.3%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 57
-            },
-            {
-                "name": "Industry",
-                "value": 29
-            },
-            {
-                "name": "Agriculture",
-                "value": 3
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Low"
-    },
-    "Puerto Rico": {
-        "name": "Puerto Rico",
-        "code": "PR",
-        "gdp": "$113.8B",
-        "population": "3.2M",
-        "growth": "+3.0%",
+        "gdp": "$289.2B",
+        "population": "34.2M",
+        "growth": "+3.3%",
         "segments": [
             {
                 "name": "Services",
@@ -2965,21 +2903,113 @@ export const countryData = {
             },
             {
                 "name": "Industry",
-                "value": 48
+                "value": 34
+            },
+            {
+                "name": "Agriculture",
+                "value": 7
+            }
+        ],
+        "activeUsers": "0.3M",
+        "risk": "Low"
+    },
+    "Philippines": {
+        "name": "Philippines",
+        "code": "PH",
+        "gdp": "$461.6B",
+        "population": "115.8M",
+        "growth": "+5.7%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 63
+            },
+            {
+                "name": "Industry",
+                "value": 28
+            },
+            {
+                "name": "Agriculture",
+                "value": 9
+            }
+        ],
+        "activeUsers": "1.2M",
+        "risk": "Low"
+    },
+    "Papua New Guinea": {
+        "name": "Papua New Guinea",
+        "code": "PG",
+        "gdp": "$31.8B",
+        "population": "10.6M",
+        "growth": "+3.8%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 0
+            },
+            {
+                "name": "Industry",
+                "value": 0
+            },
+            {
+                "name": "Agriculture",
+                "value": 0
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "Medium"
+    },
+    "Poland": {
+        "name": "Poland",
+        "code": "PL",
+        "gdp": "$917.8B",
+        "population": "36.6M",
+        "growth": "+3.0%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 59
+            },
+            {
+                "name": "Industry",
+                "value": 27
+            },
+            {
+                "name": "Agriculture",
+                "value": 3
+            }
+        ],
+        "activeUsers": "0.4M",
+        "risk": "Low"
+    },
+    "Puerto Rico": {
+        "name": "Puerto Rico",
+        "code": "PR",
+        "gdp": "$126.0B",
+        "population": "3.2M",
+        "growth": "+3.2%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 52
+            },
+            {
+                "name": "Industry",
+                "value": 47
             },
             {
                 "name": "Agriculture",
                 "value": 1
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Low"
     },
     "North Korea": {
         "name": "North Korea",
         "code": "KP",
         "gdp": "$0.0B",
-        "population": "26.3M",
+        "population": "26.5M",
         "growth": "0.0%",
         "segments": [
             {
@@ -2995,15 +3025,15 @@ export const countryData = {
                 "value": 0
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.3M",
         "risk": "Medium"
     },
     "Portugal": {
         "name": "Portugal",
         "code": "PT",
-        "gdp": "$256.9B",
-        "population": "10.4M",
-        "growth": "+7.0%",
+        "gdp": "$313.3B",
+        "population": "10.7M",
+        "growth": "+2.1%",
         "segments": [
             {
                 "name": "Services",
@@ -3011,118 +3041,26 @@ export const countryData = {
             },
             {
                 "name": "Industry",
-                "value": 18
+                "value": 19
             },
             {
                 "name": "Agriculture",
                 "value": 2
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Low"
     },
     "Paraguay": {
         "name": "Paraguay",
         "code": "PY",
-        "gdp": "$42.0B",
-        "population": "6.8M",
-        "growth": "+0.2%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 48
-            },
-            {
-                "name": "Industry",
-                "value": 34
-            },
-            {
-                "name": "Agriculture",
-                "value": 11
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "Palestine": {
-        "name": "Palestine",
-        "code": "PS",
-        "gdp": "$19.2B",
-        "population": "5.0M",
-        "growth": "+4.1%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 58
-            },
-            {
-                "name": "Industry",
-                "value": 17
-            },
-            {
-                "name": "Agriculture",
-                "value": 6
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "Qatar": {
-        "name": "Qatar",
-        "code": "QA",
-        "gdp": "$235.7B",
-        "population": "2.7M",
-        "growth": "+4.2%",
-        "segments": [
-            {
-                "name": "Industry",
-                "value": 65
-            },
-            {
-                "name": "Services",
-                "value": 39
-            },
-            {
-                "name": "Agriculture",
-                "value": 0
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Low"
-    },
-    "Romania": {
-        "name": "Romania",
-        "code": "RO",
-        "gdp": "$295.3B",
-        "population": "19.0M",
+        "gdp": "$44.5B",
+        "population": "6.9M",
         "growth": "+4.2%",
         "segments": [
             {
                 "name": "Services",
-                "value": 60
-            },
-            {
-                "name": "Industry",
-                "value": 28
-            },
-            {
-                "name": "Agriculture",
-                "value": 4
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "Low"
-    },
-    "Russia": {
-        "name": "Russia",
-        "code": "RU",
-        "gdp": "$2.3T",
-        "population": "144.2M",
-        "growth": "-1.4%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 55
+                "value": 49
             },
             {
                 "name": "Industry",
@@ -3130,22 +3068,114 @@ export const countryData = {
             },
             {
                 "name": "Agriculture",
+                "value": 11
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "Medium"
+    },
+    "Palestine": {
+        "name": "Palestine",
+        "code": "PS",
+        "gdp": "$13.7B",
+        "population": "5.3M",
+        "growth": "-26.6%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 0
+            },
+            {
+                "name": "Industry",
+                "value": 0
+            },
+            {
+                "name": "Agriculture",
+                "value": 0
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "High"
+    },
+    "Qatar": {
+        "name": "Qatar",
+        "code": "QA",
+        "gdp": "$219.2B",
+        "population": "2.9M",
+        "growth": "+2.4%",
+        "segments": [
+            {
+                "name": "Industry",
+                "value": 58
+            },
+            {
+                "name": "Services",
+                "value": 46
+            },
+            {
+                "name": "Agriculture",
+                "value": 0
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Low"
+    },
+    "Romania": {
+        "name": "Romania",
+        "code": "RO",
+        "gdp": "$382.6B",
+        "population": "19.1M",
+        "growth": "+0.9%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 63
+            },
+            {
+                "name": "Industry",
+                "value": 25
+            },
+            {
+                "name": "Agriculture",
                 "value": 3
             }
         ],
-        "activeUsers": "1M",
-        "risk": "High"
+        "activeUsers": "0.2M",
+        "risk": "Medium"
+    },
+    "Russia": {
+        "name": "Russia",
+        "code": "RU",
+        "gdp": "$2.2T",
+        "population": "143.5M",
+        "growth": "+4.3%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 58
+            },
+            {
+                "name": "Industry",
+                "value": 31
+            },
+            {
+                "name": "Agriculture",
+                "value": 3
+            }
+        ],
+        "activeUsers": "1.4M",
+        "risk": "Low"
     },
     "Rwanda": {
         "name": "Rwanda",
         "code": "RW",
-        "gdp": "$13.3B",
-        "population": "13.7M",
-        "growth": "+8.2%",
+        "gdp": "$14.3B",
+        "population": "14.3M",
+        "growth": "+8.9%",
         "segments": [
             {
                 "name": "Services",
-                "value": 46
+                "value": 48
             },
             {
                 "name": "Agriculture",
@@ -3156,7 +3186,7 @@ export const countryData = {
                 "value": 21
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "W. Sahara": {
@@ -3179,60 +3209,60 @@ export const countryData = {
                 "value": 0
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Saudi Arabia": {
         "name": "Saudi Arabia",
         "code": "SA",
         "gdp": "$1.2T",
-        "population": "32.2M",
-        "growth": "+12.0%",
+        "population": "35.3M",
+        "growth": "+2.0%",
         "segments": [
             {
-                "name": "Industry",
-                "value": 53
+                "name": "Services",
+                "value": 47
             },
             {
-                "name": "Services",
-                "value": 40
+                "name": "Industry",
+                "value": 45
             },
             {
                 "name": "Agriculture",
-                "value": 2
+                "value": 3
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Low"
+        "activeUsers": "0.4M",
+        "risk": "Medium"
     },
     "Sudan": {
         "name": "Sudan",
         "code": "SD",
-        "gdp": "$51.7B",
-        "population": "49.4M",
-        "growth": "-1.0%",
+        "gdp": "$49.7B",
+        "population": "50.4M",
+        "growth": "-14.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 6
+                "value": 55
             },
             {
                 "name": "Industry",
-                "value": 5
+                "value": 23
             },
             {
                 "name": "Agriculture",
-                "value": 5
+                "value": 22
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.5M",
         "risk": "High"
     },
     "S. Sudan": {
         "name": "S. Sudan",
         "code": "SS",
         "gdp": "$0.0B",
-        "population": "11.0M",
+        "population": "11.9M",
         "growth": "0.0%",
         "segments": [
             {
@@ -3248,19 +3278,19 @@ export const countryData = {
                 "value": 0
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Senegal": {
         "name": "Senegal",
         "code": "SN",
-        "gdp": "$27.8B",
-        "population": "17.7M",
-        "growth": "+3.9%",
+        "gdp": "$32.8B",
+        "population": "18.5M",
+        "growth": "+6.1%",
         "segments": [
             {
                 "name": "Services",
-                "value": 50
+                "value": 48
             },
             {
                 "name": "Industry",
@@ -3268,79 +3298,79 @@ export const countryData = {
             },
             {
                 "name": "Agriculture",
-                "value": 16
+                "value": 17
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.2M",
         "risk": "Medium"
     },
     "Solomon Is.": {
         "name": "Solomon Is.",
         "code": "SB",
-        "gdp": "$1.5B",
+        "gdp": "$1.6B",
         "population": "0.8M",
-        "growth": "-2.6%",
+        "growth": "+3.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 49
+                "value": 47
             },
             {
                 "name": "Agriculture",
-                "value": 32
+                "value": 30
             },
             {
                 "name": "Industry",
-                "value": 19
+                "value": 23
             }
         ],
-        "activeUsers": "0M",
-        "risk": "High"
+        "activeUsers": "0.0M",
+        "risk": "Medium"
     },
     "Sierra Leone": {
         "name": "Sierra Leone",
         "code": "SL",
-        "gdp": "$7.1B",
-        "population": "8.3M",
-        "growth": "+5.3%",
+        "gdp": "$7.0B",
+        "population": "8.6M",
+        "growth": "+4.3%",
         "segments": [
             {
                 "name": "Services",
-                "value": 42
+                "value": 43
             },
             {
                 "name": "Agriculture",
-                "value": 34
+                "value": 29
             },
             {
                 "name": "Industry",
-                "value": 21
+                "value": 26
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "El Salvador": {
         "name": "El Salvador",
         "code": "SV",
-        "gdp": "$31.9B",
+        "gdp": "$35.4B",
         "population": "6.3M",
-        "growth": "+3.0%",
+        "growth": "+2.6%",
         "segments": [
             {
                 "name": "Services",
-                "value": 60
+                "value": 61
             },
             {
                 "name": "Industry",
-                "value": 24
+                "value": 22
             },
             {
                 "name": "Agriculture",
-                "value": 5
+                "value": 4
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Somaliland": {
@@ -3363,15 +3393,15 @@ export const countryData = {
                 "value": 0
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Somalia": {
         "name": "Somalia",
         "code": "SO",
-        "gdp": "$10.2B",
-        "population": "17.8M",
-        "growth": "+2.7%",
+        "gdp": "$12.0B",
+        "population": "19.0M",
+        "growth": "+4.1%",
         "segments": [
             {
                 "name": "Services",
@@ -3386,84 +3416,84 @@ export const countryData = {
                 "value": 0
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.2M",
         "risk": "Medium"
     },
     "Serbia": {
         "name": "Serbia",
         "code": "RS",
-        "gdp": "$66.8B",
-        "population": "6.7M",
-        "growth": "+2.7%",
+        "gdp": "$90.1B",
+        "population": "6.6M",
+        "growth": "+3.9%",
         "segments": [
             {
                 "name": "Services",
-                "value": 54
+                "value": 59
             },
             {
                 "name": "Industry",
-                "value": 25
+                "value": 23
             },
             {
                 "name": "Agriculture",
-                "value": 5
+                "value": 3
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Suriname": {
         "name": "Suriname",
         "code": "SR",
-        "gdp": "$3.8B",
+        "gdp": "$4.4B",
         "population": "0.6M",
-        "growth": "+2.4%",
+        "growth": "+1.7%",
         "segments": [
             {
                 "name": "Services",
-                "value": 48
+                "value": 51
             },
             {
                 "name": "Industry",
-                "value": 42
+                "value": 35
             },
             {
                 "name": "Agriculture",
                 "value": 7
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Slovakia": {
         "name": "Slovakia",
         "code": "SK",
-        "gdp": "$115.8B",
+        "gdp": "$140.9B",
         "population": "5.4M",
-        "growth": "+0.5%",
+        "growth": "+1.9%",
         "segments": [
             {
                 "name": "Services",
-                "value": 61
+                "value": 60
             },
             {
                 "name": "Industry",
-                "value": 27
+                "value": 29
             },
             {
                 "name": "Agriculture",
                 "value": 2
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Slovenia": {
         "name": "Slovenia",
         "code": "SI",
-        "gdp": "$59.9B",
+        "gdp": "$73.0B",
         "population": "2.1M",
-        "growth": "+2.7%",
+        "growth": "+1.7%",
         "segments": [
             {
                 "name": "Services",
@@ -3471,45 +3501,45 @@ export const countryData = {
             },
             {
                 "name": "Industry",
-                "value": 28
+                "value": 29
             },
             {
                 "name": "Agriculture",
                 "value": 2
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Sweden": {
         "name": "Sweden",
         "code": "SE",
-        "gdp": "$575.1B",
-        "population": "10.5M",
-        "growth": "+1.3%",
+        "gdp": "$603.7B",
+        "population": "10.6M",
+        "growth": "+0.8%",
         "segments": [
             {
                 "name": "Services",
-                "value": 64
+                "value": 66
             },
             {
                 "name": "Industry",
-                "value": 24
+                "value": 22
             },
             {
                 "name": "Agriculture",
                 "value": 1
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Swaziland": {
         "name": "Swaziland",
         "code": "SZ",
-        "gdp": "$4.7B",
+        "gdp": "$4.9B",
         "population": "1.2M",
-        "growth": "+0.4%",
+        "growth": "+3.0%",
         "segments": [
             {
                 "name": "Services",
@@ -3521,206 +3551,229 @@ export const countryData = {
             },
             {
                 "name": "Agriculture",
-                "value": 8
+                "value": 6
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Syria": {
         "name": "Syria",
         "code": "SY",
-        "gdp": "$23.6B",
-        "population": "22.5M",
-        "growth": "+0.7%",
+        "gdp": "$0.0B",
+        "population": "24.7M",
+        "growth": "0.0%",
         "segments": [
             {
                 "name": "Services",
-                "value": 45
-            },
-            {
-                "name": "Agriculture",
-                "value": 43
+                "value": 0
             },
             {
                 "name": "Industry",
-                "value": 12
+                "value": 0
+            },
+            {
+                "name": "Agriculture",
+                "value": 0
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.2M",
         "risk": "Medium"
     },
     "Chad": {
         "name": "Chad",
         "code": "TD",
-        "gdp": "$17.8B",
-        "population": "18.5M",
-        "growth": "+4.1%",
+        "gdp": "$19.5B",
+        "population": "20.3M",
+        "growth": "+4.2%",
         "segments": [
             {
                 "name": "Agriculture",
-                "value": 35
-            },
-            {
-                "name": "Industry",
-                "value": 33
+                "value": 38
             },
             {
                 "name": "Services",
-                "value": 28
+                "value": 30
+            },
+            {
+                "name": "Industry",
+                "value": 29
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.2M",
         "risk": "Medium"
     },
     "Togo": {
         "name": "Togo",
         "code": "TG",
-        "gdp": "$8.6B",
-        "population": "9.1M",
-        "growth": "+6.3%",
+        "gdp": "$10.7B",
+        "population": "9.5M",
+        "growth": "+6.5%",
         "segments": [
             {
                 "name": "Services",
                 "value": 49
             },
             {
-                "name": "Industry",
+                "name": "Agriculture",
                 "value": 21
             },
             {
-                "name": "Agriculture",
-                "value": 21
+                "name": "Industry",
+                "value": 20
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Thailand": {
         "name": "Thailand",
         "code": "TH",
-        "gdp": "$495.6B",
+        "gdp": "$526.5B",
         "population": "71.7M",
-        "growth": "+2.6%",
+        "growth": "+2.5%",
         "segments": [
             {
                 "name": "Services",
-                "value": 56
+                "value": 59
             },
             {
                 "name": "Industry",
-                "value": 35
+                "value": 32
             },
             {
                 "name": "Agriculture",
                 "value": 9
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.7M",
         "risk": "Low"
     },
     "Tajikistan": {
         "name": "Tajikistan",
         "code": "TJ",
-        "gdp": "$10.7B",
-        "population": "10.2M",
-        "growth": "+8.0%",
+        "gdp": "$14.2B",
+        "population": "10.6M",
+        "growth": "+8.4%",
         "segments": [
             {
-                "name": "Industry",
-                "value": 35
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Services",
-                "value": 34
+                "name": "Industry",
+                "value": 0
             },
             {
                 "name": "Agriculture",
-                "value": 23
+                "value": 0
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Turkmenistan": {
         "name": "Turkmenistan",
         "code": "TM",
-        "gdp": "$42.2B",
-        "population": "7.2M",
-        "growth": "+6.2%",
+        "gdp": "$51.4B",
+        "population": "7.5M",
+        "growth": "+6.3%",
         "segments": [
             {
                 "name": "Services",
-                "value": 49
+                "value": 50
             },
             {
                 "name": "Industry",
-                "value": 40
+                "value": 37
             },
             {
                 "name": "Agriculture",
-                "value": 11
+                "value": 12
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Timor-Leste": {
         "name": "Timor-Leste",
         "code": "TL",
-        "gdp": "$3.2B",
+        "gdp": "$1.9B",
         "population": "1.4M",
-        "growth": "-20.5%",
+        "growth": "-9.1%",
         "segments": [
             {
-                "name": "Industry",
-                "value": 55
-            },
-            {
                 "name": "Services",
-                "value": 36
+                "value": 72
             },
             {
                 "name": "Agriculture",
-                "value": 10
+                "value": 20
+            },
+            {
+                "name": "Industry",
+                "value": 12
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "High"
     },
     "Trinidad and Tobago": {
         "name": "Trinidad and Tobago",
         "code": "TT",
-        "gdp": "$28.3B",
+        "gdp": "$25.6B",
         "population": "1.4M",
-        "growth": "+0.9%",
+        "growth": "+2.5%",
         "segments": [
             {
                 "name": "Services",
-                "value": 51
+                "value": 59
             },
             {
                 "name": "Industry",
-                "value": 46
+                "value": 35
             },
             {
                 "name": "Agriculture",
                 "value": 1
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Tunisia": {
         "name": "Tunisia",
         "code": "TN",
-        "gdp": "$44.9B",
-        "population": "12.1M",
-        "growth": "+2.8%",
+        "gdp": "$51.3B",
+        "population": "12.3M",
+        "growth": "+1.6%",
         "segments": [
             {
                 "name": "Services",
-                "value": 61
+                "value": 63
+            },
+            {
+                "name": "Industry",
+                "value": 23
+            },
+            {
+                "name": "Agriculture",
+                "value": 10
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "Medium"
+    },
+    "Turkey": {
+        "name": "Turkey",
+        "code": "TR",
+        "gdp": "$1.4T",
+        "population": "85.5M",
+        "growth": "+3.3%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 58
             },
             {
                 "name": "Industry",
@@ -3728,33 +3781,10 @@ export const countryData = {
             },
             {
                 "name": "Agriculture",
-                "value": 11
+                "value": 6
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "Turkey": {
-        "name": "Turkey",
-        "code": "TR",
-        "gdp": "$926.1B",
-        "population": "85.0M",
-        "growth": "+5.4%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 52
-            },
-            {
-                "name": "Industry",
-                "value": 31
-            },
-            {
-                "name": "Agriculture",
-                "value": 7
-            }
-        ],
-        "activeUsers": "0M",
+        "activeUsers": "0.9M",
         "risk": "Low"
     },
     "Taiwan": {
@@ -3777,163 +3807,179 @@ export const countryData = {
                 "value": 0
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Medium"
-    },
-    "Tanzania": {
-        "name": "Tanzania",
-        "code": "TZ",
-        "gdp": "$75.7B",
-        "population": "64.7M",
-        "growth": "+4.6%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 31
-            },
-            {
-                "name": "Industry",
-                "value": 28
-            },
-            {
-                "name": "Agriculture",
-                "value": 24
-            }
-        ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Uganda": {
         "name": "Uganda",
         "code": "UG",
-        "gdp": "$45.6B",
-        "population": "47.3M",
-        "growth": "+4.6%",
+        "gdp": "$53.9B",
+        "population": "50.0M",
+        "growth": "+6.1%",
         "segments": [
             {
                 "name": "Services",
-                "value": 42
+                "value": 43
             },
             {
                 "name": "Industry",
-                "value": 27
+                "value": 25
             },
             {
                 "name": "Agriculture",
-                "value": 24
+                "value": 25
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.5M",
         "risk": "Medium"
     },
     "Ukraine": {
         "name": "Ukraine",
         "code": "UA",
-        "gdp": "$162.0B",
-        "population": "41.0M",
-        "growth": "-28.8%",
+        "gdp": "$190.7B",
+        "population": "37.9M",
+        "growth": "+2.9%",
         "segments": [
             {
                 "name": "Services",
-                "value": 62
+                "value": 61
             },
             {
                 "name": "Industry",
-                "value": 18
-            },
-            {
-                "name": "Agriculture",
-                "value": 9
-            }
-        ],
-        "activeUsers": "0M",
-        "risk": "High"
-    },
-    "Uruguay": {
-        "name": "Uruguay",
-        "code": "UY",
-        "gdp": "$70.6B",
-        "population": "3.4M",
-        "growth": "+4.5%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 64
-            },
-            {
-                "name": "Industry",
-                "value": 18
+                "value": 19
             },
             {
                 "name": "Agriculture",
                 "value": 7
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.4M",
+        "risk": "Low"
+    },
+    "Uruguay": {
+        "name": "Uruguay",
+        "code": "UY",
+        "gdp": "$81.0B",
+        "population": "3.4M",
+        "growth": "+3.1%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 65
+            },
+            {
+                "name": "Industry",
+                "value": 17
+            },
+            {
+                "name": "Agriculture",
+                "value": 6
+            }
+        ],
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "United States of America": {
         "name": "United States of America",
         "code": "US",
-        "gdp": "$27.36T",
-        "population": "334914895",
-        "growth": "+0.5%",
-        "dataYear": 2023,
-        "activeUsers": "3M",
-        "risk": "Low",
+        "gdp": "$28.8T",
+        "population": "340.1M",
+        "growth": "+2.8%",
         "segments": [
-            { "name": "Services", "value": 80 },
-            { "name": "Industry", "value": 19 },
-            { "name": "Agriculture", "value": 1 }
+            {
+                "name": "Services",
+                "value": 0
+            },
+            {
+                "name": "Industry",
+                "value": 0
+            },
+            {
+                "name": "Agriculture",
+                "value": 0
+            }
         ],
+        "activeUsers": "3.4M",
+        "risk": "Low",
         "demographics": {
             "age": [
-                { "name": "0-14", "value": 18 },
-                { "name": "15-64", "value": 63 },
-                { "name": "65+", "value": 19 }
+                {
+                    "name": "0-14",
+                    "value": 18
+                },
+                {
+                    "name": "15-64",
+                    "value": 63
+                },
+                {
+                    "name": "65+",
+                    "value": 19
+                }
             ],
             "gender": [
-                { "name": "Male", "value": 49.5 },
-                { "name": "Female", "value": 50.5 }
+                {
+                    "name": "Male",
+                    "value": 49.5
+                },
+                {
+                    "name": "Female",
+                    "value": 50.5
+                }
             ],
             "ethnicity": [
-                { "name": "White (Non-Hispanic)", "value": 58 },
-                { "name": "Hispanic / Latino", "value": 19 },
-                { "name": "Black / African American", "value": 13 },
-                { "name": "Asian", "value": 6 },
-                { "name": "Two or More / Other", "value": 4 }
+                {
+                    "name": "White (Non-Hispanic)",
+                    "value": 58
+                },
+                {
+                    "name": "Hispanic / Latino",
+                    "value": 19
+                },
+                {
+                    "name": "Black / African American",
+                    "value": 13
+                },
+                {
+                    "name": "Asian",
+                    "value": 6
+                },
+                {
+                    "name": "Two or More / Other",
+                    "value": 4
+                }
             ]
-        }
+        },
+        "dataYear": 2023
     },
     "Uzbekistan": {
         "name": "Uzbekistan",
         "code": "UZ",
-        "gdp": "$90.1B",
-        "population": "34.9M",
-        "growth": "+6.0%",
+        "gdp": "$115.0B",
+        "population": "36.4M",
+        "growth": "+6.5%",
         "segments": [
             {
                 "name": "Services",
-                "value": 42
+                "value": 45
             },
             {
                 "name": "Industry",
-                "value": 31
+                "value": 32
             },
             {
                 "name": "Agriculture",
-                "value": 21
+                "value": 18
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Medium"
+        "activeUsers": "0.4M",
+        "risk": "Low"
     },
     "Venezuela": {
         "name": "Venezuela",
         "code": "VE",
-        "gdp": "$89.0B",
-        "population": "28.2M",
-        "growth": "+8.0%",
+        "gdp": "$119.8B",
+        "population": "28.4M",
+        "growth": "+5.3%",
         "segments": [
             {
                 "name": "Services",
@@ -3948,19 +3994,19 @@ export const countryData = {
                 "value": 0
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Medium"
+        "activeUsers": "0.3M",
+        "risk": "Low"
     },
     "Vietnam": {
         "name": "Vietnam",
         "code": "VN",
-        "gdp": "$413.4B",
-        "population": "99.7M",
-        "growth": "+8.5%",
+        "gdp": "$476.4B",
+        "population": "101.0M",
+        "growth": "+7.1%",
         "segments": [
             {
                 "name": "Services",
-                "value": 41
+                "value": 42
             },
             {
                 "name": "Industry",
@@ -3971,7 +4017,7 @@ export const countryData = {
                 "value": 12
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "1.0M",
         "risk": "Low"
     },
     "Vanuatu": {
@@ -3979,29 +4025,29 @@ export const countryData = {
         "code": "VU",
         "gdp": "$1.1B",
         "population": "0.3M",
-        "growth": "+5.2%",
+        "growth": "+0.9%",
         "segments": [
             {
                 "name": "Services",
-                "value": 59
-            },
-            {
-                "name": "Agriculture",
-                "value": 24
+                "value": 0
             },
             {
                 "name": "Industry",
-                "value": 7
+                "value": 0
+            },
+            {
+                "name": "Agriculture",
+                "value": 0
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Yemen": {
         "name": "Yemen",
         "code": "YE",
         "gdp": "$0.0B",
-        "population": "38.2M",
+        "population": "40.6M",
         "growth": "0.0%",
         "segments": [
             {
@@ -4017,42 +4063,42 @@ export const countryData = {
                 "value": 0
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.4M",
         "risk": "Medium"
     },
     "South Africa": {
         "name": "South Africa",
         "code": "ZA",
-        "gdp": "$407.6B",
-        "population": "62.4M",
-        "growth": "+2.1%",
+        "gdp": "$401.1B",
+        "population": "64.0M",
+        "growth": "+0.5%",
         "segments": [
             {
                 "name": "Services",
-                "value": 62
+                "value": 63
             },
             {
                 "name": "Industry",
-                "value": 25
+                "value": 24
             },
             {
                 "name": "Agriculture",
                 "value": 3
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Low"
+        "activeUsers": "0.6M",
+        "risk": "Medium"
     },
     "Zambia": {
         "name": "Zambia",
         "code": "ZM",
-        "gdp": "$29.2B",
-        "population": "20.2M",
-        "growth": "+5.2%",
+        "gdp": "$25.3B",
+        "population": "21.3M",
+        "growth": "+3.8%",
         "segments": [
             {
                 "name": "Services",
-                "value": 56
+                "value": 57
             },
             {
                 "name": "Industry",
@@ -4063,30 +4109,30 @@ export const countryData = {
                 "value": 3
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.2M",
         "risk": "Medium"
     },
     "Zimbabwe": {
         "name": "Zimbabwe",
         "code": "ZW",
-        "gdp": "$40.8B",
-        "population": "16.1M",
-        "growth": "+6.1%",
+        "gdp": "$41.5B",
+        "population": "16.6M",
+        "growth": "+1.7%",
         "segments": [
             {
-                "name": "Industry",
-                "value": 46
+                "name": "Services",
+                "value": 51
             },
             {
-                "name": "Services",
-                "value": 29
+                "name": "Industry",
+                "value": 35
             },
             {
                 "name": "Agriculture",
-                "value": 17
+                "value": 9
             }
         ],
-        "activeUsers": "0M",
+        "activeUsers": "0.2M",
         "risk": "Medium"
     }
 };
@@ -4255,6 +4301,26 @@ export const globalEvents = [
 ];
 
 export const seismicData = [
+    {
+        "id": "ak2026bfkhca",
+        "type": "Seismic",
+        "lat": 60.143,
+        "lng": -147.858,
+        "val": 2.5,
+        "location": "12 km NE of Chenega, Alaska",
+        "timestamp": 1768703320592,
+        "title": "M 2.5 Earthquake"
+    },
+    {
+        "id": "us7000rqcz",
+        "type": "Seismic",
+        "lat": -2.6457,
+        "lng": 139.305,
+        "val": 4.9,
+        "location": "147 km W of Abepura, Indonesia",
+        "timestamp": 1768698911821,
+        "title": "M 4.9 Earthquake"
+    },
     {
         "id": "ak2026bfhgvo",
         "type": "Seismic",
@@ -4624,15 +4690,5 @@ export const seismicData = [
         "location": "2 km S of Point MacKenzie, Alaska",
         "timestamp": 1768618207347,
         "title": "M 2.6 Earthquake"
-    },
-    {
-        "id": "us7000rq8k",
-        "type": "Seismic",
-        "lat": 61.3107,
-        "lng": 137.9216,
-        "val": 4.3,
-        "location": "114 km N of Solnechnyy, Russia",
-        "timestamp": 1768615066766,
-        "title": "M 4.3 Earthquake"
     }
 ];

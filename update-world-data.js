@@ -1,6 +1,7 @@
 // update-world-data.js
 // Run with: node update-world-data.js
 import fs from 'fs/promises';
+import { countryData as existingData } from './src/data/mockData.js';
 
 // --- CONFIGURATION ---
 const GEOJSON_URL = 'https://raw.githubusercontent.com/vasturiano/react-globe.gl/master/example/datasets/ne_110m_admin_0_countries.geojson';
@@ -10,7 +11,7 @@ const WB_BASE = "http://api.worldbank.org/v2/country";
 const TARGET_ISO_CODES = ["USA", "CHN", "IND", "DEU", "BRA", "JPN", "GBR", "FRA", "RUS", "CAN", "AUS"];
 
 async function fetchCountryStats(iso3) {
-    const format = "format=json&per_page=1&date=2022";
+    const format = "format=json&per_page=1&date=2024";
 
     // Indicators:
     // GDP (NY.GDP.MKTP.CD)
@@ -71,7 +72,7 @@ function generateIntelligence(countryName, stats) {
     if (stats.growthRaw > 2.0 && stats.gdpRaw > 1e11) risk = "Low";
 
     return {
-        activeUsers: Math.floor((stats.popRaw / 100) / 1000000) + "M", // Simulating app users
+        activeUsers: (stats.popRaw * 0.01 / 1000000).toFixed(1) + "M", // Simulating app users
         risk: risk
     };
 }
@@ -160,11 +161,17 @@ async function main() {
         if (wbStats) {
             const intelligence = generateIntelligence(name, wbStats);
 
+            // Check if this country already exists in your file and has custom fields
+            const existingEntry = existingData[name] || {};
+
             outputData[name] = {
                 name: name,
                 code: iso2,
                 ...wbStats.formatted,
-                ...intelligence
+                ...intelligence,
+                // PRESERVE CUSTOM FIELDS:
+                demographics: existingEntry.demographics || undefined,
+                dataYear: existingEntry.dataYear || undefined
             };
             console.log("OK");
             count++;
