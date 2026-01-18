@@ -1,46 +1,59 @@
+// update-world-data.js
+// Run with: node update-world-data.js
 import fs from 'fs/promises';
 
 // --- CONFIGURATION ---
-// The same GeoJSON URL your GlobeComponent uses (ensures name matching)
 const GEOJSON_URL = 'https://raw.githubusercontent.com/vasturiano/react-globe.gl/master/example/datasets/ne_110m_admin_0_countries.geojson';
-
-// World Bank API Base
 const WB_BASE = "http://api.worldbank.org/v2/country";
 
-// --- HELPER FUNCTIONS ---
+// Defines which countries to fetch. Remove this list to run the WHOLE WORLD.
+const TARGET_ISO_CODES = ["USA", "CHN", "IND", "DEU", "BRA", "JPN", "GBR", "FRA", "RUS", "CAN", "AUS"];
 
-// 1. Fetch Hard Data from World Bank
 async function fetchCountryStats(iso3) {
-    // GDP (NY.GDP.MKTP.CD), Pop (SP.POP.TOTL), Growth (NY.GDP.MKTP.KD.ZG)
-    const url = `${WB_BASE}/${iso3}/indicator/NY.GDP.MKTP.CD;SP.POP.TOTL;NY.GDP.MKTP.KD.ZG?source=2&format=json&per_page=1&date=2022`;
+    const format = "format=json&per_page=1&date=2022";
+
+    // Indicators:
+    // GDP (NY.GDP.MKTP.CD)
+    // Population (SP.POP.TOTL)
+    // Growth (NY.GDP.MKTP.KD.ZG)
+    // Agriculture % (NV.AGR.TOTL.ZS)
+    // Industry % (NV.IND.TOTL.ZS)
+    // Services % (NV.SRV.TOTL.ZS)
 
     try {
-        const res = await fetch(url);
-        const data = await res.json();
-
-        // World Bank returns an array: [metadata, [indicator1, indicator2...]]
-        // But multi-indicator fetch is tricky, let's do parallel single fetches for reliability
-        const [gdpRes, popRes, growthRes] = await Promise.all([
-            fetch(`${WB_BASE}/${iso3}/indicator/NY.GDP.MKTP.CD?format=json&date=2022`).then(r => r.json()),
-            fetch(`${WB_BASE}/${iso3}/indicator/SP.POP.TOTL?format=json&date=2022`).then(r => r.json()),
-            fetch(`${WB_BASE}/${iso3}/indicator/NY.GDP.MKTP.KD.ZG?format=json&date=2022`).then(r => r.json())
+        // Fetch all 6 indicators in parallel
+        const results = await Promise.all([
+            fetch(`${WB_BASE}/${iso3}/indicator/NY.GDP.MKTP.CD?${format}`).then(r => r.json()),
+            fetch(`${WB_BASE}/${iso3}/indicator/SP.POP.TOTL?${format}`).then(r => r.json()),
+            fetch(`${WB_BASE}/${iso3}/indicator/NY.GDP.MKTP.KD.ZG?${format}`).then(r => r.json()),
+            fetch(`${WB_BASE}/${iso3}/indicator/NV.AGR.TOTL.ZS?${format}`).then(r => r.json()), // Ag
+            fetch(`${WB_BASE}/${iso3}/indicator/NV.IND.TOTL.ZS?${format}`).then(r => r.json()), // Ind
+            fetch(`${WB_BASE}/${iso3}/indicator/NV.SRV.TOTL.ZS?${format}`).then(r => r.json())  // Serv
         ]);
 
         const getVal = (res) => res[1]?.[0]?.value || 0;
 
-        const gdp = getVal(gdpRes);
-        const pop = getVal(popRes);
-        const growth = getVal(growthRes);
+        const gdp = getVal(results[0]);
+        const pop = getVal(results[1]);
+        const growth = getVal(results[2]);
+        const ag = getVal(results[3]);
+        const ind = getVal(results[4]);
+        const serv = getVal(results[5]);
 
         return {
             gdpRaw: gdp,
             popRaw: pop,
             growthRaw: growth,
             formatted: {
-                // Convert to Trillions/Billions for Sci-Fi UI
                 gdp: gdp > 1e12 ? `$${(gdp / 1e12).toFixed(1)}T` : `$${(gdp / 1e9).toFixed(1)}B`,
                 population: pop > 1e9 ? `${(pop / 1e9).toFixed(2)}B` : `${(pop / 1e6).toFixed(1)}M`,
-                growth: `${growth > 0 ? '+' : ''}${growth.toFixed(1)}%`
+                growth: `${growth > 0 ? '+' : ''}${growth.toFixed(1)}%`,
+                // These map to your 'segments' in the dashboard
+                segments: [
+                    { name: "Services", value: Math.round(serv) },
+                    { name: "Industry", value: Math.round(ind) },
+                    { name: "Agriculture", value: Math.round(ag) }
+                ].sort((a, b) => b.value - a.value) // Sort highest first
             }
         };
 
@@ -50,55 +63,37 @@ async function fetchCountryStats(iso3) {
     }
 }
 
-// 2. Generate "Soft" Intelligence (The AI Agent Placeholder)
 function generateIntelligence(countryName, stats) {
-    // In the future, this is where you call OpenAI/Gemini API
-
-    // Heuristic: High growth + Low GDP = Emerging/Medium Risk
-    // Heuristic: Low growth + High GDP = Stable/Low Risk
+    // Calculates Risk based on Real GDP Growth Stability
+    // < 0% = High Risk, 0-2% = Medium, > 2% = Low (Simplified Heuristic)
     let risk = "Medium";
-    if (stats.growthRaw > 4) risk = "High"; // "Volatile"
-    if (stats.gdpRaw > 2e12 && stats.growthRaw > 0) risk = "Low"; // "Established"
-
-    // Deterministic "Random" Segments based on name length (so it doesn't change on re-render)
-    const seed = countryName.length;
+    if (stats.growthRaw < 0) risk = "High";
+    if (stats.growthRaw > 2.0 && stats.gdpRaw > 1e11) risk = "Low";
 
     return {
-        activeUsers: Math.floor((stats.popRaw / 100) / 1000000) + "M", // Approx 1% of pop
-        risk: risk,
-        segments: [
-            { name: "Cybernetics", value: 30 + (seed % 20) },
-            { name: "Bio-Tech", value: 20 + (seed % 10) },
-            { name: "Off-World", value: 100 - (50 + (seed % 30)) }
-        ]
+        activeUsers: Math.floor((stats.popRaw / 100) / 1000000) + "M", // Simulating app users
+        risk: risk
     };
 }
 
-// --- MAIN EXECUTION ---
-
 async function main() {
-    console.log("🔵 SYSTEM INITIALIZED: ORBIS DATA ENGINE");
-    console.log("📡 Connecting to Geo-Satellites (Fetching GeoJSON)...");
+    console.log("🔵 ORBIS DATA ENGINE: INITIALIZING REAL-TIME FETCH...");
 
-    // 1. Get the Master List from GeoJSON
+    // 1. Get GeoJSON for correct naming
     const geoRes = await fetch(GEOJSON_URL);
     const geoData = await geoRes.json();
 
-    console.log(`✅ Uplink Established. Found ${geoData.features.length} regions.`);
-
     const outputData = {};
-    let successCount = 0;
+    let count = 0;
 
-    // 2. Iterate and Enrich
     for (const feature of geoData.features) {
-        const name = feature.properties.NAME; // Matches Globe Click
-        const iso3 = feature.properties.ISO_A3; // Matches World Bank
+        const name = feature.properties.NAME;
+        const iso3 = feature.properties.ISO_A3;
         const iso2 = feature.properties.ISO_A2;
 
-        // Skip if not in our target list (Remove this check to run ALL countries)
-        // Limit removed - processing all countries
+        // if (!TARGET_ISO_CODES.includes(iso3)) continue;
 
-        process.stdout.write(`   Processing ${iso3} (${name})... `);
+        process.stdout.write(`   Processing ${name} (${iso3})... `);
 
         const wbStats = await fetchCountryStats(iso3);
 
@@ -112,7 +107,7 @@ async function main() {
                 ...intelligence
             };
             console.log("OK");
-            successCount++;
+            count++;
         } else {
             console.log("FAILED");
         }
@@ -126,7 +121,7 @@ export const countryData = ${JSON.stringify(outputData, null, 4)};`;
     await fs.writeFile('./src/data/mockData.js', fileContent);
 
     console.log("\n🟢 SEQUENCE COMPLETE.");
-    console.log(`   Updated records for ${successCount} sectors.`);
+    console.log(`   Updated records for ${count} sectors.`);
     console.log("   Target: src/data/mockData.js");
 }
 

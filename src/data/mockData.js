@@ -7,22 +7,22 @@ export const countryData = {
         "gdp": "$14.5B",
         "population": "40.6M",
         "growth": "-6.2%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 41
+                "name": "Services",
+                "value": 45
             },
             {
-                "name": "Bio-Tech",
-                "value": 21
+                "name": "Agriculture",
+                "value": 34
             },
             {
-                "name": "Off-World",
-                "value": 39
+                "name": "Industry",
+                "value": 16
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "High"
     },
     "Angola": {
         "name": "Angola",
@@ -30,22 +30,22 @@ export const countryData = {
         "gdp": "$131.2B",
         "population": "35.6M",
         "growth": "+4.2%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
-            },
-            {
-                "name": "Bio-Tech",
-                "value": 26
-            },
-            {
-                "name": "Off-World",
+                "name": "Services",
                 "value": 44
+            },
+            {
+                "name": "Industry",
+                "value": 35
+            },
+            {
+                "name": "Agriculture",
+                "value": 19
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Albania": {
         "name": "Albania",
@@ -53,22 +53,22 @@ export const countryData = {
         "gdp": "$19.0B",
         "population": "2.5M",
         "growth": "+4.8%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 46
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 23
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 17
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "United Arab Emirates": {
         "name": "United Arab Emirates",
@@ -76,22 +76,22 @@ export const countryData = {
         "gdp": "$511.4B",
         "population": "10.1M",
         "growth": "+7.5%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 30
+                "name": "Services",
+                "value": 50
             },
             {
-                "name": "Bio-Tech",
-                "value": 20
+                "name": "Industry",
+                "value": 49
             },
             {
-                "name": "Off-World",
-                "value": 30
+                "name": "Agriculture",
+                "value": 1
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Argentina": {
         "name": "Argentina",
@@ -99,22 +99,22 @@ export const countryData = {
         "gdp": "$634.0B",
         "population": "45.4M",
         "growth": "+6.0%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 39
+                "name": "Services",
+                "value": 54
             },
             {
-                "name": "Bio-Tech",
-                "value": 29
+                "name": "Industry",
+                "value": 24
             },
             {
-                "name": "Off-World",
-                "value": 41
+                "name": "Agriculture",
+                "value": 7
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Armenia": {
         "name": "Armenia",
@@ -122,22 +122,22 @@ export const countryData = {
         "gdp": "$19.5B",
         "population": "3.0M",
         "growth": "+12.6%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 56
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 25
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 10
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Antarctica": {
         "name": "Antarctica",
@@ -145,22 +145,22 @@ export const countryData = {
         "gdp": "$0.0B",
         "population": "0.0M",
         "growth": "0.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 40
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Bio-Tech",
-                "value": 20
+                "name": "Industry",
+                "value": 0
             },
             {
-                "name": "Off-World",
-                "value": 40
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Fr. S. Antarctic Lands": {
         "name": "Fr. S. Antarctic Lands",
@@ -168,22 +168,22 @@ export const countryData = {
         "gdp": "$0.0B",
         "population": "0.0M",
         "growth": "0.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 32
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Bio-Tech",
-                "value": 22
+                "name": "Industry",
+                "value": 0
             },
             {
-                "name": "Off-World",
-                "value": 28
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Australia": {
         "name": "Australia",
@@ -191,22 +191,22 @@ export const countryData = {
         "gdp": "$1.7T",
         "population": "26.0M",
         "growth": "+4.3%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 39
+                "name": "Services",
+                "value": 63
             },
             {
-                "name": "Bio-Tech",
-                "value": 29
+                "name": "Industry",
+                "value": 27
             },
             {
-                "name": "Off-World",
-                "value": 41
+                "name": "Agriculture",
+                "value": 3
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Austria": {
         "name": "Austria",
@@ -214,22 +214,22 @@ export const countryData = {
         "gdp": "$473.2B",
         "population": "9.0M",
         "growth": "+5.3%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 62
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 26
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 1
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Azerbaijan": {
         "name": "Azerbaijan",
@@ -237,22 +237,22 @@ export const countryData = {
         "gdp": "$78.8B",
         "population": "10.1M",
         "growth": "+4.7%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 40
+                "name": "Industry",
+                "value": 56
             },
             {
-                "name": "Bio-Tech",
-                "value": 20
+                "name": "Services",
+                "value": 32
             },
             {
-                "name": "Off-World",
-                "value": 40
+                "name": "Agriculture",
+                "value": 5
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Burundi": {
         "name": "Burundi",
@@ -260,22 +260,22 @@ export const countryData = {
         "gdp": "$4.0B",
         "population": "13.3M",
         "growth": "+2.3%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
-            },
-            {
-                "name": "Bio-Tech",
-                "value": 27
-            },
-            {
-                "name": "Off-World",
+                "name": "Services",
                 "value": 43
+            },
+            {
+                "name": "Agriculture",
+                "value": 35
+            },
+            {
+                "name": "Industry",
+                "value": 17
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Belgium": {
         "name": "Belgium",
@@ -283,22 +283,22 @@ export const countryData = {
         "gdp": "$591.1B",
         "population": "11.7M",
         "growth": "+4.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 69
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 20
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 1
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Benin": {
         "name": "Benin",
@@ -306,22 +306,22 @@ export const countryData = {
         "gdp": "$17.4B",
         "population": "13.8M",
         "growth": "+6.3%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 35
+                "name": "Services",
+                "value": 47
             },
             {
-                "name": "Bio-Tech",
-                "value": 25
+                "name": "Agriculture",
+                "value": 27
             },
             {
-                "name": "Off-World",
-                "value": 45
+                "name": "Industry",
+                "value": 17
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Burkina Faso": {
         "name": "Burkina Faso",
@@ -329,22 +329,22 @@ export const countryData = {
         "gdp": "$18.6B",
         "population": "22.5M",
         "growth": "+1.6%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 42
+                "name": "Services",
+                "value": 47
             },
             {
-                "name": "Bio-Tech",
-                "value": 22
+                "name": "Industry",
+                "value": 26
             },
             {
-                "name": "Off-World",
-                "value": 38
+                "name": "Agriculture",
+                "value": 21
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Bangladesh": {
         "name": "Bangladesh",
@@ -352,22 +352,22 @@ export const countryData = {
         "gdp": "$460.1B",
         "population": "169.4M",
         "growth": "+7.1%",
-        "activeUsers": "1M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 40
+                "name": "Services",
+                "value": 51
             },
             {
-                "name": "Bio-Tech",
-                "value": 20
+                "name": "Industry",
+                "value": 34
             },
             {
-                "name": "Off-World",
-                "value": 40
+                "name": "Agriculture",
+                "value": 11
             }
-        ]
+        ],
+        "activeUsers": "1M",
+        "risk": "Low"
     },
     "Bulgaria": {
         "name": "Bulgaria",
@@ -375,22 +375,22 @@ export const countryData = {
         "gdp": "$90.5B",
         "population": "6.5M",
         "growth": "+4.1%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Services",
+                "value": 60
             },
             {
-                "name": "Bio-Tech",
-                "value": 28
+                "name": "Industry",
+                "value": 25
             },
             {
-                "name": "Off-World",
-                "value": 42
+                "name": "Agriculture",
+                "value": 4
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Bahamas": {
         "name": "Bahamas",
@@ -398,22 +398,22 @@ export const countryData = {
         "gdp": "$13.9B",
         "population": "0.4M",
         "growth": "+10.9%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 80
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 10
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Bosnia and Herz.": {
         "name": "Bosnia and Herz.",
@@ -421,22 +421,22 @@ export const countryData = {
         "gdp": "$24.5B",
         "population": "3.2M",
         "growth": "+4.2%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 46
+                "name": "Services",
+                "value": 55
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 25
             },
             {
-                "name": "Off-World",
-                "value": 34
+                "name": "Agriculture",
+                "value": 5
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Belarus": {
         "name": "Belarus",
@@ -444,22 +444,22 @@ export const countryData = {
         "gdp": "$73.8B",
         "population": "9.2M",
         "growth": "-4.7%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 48
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 33
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 8
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "High"
     },
     "Belize": {
         "name": "Belize",
@@ -467,22 +467,22 @@ export const countryData = {
         "gdp": "$2.8B",
         "population": "0.4M",
         "growth": "+9.3%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 62
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 15
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 8
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Bolivia": {
         "name": "Bolivia",
@@ -490,22 +490,22 @@ export const countryData = {
         "gdp": "$51.0B",
         "population": "12.1M",
         "growth": "+3.7%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 53
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 32
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 9
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Brazil": {
         "name": "Brazil",
@@ -513,22 +513,22 @@ export const countryData = {
         "gdp": "$2.0T",
         "population": "210.3M",
         "growth": "+3.0%",
-        "activeUsers": "2M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 58
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 23
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 6
             }
-        ]
+        ],
+        "activeUsers": "2M",
+        "risk": "Low"
     },
     "Brunei": {
         "name": "Brunei",
@@ -536,22 +536,22 @@ export const countryData = {
         "gdp": "$16.7B",
         "population": "0.5M",
         "growth": "-1.6%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Industry",
+                "value": 68
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Services",
+                "value": 33
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 1
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "High"
     },
     "Bhutan": {
         "name": "Bhutan",
@@ -559,22 +559,22 @@ export const countryData = {
         "gdp": "$2.9B",
         "population": "0.8M",
         "growth": "+5.2%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 51
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 32
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 15
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Botswana": {
         "name": "Botswana",
@@ -582,22 +582,22 @@ export const countryData = {
         "gdp": "$20.3B",
         "population": "2.4M",
         "growth": "+5.5%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Services",
+                "value": 56
             },
             {
-                "name": "Bio-Tech",
-                "value": 28
+                "name": "Industry",
+                "value": 37
             },
             {
-                "name": "Off-World",
-                "value": 42
+                "name": "Agriculture",
+                "value": 2
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Central African Rep.": {
         "name": "Central African Rep.",
@@ -605,22 +605,22 @@ export const countryData = {
         "gdp": "$2.4B",
         "population": "5.1M",
         "growth": "+0.5%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 30
+                "name": "Services",
+                "value": 42
             },
             {
-                "name": "Bio-Tech",
-                "value": 20
+                "name": "Agriculture",
+                "value": 36
             },
             {
-                "name": "Off-World",
-                "value": 30
+                "name": "Industry",
+                "value": 21
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Canada": {
         "name": "Canada",
@@ -628,22 +628,22 @@ export const countryData = {
         "gdp": "$2.2T",
         "population": "38.9M",
         "growth": "+4.2%",
-        "activeUsers": "0M",
-        "risk": "Low",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 0
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Switzerland": {
         "name": "Switzerland",
@@ -651,22 +651,22 @@ export const countryData = {
         "gdp": "$828.5B",
         "population": "8.8M",
         "growth": "+3.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 41
+                "name": "Services",
+                "value": 72
             },
             {
-                "name": "Bio-Tech",
-                "value": 21
+                "name": "Industry",
+                "value": 25
             },
             {
-                "name": "Off-World",
-                "value": 39
+                "name": "Agriculture",
+                "value": 1
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Chile": {
         "name": "Chile",
@@ -674,22 +674,22 @@ export const countryData = {
         "gdp": "$301.2B",
         "population": "19.6M",
         "growth": "+2.2%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 35
+                "name": "Services",
+                "value": 55
             },
             {
-                "name": "Bio-Tech",
-                "value": 25
+                "name": "Industry",
+                "value": 31
             },
             {
-                "name": "Off-World",
-                "value": 45
+                "name": "Agriculture",
+                "value": 3
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "China": {
         "name": "China",
@@ -697,22 +697,22 @@ export const countryData = {
         "gdp": "$18.3T",
         "population": "1.41B",
         "growth": "+3.1%",
-        "activeUsers": "14M",
-        "risk": "Low",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 35
+                "name": "Services",
+                "value": 55
             },
             {
-                "name": "Bio-Tech",
-                "value": 25
+                "name": "Industry",
+                "value": 38
             },
             {
-                "name": "Off-World",
-                "value": 45
+                "name": "Agriculture",
+                "value": 7
             }
-        ]
+        ],
+        "activeUsers": "14M",
+        "risk": "Low"
     },
     "Côte d'Ivoire": {
         "name": "Côte d'Ivoire",
@@ -720,22 +720,22 @@ export const countryData = {
         "gdp": "$70.9B",
         "population": "30.4M",
         "growth": "+6.4%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 43
+                "name": "Services",
+                "value": 53
             },
             {
-                "name": "Bio-Tech",
+                "name": "Industry",
                 "value": 23
             },
             {
-                "name": "Off-World",
-                "value": 37
+                "name": "Agriculture",
+                "value": 17
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Cameroon": {
         "name": "Cameroon",
@@ -743,22 +743,22 @@ export const countryData = {
         "gdp": "$44.3B",
         "population": "27.6M",
         "growth": "+3.7%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Services",
+                "value": 49
             },
             {
-                "name": "Bio-Tech",
-                "value": 28
+                "name": "Industry",
+                "value": 27
             },
             {
-                "name": "Off-World",
-                "value": 42
+                "name": "Agriculture",
+                "value": 17
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Dem. Rep. Congo": {
         "name": "Dem. Rep. Congo",
@@ -766,22 +766,22 @@ export const countryData = {
         "gdp": "$70.4B",
         "population": "102.4M",
         "growth": "+9.3%",
-        "activeUsers": "1M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 45
+                "name": "Services",
+                "value": 44
             },
             {
-                "name": "Bio-Tech",
-                "value": 25
+                "name": "Industry",
+                "value": 42
             },
             {
-                "name": "Off-World",
-                "value": 35
+                "name": "Agriculture",
+                "value": 10
             }
-        ]
+        ],
+        "activeUsers": "1M",
+        "risk": "Medium"
     },
     "Congo": {
         "name": "Congo",
@@ -789,22 +789,22 @@ export const countryData = {
         "gdp": "$15.8B",
         "population": "6.0M",
         "growth": "+1.5%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 35
+                "name": "Industry",
+                "value": 49
             },
             {
-                "name": "Bio-Tech",
-                "value": 25
+                "name": "Services",
+                "value": 37
             },
             {
-                "name": "Off-World",
-                "value": 45
+                "name": "Agriculture",
+                "value": 8
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Colombia": {
         "name": "Colombia",
@@ -812,22 +812,22 @@ export const countryData = {
         "gdp": "$345.6B",
         "population": "51.7M",
         "growth": "+7.3%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Services",
+                "value": 55
             },
             {
-                "name": "Bio-Tech",
-                "value": 28
+                "name": "Industry",
+                "value": 26
             },
             {
-                "name": "Off-World",
-                "value": 42
+                "name": "Agriculture",
+                "value": 9
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Costa Rica": {
         "name": "Costa Rica",
@@ -835,22 +835,22 @@ export const countryData = {
         "gdp": "$69.2B",
         "population": "5.1M",
         "growth": "+4.6%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 40
+                "name": "Services",
+                "value": 67
             },
             {
-                "name": "Bio-Tech",
-                "value": 20
+                "name": "Industry",
+                "value": 21
             },
             {
-                "name": "Off-World",
-                "value": 40
+                "name": "Agriculture",
+                "value": 4
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Cuba": {
         "name": "Cuba",
@@ -858,22 +858,22 @@ export const countryData = {
         "gdp": "$0.0B",
         "population": "11.1M",
         "growth": "+1.8%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 34
+                "name": "Services",
+                "value": 75
             },
             {
-                "name": "Bio-Tech",
+                "name": "Industry",
                 "value": 24
             },
             {
-                "name": "Off-World",
-                "value": 46
+                "name": "Agriculture",
+                "value": 1
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "N. Cyprus": {
         "name": "N. Cyprus",
@@ -881,22 +881,22 @@ export const countryData = {
         "gdp": "$0.0B",
         "population": "0.0M",
         "growth": "0.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 39
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Bio-Tech",
-                "value": 29
+                "name": "Industry",
+                "value": 0
             },
             {
-                "name": "Off-World",
-                "value": 41
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Cyprus": {
         "name": "Cyprus",
@@ -904,22 +904,22 @@ export const countryData = {
         "gdp": "$31.2B",
         "population": "1.3M",
         "growth": "+8.3%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 77
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 10
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 1
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Czechia": {
         "name": "Czechia",
@@ -927,22 +927,22 @@ export const countryData = {
         "gdp": "$301.8B",
         "population": "10.7M",
         "growth": "+2.8%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 60
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 29
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 2
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Germany": {
         "name": "Germany",
@@ -950,22 +950,22 @@ export const countryData = {
         "gdp": "$4.2T",
         "population": "83.2M",
         "growth": "+1.8%",
-        "activeUsers": "0M",
-        "risk": "Low",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 63
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 26
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 1
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Djibouti": {
         "name": "Djibouti",
@@ -973,22 +973,22 @@ export const countryData = {
         "gdp": "$3.6B",
         "population": "1.1M",
         "growth": "+5.2%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Services",
+                "value": 76
             },
             {
-                "name": "Bio-Tech",
-                "value": 28
+                "name": "Industry",
+                "value": 15
             },
             {
-                "name": "Off-World",
-                "value": 42
+                "name": "Agriculture",
+                "value": 3
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Denmark": {
         "name": "Denmark",
@@ -996,22 +996,22 @@ export const countryData = {
         "gdp": "$400.1B",
         "population": "5.9M",
         "growth": "+0.4%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 66
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 21
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 1
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Dominican Rep.": {
         "name": "Dominican Rep.",
@@ -1019,22 +1019,22 @@ export const countryData = {
         "gdp": "$113.5B",
         "population": "11.2M",
         "growth": "+5.2%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 44
+                "name": "Services",
+                "value": 58
             },
             {
-                "name": "Bio-Tech",
-                "value": 24
+                "name": "Industry",
+                "value": 31
             },
             {
-                "name": "Off-World",
-                "value": 36
+                "name": "Agriculture",
+                "value": 4
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Algeria": {
         "name": "Algeria",
@@ -1042,22 +1042,22 @@ export const countryData = {
         "gdp": "$225.6B",
         "population": "45.5M",
         "growth": "+3.6%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
-            },
-            {
-                "name": "Bio-Tech",
-                "value": 27
-            },
-            {
-                "name": "Off-World",
+                "name": "Services",
                 "value": 43
+            },
+            {
+                "name": "Industry",
+                "value": 43
+            },
+            {
+                "name": "Agriculture",
+                "value": 11
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Ecuador": {
         "name": "Ecuador",
@@ -1065,22 +1065,22 @@ export const countryData = {
         "gdp": "$116.1B",
         "population": "17.8M",
         "growth": "+5.9%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 58
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 30
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 7
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Egypt": {
         "name": "Egypt",
@@ -1088,22 +1088,22 @@ export const countryData = {
         "gdp": "$476.7B",
         "population": "112.6M",
         "growth": "+6.6%",
-        "activeUsers": "1M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 35
+                "name": "Services",
+                "value": 51
             },
             {
-                "name": "Bio-Tech",
-                "value": 25
+                "name": "Industry",
+                "value": 33
             },
             {
-                "name": "Off-World",
-                "value": 45
+                "name": "Agriculture",
+                "value": 11
             }
-        ]
+        ],
+        "activeUsers": "1M",
+        "risk": "Low"
     },
     "Eritrea": {
         "name": "Eritrea",
@@ -1111,22 +1111,22 @@ export const countryData = {
         "gdp": "$0.0B",
         "population": "3.4M",
         "growth": "0.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 0
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Spain": {
         "name": "Spain",
@@ -1134,22 +1134,22 @@ export const countryData = {
         "gdp": "$1.4T",
         "population": "47.8M",
         "growth": "+6.4%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 35
+                "name": "Services",
+                "value": 68
             },
             {
-                "name": "Bio-Tech",
-                "value": 25
+                "name": "Industry",
+                "value": 21
             },
             {
-                "name": "Off-World",
-                "value": 45
+                "name": "Agriculture",
+                "value": 2
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Estonia": {
         "name": "Estonia",
@@ -1157,22 +1157,22 @@ export const countryData = {
         "gdp": "$38.2B",
         "population": "1.3M",
         "growth": "-1.2%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 63
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 23
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 2
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "High"
     },
     "Ethiopia": {
         "name": "Ethiopia",
@@ -1180,45 +1180,22 @@ export const countryData = {
         "gdp": "$123.1B",
         "population": "125.4M",
         "growth": "+5.3%",
-        "activeUsers": "1M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
+                "name": "Agriculture",
                 "value": 38
             },
             {
-                "name": "Bio-Tech",
-                "value": 28
-            },
-            {
-                "name": "Off-World",
-                "value": 42
-            }
-        ]
-    },
-    "Finland": {
-        "name": "Finland",
-        "code": "FI",
-        "gdp": "$280.3B",
-        "population": "5.6M",
-        "growth": "+0.8%",
-        "activeUsers": "0M",
-        "risk": "Medium",
-        "segments": [
-            {
-                "name": "Cybernetics",
+                "name": "Services",
                 "value": 37
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
-            },
-            {
-                "name": "Off-World",
-                "value": 43
+                "name": "Industry",
+                "value": 23
             }
-        ]
+        ],
+        "activeUsers": "1M",
+        "risk": "Low"
     },
     "Fiji": {
         "name": "Fiji",
@@ -1226,22 +1203,22 @@ export const countryData = {
         "gdp": "$5.0B",
         "population": "0.9M",
         "growth": "+17.7%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 34
+                "name": "Services",
+                "value": 55
             },
             {
-                "name": "Bio-Tech",
-                "value": 24
+                "name": "Industry",
+                "value": 18
             },
             {
-                "name": "Off-World",
-                "value": 46
+                "name": "Agriculture",
+                "value": 14
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Falkland Is.": {
         "name": "Falkland Is.",
@@ -1249,22 +1226,22 @@ export const countryData = {
         "gdp": "$0.0B",
         "population": "0.0M",
         "growth": "0.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 42
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Bio-Tech",
-                "value": 22
+                "name": "Industry",
+                "value": 0
             },
             {
-                "name": "Off-World",
-                "value": 38
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "France": {
         "name": "France",
@@ -1272,22 +1249,22 @@ export const countryData = {
         "gdp": "$0.0B",
         "population": "0.0M",
         "growth": "0.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 0
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Gabon": {
         "name": "Gabon",
@@ -1295,22 +1272,22 @@ export const countryData = {
         "gdp": "$20.4B",
         "population": "2.4M",
         "growth": "+3.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 35
+                "name": "Industry",
+                "value": 56
             },
             {
-                "name": "Bio-Tech",
-                "value": 25
+                "name": "Services",
+                "value": 33
             },
             {
-                "name": "Off-World",
-                "value": 45
+                "name": "Agriculture",
+                "value": 7
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "United Kingdom": {
         "name": "United Kingdom",
@@ -1318,22 +1295,22 @@ export const countryData = {
         "gdp": "$3.2T",
         "population": "67.6M",
         "growth": "+5.1%",
-        "activeUsers": "0M",
-        "risk": "Low",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 44
+                "name": "Services",
+                "value": 72
             },
             {
-                "name": "Bio-Tech",
-                "value": 24
+                "name": "Industry",
+                "value": 17
             },
             {
-                "name": "Off-World",
-                "value": 36
+                "name": "Agriculture",
+                "value": 1
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Georgia": {
         "name": "Georgia",
@@ -1341,22 +1318,22 @@ export const countryData = {
         "gdp": "$25.0B",
         "population": "3.7M",
         "growth": "+11.0%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 59
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 21
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 7
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Ghana": {
         "name": "Ghana",
@@ -1364,22 +1341,22 @@ export const countryData = {
         "gdp": "$73.9B",
         "population": "33.1M",
         "growth": "+3.8%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 35
+                "name": "Services",
+                "value": 43
             },
             {
-                "name": "Bio-Tech",
-                "value": 25
+                "name": "Industry",
+                "value": 31
             },
             {
-                "name": "Off-World",
-                "value": 45
+                "name": "Agriculture",
+                "value": 20
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Guinea": {
         "name": "Guinea",
@@ -1387,22 +1364,22 @@ export const countryData = {
         "gdp": "$19.9B",
         "population": "14.1M",
         "growth": "+4.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 38
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Agriculture",
+                "value": 28
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Industry",
+                "value": 27
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Gambia": {
         "name": "Gambia",
@@ -1410,22 +1387,22 @@ export const countryData = {
         "gdp": "$2.2B",
         "population": "2.6M",
         "growth": "+5.5%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 56
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Agriculture",
+                "value": 23
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Industry",
+                "value": 16
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Guinea-Bissau": {
         "name": "Guinea-Bissau",
@@ -1433,22 +1410,22 @@ export const countryData = {
         "gdp": "$1.9B",
         "population": "2.1M",
         "growth": "+5.5%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
+                "name": "Services",
                 "value": 43
             },
             {
-                "name": "Bio-Tech",
-                "value": 23
+                "name": "Agriculture",
+                "value": 40
             },
             {
-                "name": "Off-World",
-                "value": 37
+                "name": "Industry",
+                "value": 13
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Eq. Guinea": {
         "name": "Eq. Guinea",
@@ -1456,22 +1433,22 @@ export const countryData = {
         "gdp": "$13.7B",
         "population": "1.8M",
         "growth": "+3.2%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 40
+                "name": "Industry",
+                "value": 56
             },
             {
-                "name": "Bio-Tech",
-                "value": 20
+                "name": "Services",
+                "value": 41
             },
             {
-                "name": "Off-World",
-                "value": 40
+                "name": "Agriculture",
+                "value": 2
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Greece": {
         "name": "Greece",
@@ -1479,22 +1456,22 @@ export const countryData = {
         "gdp": "$218.0B",
         "population": "10.4M",
         "growth": "+5.5%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 68
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 17
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 4
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Greenland": {
         "name": "Greenland",
@@ -1502,22 +1479,22 @@ export const countryData = {
         "gdp": "$3.2B",
         "population": "0.1M",
         "growth": "+2.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 39
+                "name": "Services",
+                "value": 61
             },
             {
-                "name": "Bio-Tech",
-                "value": 29
+                "name": "Industry",
+                "value": 20
             },
             {
-                "name": "Off-World",
-                "value": 41
+                "name": "Agriculture",
+                "value": 16
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Guatemala": {
         "name": "Guatemala",
@@ -1525,22 +1502,22 @@ export const countryData = {
         "gdp": "$95.6B",
         "population": "17.8M",
         "growth": "+4.2%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 39
+                "name": "Services",
+                "value": 62
             },
             {
-                "name": "Bio-Tech",
-                "value": 29
+                "name": "Industry",
+                "value": 23
             },
             {
-                "name": "Off-World",
-                "value": 41
+                "name": "Agriculture",
+                "value": 9
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Guyana": {
         "name": "Guyana",
@@ -1548,22 +1525,22 @@ export const countryData = {
         "gdp": "$14.7B",
         "population": "0.8M",
         "growth": "+63.3%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Industry",
+                "value": 68
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Services",
+                "value": 19
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 10
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Honduras": {
         "name": "Honduras",
@@ -1571,45 +1548,22 @@ export const countryData = {
         "gdp": "$31.4B",
         "population": "10.5M",
         "growth": "+4.1%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Services",
+                "value": 57
             },
             {
-                "name": "Bio-Tech",
-                "value": 28
+                "name": "Industry",
+                "value": 26
             },
             {
-                "name": "Off-World",
-                "value": 42
+                "name": "Agriculture",
+                "value": 12
             }
-        ]
-    },
-    "Croatia": {
-        "name": "Croatia",
-        "code": "HR",
-        "gdp": "$71.2B",
-        "population": "3.9M",
-        "growth": "+7.3%",
+        ],
         "activeUsers": "0M",
-        "risk": "High",
-        "segments": [
-            {
-                "name": "Cybernetics",
-                "value": 37
-            },
-            {
-                "name": "Bio-Tech",
-                "value": 27
-            },
-            {
-                "name": "Off-World",
-                "value": 43
-            }
-        ]
+        "risk": "Medium"
     },
     "Haiti": {
         "name": "Haiti",
@@ -1617,22 +1571,22 @@ export const countryData = {
         "gdp": "$20.3B",
         "population": "11.5M",
         "growth": "-1.7%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 35
+                "name": "Services",
+                "value": 48
             },
             {
-                "name": "Bio-Tech",
-                "value": 25
+                "name": "Industry",
+                "value": 29
             },
             {
-                "name": "Off-World",
-                "value": 45
+                "name": "Agriculture",
+                "value": 20
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "High"
     },
     "Hungary": {
         "name": "Hungary",
@@ -1640,22 +1594,22 @@ export const countryData = {
         "gdp": "$177.0B",
         "population": "9.6M",
         "growth": "+4.2%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 58
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 24
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 3
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Indonesia": {
         "name": "Indonesia",
@@ -1663,22 +1617,22 @@ export const countryData = {
         "gdp": "$1.3T",
         "population": "278.8M",
         "growth": "+5.3%",
-        "activeUsers": "2M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 39
+                "name": "Services",
+                "value": 42
             },
             {
-                "name": "Bio-Tech",
-                "value": 29
-            },
-            {
-                "name": "Off-World",
+                "name": "Industry",
                 "value": 41
+            },
+            {
+                "name": "Agriculture",
+                "value": 12
             }
-        ]
+        ],
+        "activeUsers": "2M",
+        "risk": "Low"
     },
     "India": {
         "name": "India",
@@ -1686,22 +1640,22 @@ export const countryData = {
         "gdp": "$3.3T",
         "population": "1.43B",
         "growth": "+7.6%",
-        "activeUsers": "14M",
-        "risk": "Low",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 35
+                "name": "Services",
+                "value": 50
             },
             {
-                "name": "Bio-Tech",
+                "name": "Industry",
                 "value": 25
             },
             {
-                "name": "Off-World",
-                "value": 45
+                "name": "Agriculture",
+                "value": 17
             }
-        ]
+        ],
+        "activeUsers": "14M",
+        "risk": "Low"
     },
     "Ireland": {
         "name": "Ireland",
@@ -1709,22 +1663,22 @@ export const countryData = {
         "gdp": "$548.3B",
         "population": "5.2M",
         "growth": "+7.5%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 54
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 41
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 1
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Iran": {
         "name": "Iran",
@@ -1732,22 +1686,22 @@ export const countryData = {
         "gdp": "$422.7B",
         "population": "89.5M",
         "growth": "+4.4%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 34
+                "name": "Services",
+                "value": 45
             },
             {
-                "name": "Bio-Tech",
-                "value": 24
+                "name": "Industry",
+                "value": 41
             },
             {
-                "name": "Off-World",
-                "value": 46
+                "name": "Agriculture",
+                "value": 11
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Iraq": {
         "name": "Iraq",
@@ -1755,22 +1709,22 @@ export const countryData = {
         "gdp": "$287.4B",
         "population": "44.1M",
         "growth": "+8.0%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 34
+                "name": "Industry",
+                "value": 65
             },
             {
-                "name": "Bio-Tech",
-                "value": 24
+                "name": "Services",
+                "value": 33
             },
             {
-                "name": "Off-World",
-                "value": 46
+                "name": "Agriculture",
+                "value": 2
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Iceland": {
         "name": "Iceland",
@@ -1778,22 +1732,22 @@ export const countryData = {
         "gdp": "$29.2B",
         "population": "0.4M",
         "growth": "+8.8%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 64
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 21
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 4
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Israel": {
         "name": "Israel",
@@ -1801,45 +1755,22 @@ export const countryData = {
         "gdp": "$525.2B",
         "population": "9.6M",
         "growth": "+6.3%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 70
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 19
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 1
             }
-        ]
-    },
-    "Italy": {
-        "name": "Italy",
-        "code": "IT",
-        "gdp": "$2.1T",
-        "population": "59.0M",
-        "growth": "+4.8%",
+        ],
         "activeUsers": "0M",
-        "risk": "Low",
-        "segments": [
-            {
-                "name": "Cybernetics",
-                "value": 35
-            },
-            {
-                "name": "Bio-Tech",
-                "value": 25
-            },
-            {
-                "name": "Off-World",
-                "value": 45
-            }
-        ]
+        "risk": "Low"
     },
     "Jamaica": {
         "name": "Jamaica",
@@ -1847,22 +1778,22 @@ export const countryData = {
         "gdp": "$18.8B",
         "population": "2.8M",
         "growth": "+6.4%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 59
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 17
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 7
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Jordan": {
         "name": "Jordan",
@@ -1870,22 +1801,22 @@ export const countryData = {
         "gdp": "$48.8B",
         "population": "11.3M",
         "growth": "+2.6%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 60
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 24
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 5
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Japan": {
         "name": "Japan",
@@ -1893,45 +1824,22 @@ export const countryData = {
         "gdp": "$4.3T",
         "population": "125.1M",
         "growth": "+0.9%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 70
+            },
+            {
+                "name": "Industry",
+                "value": 28
+            },
+            {
+                "name": "Agriculture",
+                "value": 1
+            }
+        ],
         "activeUsers": "1M",
-        "risk": "Low",
-        "segments": [
-            {
-                "name": "Cybernetics",
-                "value": 35
-            },
-            {
-                "name": "Bio-Tech",
-                "value": 25
-            },
-            {
-                "name": "Off-World",
-                "value": 45
-            }
-        ]
-    },
-    "Kazakhstan": {
-        "name": "Kazakhstan",
-        "code": "KZ",
-        "gdp": "$225.5B",
-        "population": "20.0M",
-        "growth": "+3.2%",
-        "activeUsers": "0M",
-        "risk": "Medium",
-        "segments": [
-            {
-                "name": "Cybernetics",
-                "value": 40
-            },
-            {
-                "name": "Bio-Tech",
-                "value": 20
-            },
-            {
-                "name": "Off-World",
-                "value": 40
-            }
-        ]
+        "risk": "Medium"
     },
     "Kenya": {
         "name": "Kenya",
@@ -1939,22 +1847,22 @@ export const countryData = {
         "gdp": "$114.4B",
         "population": "54.3M",
         "growth": "+4.9%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 35
+                "name": "Services",
+                "value": 55
             },
             {
-                "name": "Bio-Tech",
-                "value": 25
+                "name": "Agriculture",
+                "value": 21
             },
             {
-                "name": "Off-World",
-                "value": 45
+                "name": "Industry",
+                "value": 18
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Kyrgyzstan": {
         "name": "Kyrgyzstan",
@@ -1962,22 +1870,22 @@ export const countryData = {
         "gdp": "$12.1B",
         "population": "7.0M",
         "growth": "+9.0%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 40
+                "name": "Services",
+                "value": 51
             },
             {
-                "name": "Bio-Tech",
-                "value": 20
+                "name": "Industry",
+                "value": 24
             },
             {
-                "name": "Off-World",
-                "value": 40
+                "name": "Agriculture",
+                "value": 11
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Cambodia": {
         "name": "Cambodia",
@@ -1985,22 +1893,22 @@ export const countryData = {
         "gdp": "$40.0B",
         "population": "17.2M",
         "growth": "+5.1%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Industry",
+                "value": 41
             },
             {
-                "name": "Bio-Tech",
-                "value": 28
+                "name": "Services",
+                "value": 36
             },
             {
-                "name": "Off-World",
-                "value": 42
+                "name": "Agriculture",
+                "value": 17
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "South Korea": {
         "name": "South Korea",
@@ -2008,22 +1916,22 @@ export const countryData = {
         "gdp": "$1.8T",
         "population": "51.7M",
         "growth": "+2.7%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 41
+                "name": "Services",
+                "value": 58
             },
             {
-                "name": "Bio-Tech",
-                "value": 21
+                "name": "Industry",
+                "value": 33
             },
             {
-                "name": "Off-World",
-                "value": 39
+                "name": "Agriculture",
+                "value": 1
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Kosovo": {
         "name": "Kosovo",
@@ -2031,22 +1939,22 @@ export const countryData = {
         "gdp": "$0.0B",
         "population": "0.0M",
         "growth": "0.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 0
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Kuwait": {
         "name": "Kuwait",
@@ -2054,22 +1962,22 @@ export const countryData = {
         "gdp": "$183.5B",
         "population": "4.6M",
         "growth": "+6.8%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Industry",
+                "value": 66
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Services",
+                "value": 45
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Laos": {
         "name": "Laos",
@@ -2077,22 +1985,22 @@ export const countryData = {
         "gdp": "$15.5B",
         "population": "7.6M",
         "growth": "+2.7%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
+                "name": "Services",
+                "value": 40
+            },
+            {
+                "name": "Industry",
                 "value": 34
             },
             {
-                "name": "Bio-Tech",
-                "value": 24
-            },
-            {
-                "name": "Off-World",
-                "value": 46
+                "name": "Agriculture",
+                "value": 15
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Lebanon": {
         "name": "Lebanon",
@@ -2100,22 +2008,22 @@ export const countryData = {
         "gdp": "$21.0B",
         "population": "5.7M",
         "growth": "-0.6%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 89
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 2
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 1
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "High"
     },
     "Liberia": {
         "name": "Liberia",
@@ -2123,22 +2031,22 @@ export const countryData = {
         "gdp": "$4.0B",
         "population": "5.4M",
         "growth": "+4.8%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
+                "name": "Services",
                 "value": 37
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Agriculture",
+                "value": 36
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Industry",
+                "value": 21
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Libya": {
         "name": "Libya",
@@ -2146,22 +2054,22 @@ export const countryData = {
         "gdp": "$43.2B",
         "population": "7.2M",
         "growth": "-8.3%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 35
+                "name": "Industry",
+                "value": 77
             },
             {
-                "name": "Bio-Tech",
-                "value": 25
+                "name": "Services",
+                "value": 27
             },
             {
-                "name": "Off-World",
-                "value": 45
+                "name": "Agriculture",
+                "value": 2
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "High"
     },
     "Sri Lanka": {
         "name": "Sri Lanka",
@@ -2169,22 +2077,22 @@ export const countryData = {
         "gdp": "$74.1B",
         "population": "22.2M",
         "growth": "-7.3%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 39
+                "name": "Services",
+                "value": 57
             },
             {
-                "name": "Bio-Tech",
-                "value": 29
+                "name": "Industry",
+                "value": 30
             },
             {
-                "name": "Off-World",
-                "value": 41
+                "name": "Agriculture",
+                "value": 8
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "High"
     },
     "Lesotho": {
         "name": "Lesotho",
@@ -2192,22 +2100,22 @@ export const countryData = {
         "gdp": "$2.4B",
         "population": "2.3M",
         "growth": "+2.4%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 50
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 30
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 6
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Lithuania": {
         "name": "Lithuania",
@@ -2215,22 +2123,22 @@ export const countryData = {
         "gdp": "$71.0B",
         "population": "2.8M",
         "growth": "+2.5%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 39
+                "name": "Services",
+                "value": 61
             },
             {
-                "name": "Bio-Tech",
-                "value": 29
+                "name": "Industry",
+                "value": 26
             },
             {
-                "name": "Off-World",
-                "value": 41
+                "name": "Agriculture",
+                "value": 4
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Luxembourg": {
         "name": "Luxembourg",
@@ -2238,22 +2146,22 @@ export const countryData = {
         "gdp": "$80.8B",
         "population": "0.7M",
         "growth": "-1.1%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 40
+                "name": "Services",
+                "value": 81
             },
             {
-                "name": "Bio-Tech",
-                "value": 20
+                "name": "Industry",
+                "value": 9
             },
             {
-                "name": "Off-World",
-                "value": 40
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "High"
     },
     "Latvia": {
         "name": "Latvia",
@@ -2261,22 +2169,22 @@ export const countryData = {
         "gdp": "$38.0B",
         "population": "1.9M",
         "growth": "+1.9%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 62
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 21
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 5
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Morocco": {
         "name": "Morocco",
@@ -2284,22 +2192,22 @@ export const countryData = {
         "gdp": "$131.2B",
         "population": "37.3M",
         "growth": "+1.8%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 54
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 26
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 10
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Moldova": {
         "name": "Moldova",
@@ -2307,22 +2215,22 @@ export const countryData = {
         "gdp": "$14.5B",
         "population": "2.5M",
         "growth": "-4.6%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 59
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 19
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 8
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "High"
     },
     "Madagascar": {
         "name": "Madagascar",
@@ -2330,22 +2238,22 @@ export const countryData = {
         "gdp": "$15.3B",
         "population": "30.4M",
         "growth": "+4.2%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 40
+                "name": "Services",
+                "value": 48
             },
             {
-                "name": "Bio-Tech",
-                "value": 20
+                "name": "Industry",
+                "value": 23
             },
             {
-                "name": "Off-World",
-                "value": 40
+                "name": "Agriculture",
+                "value": 22
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Mexico": {
         "name": "Mexico",
@@ -2353,22 +2261,22 @@ export const countryData = {
         "gdp": "$1.5T",
         "population": "128.6M",
         "growth": "+3.7%",
-        "activeUsers": "1M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 58
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 33
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 4
             }
-        ]
+        ],
+        "activeUsers": "1M",
+        "risk": "Low"
     },
     "Macedonia": {
         "name": "Macedonia",
@@ -2376,22 +2284,22 @@ export const countryData = {
         "gdp": "$13.9B",
         "population": "1.8M",
         "growth": "+2.8%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 39
+                "name": "Services",
+                "value": 56
             },
             {
-                "name": "Bio-Tech",
-                "value": 29
+                "name": "Industry",
+                "value": 23
             },
             {
-                "name": "Off-World",
-                "value": 41
+                "name": "Agriculture",
+                "value": 7
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Mali": {
         "name": "Mali",
@@ -2399,22 +2307,22 @@ export const countryData = {
         "gdp": "$22.5B",
         "population": "23.1M",
         "growth": "+3.7%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 34
+                "name": "Services",
+                "value": 35
             },
             {
-                "name": "Bio-Tech",
-                "value": 24
+                "name": "Agriculture",
+                "value": 33
             },
             {
-                "name": "Off-World",
-                "value": 46
+                "name": "Industry",
+                "value": 26
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Myanmar": {
         "name": "Myanmar",
@@ -2422,22 +2330,22 @@ export const countryData = {
         "gdp": "$62.3B",
         "population": "53.8M",
         "growth": "+4.0%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 39
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 38
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 22
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Montenegro": {
         "name": "Montenegro",
@@ -2445,22 +2353,22 @@ export const countryData = {
         "gdp": "$6.3B",
         "population": "0.6M",
         "growth": "+7.7%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 40
+                "name": "Services",
+                "value": 63
             },
             {
-                "name": "Bio-Tech",
-                "value": 20
+                "name": "Industry",
+                "value": 13
             },
             {
-                "name": "Off-World",
-                "value": 40
+                "name": "Agriculture",
+                "value": 4
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Mongolia": {
         "name": "Mongolia",
@@ -2468,22 +2376,22 @@ export const countryData = {
         "gdp": "$17.1B",
         "population": "3.4M",
         "growth": "+5.0%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Services",
+                "value": 41
             },
             {
-                "name": "Bio-Tech",
-                "value": 28
+                "name": "Industry",
+                "value": 35
             },
             {
-                "name": "Off-World",
-                "value": 42
+                "name": "Agriculture",
+                "value": 13
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Mozambique": {
         "name": "Mozambique",
@@ -2491,22 +2399,22 @@ export const countryData = {
         "gdp": "$18.9B",
         "population": "32.7M",
         "growth": "+4.4%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 40
+                "name": "Services",
+                "value": 39
             },
             {
-                "name": "Bio-Tech",
-                "value": 20
+                "name": "Agriculture",
+                "value": 26
             },
             {
-                "name": "Off-World",
-                "value": 40
+                "name": "Industry",
+                "value": 23
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Mauritania": {
         "name": "Mauritania",
@@ -2514,45 +2422,22 @@ export const countryData = {
         "gdp": "$9.6B",
         "population": "4.9M",
         "growth": "+6.8%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 40
+                "name": "Services",
+                "value": 45
             },
             {
-                "name": "Bio-Tech",
-                "value": 20
+                "name": "Industry",
+                "value": 29
             },
             {
-                "name": "Off-World",
-                "value": 40
+                "name": "Agriculture",
+                "value": 21
             }
-        ]
-    },
-    "Malawi": {
-        "name": "Malawi",
-        "code": "MW",
-        "gdp": "$12.4B",
-        "population": "20.6M",
-        "growth": "+0.9%",
+        ],
         "activeUsers": "0M",
-        "risk": "Medium",
-        "segments": [
-            {
-                "name": "Cybernetics",
-                "value": 36
-            },
-            {
-                "name": "Bio-Tech",
-                "value": 26
-            },
-            {
-                "name": "Off-World",
-                "value": 44
-            }
-        ]
+        "risk": "Medium"
     },
     "Malaysia": {
         "name": "Malaysia",
@@ -2560,22 +2445,22 @@ export const countryData = {
         "gdp": "$407.8B",
         "population": "34.7M",
         "growth": "+9.0%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Services",
+                "value": 51
             },
             {
-                "name": "Bio-Tech",
-                "value": 28
+                "name": "Industry",
+                "value": 39
             },
             {
-                "name": "Off-World",
-                "value": 42
+                "name": "Agriculture",
+                "value": 9
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Namibia": {
         "name": "Namibia",
@@ -2583,22 +2468,22 @@ export const countryData = {
         "gdp": "$12.6B",
         "population": "2.9M",
         "growth": "+5.4%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 55
             },
             {
-                "name": "Bio-Tech",
+                "name": "Industry",
                 "value": 27
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 9
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "New Caledonia": {
         "name": "New Caledonia",
@@ -2606,22 +2491,22 @@ export const countryData = {
         "gdp": "$9.6B",
         "population": "0.3M",
         "growth": "+3.5%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 43
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Bio-Tech",
-                "value": 23
+                "name": "Industry",
+                "value": 0
             },
             {
-                "name": "Off-World",
-                "value": 37
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Niger": {
         "name": "Niger",
@@ -2629,22 +2514,22 @@ export const countryData = {
         "gdp": "$15.4B",
         "population": "25.3M",
         "growth": "+11.9%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 35
+                "name": "Agriculture",
+                "value": 41
             },
             {
-                "name": "Bio-Tech",
-                "value": 25
+                "name": "Services",
+                "value": 34
             },
             {
-                "name": "Off-World",
-                "value": 45
+                "name": "Industry",
+                "value": 19
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Nigeria": {
         "name": "Nigeria",
@@ -2652,22 +2537,22 @@ export const countryData = {
         "gdp": "$647.0B",
         "population": "223.2M",
         "growth": "+4.3%",
-        "activeUsers": "2M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 51
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Agriculture",
+                "value": 29
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Industry",
+                "value": 19
             }
-        ]
+        ],
+        "activeUsers": "2M",
+        "risk": "Low"
     },
     "Nicaragua": {
         "name": "Nicaragua",
@@ -2675,22 +2560,22 @@ export const countryData = {
         "gdp": "$15.6B",
         "population": "6.7M",
         "growth": "+3.6%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 39
+                "name": "Services",
+                "value": 46
             },
             {
-                "name": "Bio-Tech",
-                "value": 29
+                "name": "Industry",
+                "value": 26
             },
             {
-                "name": "Off-World",
-                "value": 41
+                "name": "Agriculture",
+                "value": 17
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Netherlands": {
         "name": "Netherlands",
@@ -2698,22 +2583,22 @@ export const countryData = {
         "gdp": "$1.0T",
         "population": "17.7M",
         "growth": "+5.0%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 41
+                "name": "Services",
+                "value": 69
             },
             {
-                "name": "Bio-Tech",
-                "value": 21
+                "name": "Industry",
+                "value": 19
             },
             {
-                "name": "Off-World",
-                "value": 39
+                "name": "Agriculture",
+                "value": 2
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Norway": {
         "name": "Norway",
@@ -2721,22 +2606,22 @@ export const countryData = {
         "gdp": "$0.0B",
         "population": "0.0M",
         "growth": "0.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 0
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Nepal": {
         "name": "Nepal",
@@ -2744,22 +2629,22 @@ export const countryData = {
         "gdp": "$41.2B",
         "population": "29.7M",
         "growth": "+5.6%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 35
+                "name": "Services",
+                "value": 52
             },
             {
-                "name": "Bio-Tech",
-                "value": 25
+                "name": "Agriculture",
+                "value": 21
             },
             {
-                "name": "Off-World",
-                "value": 45
+                "name": "Industry",
+                "value": 12
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "New Zealand": {
         "name": "New Zealand",
@@ -2767,22 +2652,22 @@ export const countryData = {
         "gdp": "$249.5B",
         "population": "5.1M",
         "growth": "+3.5%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 41
+                "name": "Services",
+                "value": 67
             },
             {
-                "name": "Bio-Tech",
-                "value": 21
+                "name": "Industry",
+                "value": 20
             },
             {
-                "name": "Off-World",
-                "value": 39
+                "name": "Agriculture",
+                "value": 5
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Oman": {
         "name": "Oman",
@@ -2790,22 +2675,22 @@ export const countryData = {
         "gdp": "$109.9B",
         "population": "4.7M",
         "growth": "+8.0%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 34
+                "name": "Industry",
+                "value": 59
             },
             {
-                "name": "Bio-Tech",
-                "value": 24
+                "name": "Services",
+                "value": 42
             },
             {
-                "name": "Off-World",
-                "value": 46
+                "name": "Agriculture",
+                "value": 2
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Pakistan": {
         "name": "Pakistan",
@@ -2813,22 +2698,22 @@ export const countryData = {
         "gdp": "$374.9B",
         "population": "243.7M",
         "growth": "+4.8%",
-        "activeUsers": "2M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Services",
+                "value": 52
             },
             {
-                "name": "Bio-Tech",
-                "value": 28
+                "name": "Agriculture",
+                "value": 22
             },
             {
-                "name": "Off-World",
-                "value": 42
+                "name": "Industry",
+                "value": 20
             }
-        ]
+        ],
+        "activeUsers": "2M",
+        "risk": "Low"
     },
     "Panama": {
         "name": "Panama",
@@ -2836,22 +2721,22 @@ export const countryData = {
         "gdp": "$76.5B",
         "population": "4.4M",
         "growth": "+11.0%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 68
             },
             {
-                "name": "Bio-Tech",
+                "name": "Industry",
                 "value": 26
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 3
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Peru": {
         "name": "Peru",
@@ -2859,22 +2744,22 @@ export const countryData = {
         "gdp": "$246.1B",
         "population": "33.5M",
         "growth": "+2.8%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 34
+                "name": "Services",
+                "value": 50
             },
             {
-                "name": "Bio-Tech",
-                "value": 24
+                "name": "Industry",
+                "value": 35
             },
             {
-                "name": "Off-World",
-                "value": 46
+                "name": "Agriculture",
+                "value": 7
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Philippines": {
         "name": "Philippines",
@@ -2882,22 +2767,22 @@ export const countryData = {
         "gdp": "$404.4B",
         "population": "114.0M",
         "growth": "+7.6%",
-        "activeUsers": "1M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 41
+                "name": "Services",
+                "value": 61
             },
             {
-                "name": "Bio-Tech",
-                "value": 21
+                "name": "Industry",
+                "value": 29
             },
             {
-                "name": "Off-World",
-                "value": 39
+                "name": "Agriculture",
+                "value": 10
             }
-        ]
+        ],
+        "activeUsers": "1M",
+        "risk": "Low"
     },
     "Papua New Guinea": {
         "name": "Papua New Guinea",
@@ -2905,22 +2790,22 @@ export const countryData = {
         "gdp": "$31.7B",
         "population": "10.2M",
         "growth": "+5.7%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 46
+                "name": "Industry",
+                "value": 40
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Services",
+                "value": 39
             },
             {
-                "name": "Off-World",
-                "value": 34
+                "name": "Agriculture",
+                "value": 17
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Poland": {
         "name": "Poland",
@@ -2928,22 +2813,22 @@ export const countryData = {
         "gdp": "$695.6B",
         "population": "36.8M",
         "growth": "+5.3%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 57
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 29
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 3
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Puerto Rico": {
         "name": "Puerto Rico",
@@ -2951,22 +2836,22 @@ export const countryData = {
         "gdp": "$113.8B",
         "population": "3.2M",
         "growth": "+3.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 41
+                "name": "Services",
+                "value": 51
             },
             {
-                "name": "Bio-Tech",
-                "value": 21
+                "name": "Industry",
+                "value": 48
             },
             {
-                "name": "Off-World",
-                "value": 39
+                "name": "Agriculture",
+                "value": 1
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "North Korea": {
         "name": "North Korea",
@@ -2974,22 +2859,22 @@ export const countryData = {
         "gdp": "$0.0B",
         "population": "26.3M",
         "growth": "0.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 41
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Bio-Tech",
-                "value": 21
+                "name": "Industry",
+                "value": 0
             },
             {
-                "name": "Off-World",
-                "value": 39
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Portugal": {
         "name": "Portugal",
@@ -2997,22 +2882,22 @@ export const countryData = {
         "gdp": "$256.9B",
         "population": "10.4M",
         "growth": "+7.0%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Services",
+                "value": 66
             },
             {
-                "name": "Bio-Tech",
-                "value": 28
+                "name": "Industry",
+                "value": 18
             },
             {
-                "name": "Off-World",
-                "value": 42
+                "name": "Agriculture",
+                "value": 2
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Paraguay": {
         "name": "Paraguay",
@@ -3020,22 +2905,22 @@ export const countryData = {
         "gdp": "$42.0B",
         "population": "6.8M",
         "growth": "+0.2%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Services",
+                "value": 48
             },
             {
-                "name": "Bio-Tech",
-                "value": 28
+                "name": "Industry",
+                "value": 34
             },
             {
-                "name": "Off-World",
-                "value": 42
+                "name": "Agriculture",
+                "value": 11
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Palestine": {
         "name": "Palestine",
@@ -3043,22 +2928,22 @@ export const countryData = {
         "gdp": "$19.2B",
         "population": "5.0M",
         "growth": "+4.1%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 39
+                "name": "Services",
+                "value": 58
             },
             {
-                "name": "Bio-Tech",
-                "value": 29
+                "name": "Industry",
+                "value": 17
             },
             {
-                "name": "Off-World",
-                "value": 41
+                "name": "Agriculture",
+                "value": 6
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Qatar": {
         "name": "Qatar",
@@ -3066,22 +2951,22 @@ export const countryData = {
         "gdp": "$235.7B",
         "population": "2.7M",
         "growth": "+4.2%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 35
+                "name": "Industry",
+                "value": 65
             },
             {
-                "name": "Bio-Tech",
-                "value": 25
+                "name": "Services",
+                "value": 39
             },
             {
-                "name": "Off-World",
-                "value": 45
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Romania": {
         "name": "Romania",
@@ -3089,22 +2974,22 @@ export const countryData = {
         "gdp": "$295.3B",
         "population": "19.0M",
         "growth": "+4.2%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 60
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 28
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 4
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Russia": {
         "name": "Russia",
@@ -3112,22 +2997,22 @@ export const countryData = {
         "gdp": "$2.3T",
         "population": "144.2M",
         "growth": "-1.4%",
-        "activeUsers": "1M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 55
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 32
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 3
             }
-        ]
+        ],
+        "activeUsers": "1M",
+        "risk": "High"
     },
     "Rwanda": {
         "name": "Rwanda",
@@ -3135,22 +3020,22 @@ export const countryData = {
         "gdp": "$13.3B",
         "population": "13.7M",
         "growth": "+8.2%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 46
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Agriculture",
+                "value": 25
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Industry",
+                "value": 21
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "W. Sahara": {
         "name": "W. Sahara",
@@ -3158,22 +3043,22 @@ export const countryData = {
         "gdp": "$0.0B",
         "population": "0.0M",
         "growth": "0.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 39
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Bio-Tech",
-                "value": 29
+                "name": "Industry",
+                "value": 0
             },
             {
-                "name": "Off-World",
-                "value": 41
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Saudi Arabia": {
         "name": "Saudi Arabia",
@@ -3181,22 +3066,22 @@ export const countryData = {
         "gdp": "$1.2T",
         "population": "32.2M",
         "growth": "+12.0%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 42
+                "name": "Industry",
+                "value": 53
             },
             {
-                "name": "Bio-Tech",
-                "value": 22
+                "name": "Services",
+                "value": 40
             },
             {
-                "name": "Off-World",
-                "value": 38
+                "name": "Agriculture",
+                "value": 2
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Sudan": {
         "name": "Sudan",
@@ -3204,22 +3089,22 @@ export const countryData = {
         "gdp": "$51.7B",
         "population": "49.4M",
         "growth": "-1.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 35
+                "name": "Services",
+                "value": 6
             },
             {
-                "name": "Bio-Tech",
-                "value": 25
+                "name": "Industry",
+                "value": 5
             },
             {
-                "name": "Off-World",
-                "value": 45
+                "name": "Agriculture",
+                "value": 5
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "High"
     },
     "S. Sudan": {
         "name": "S. Sudan",
@@ -3227,45 +3112,22 @@ export const countryData = {
         "gdp": "$0.0B",
         "population": "11.0M",
         "growth": "0.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Bio-Tech",
-                "value": 28
+                "name": "Industry",
+                "value": 0
             },
             {
-                "name": "Off-World",
-                "value": 42
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
-    },
-    "Senegal": {
-        "name": "Senegal",
-        "code": "SN",
-        "gdp": "$27.8B",
-        "population": "17.7M",
-        "growth": "+3.9%",
+        ],
         "activeUsers": "0M",
-        "risk": "Medium",
-        "segments": [
-            {
-                "name": "Cybernetics",
-                "value": 37
-            },
-            {
-                "name": "Bio-Tech",
-                "value": 27
-            },
-            {
-                "name": "Off-World",
-                "value": 43
-            }
-        ]
+        "risk": "Medium"
     },
     "Solomon Is.": {
         "name": "Solomon Is.",
@@ -3273,22 +3135,22 @@ export const countryData = {
         "gdp": "$1.5B",
         "population": "0.8M",
         "growth": "-2.6%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 41
+                "name": "Services",
+                "value": 49
             },
             {
-                "name": "Bio-Tech",
-                "value": 21
+                "name": "Agriculture",
+                "value": 32
             },
             {
-                "name": "Off-World",
-                "value": 39
+                "name": "Industry",
+                "value": 19
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "High"
     },
     "Sierra Leone": {
         "name": "Sierra Leone",
@@ -3296,22 +3158,22 @@ export const countryData = {
         "gdp": "$7.1B",
         "population": "8.3M",
         "growth": "+5.3%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
+                "name": "Services",
                 "value": 42
             },
             {
-                "name": "Bio-Tech",
-                "value": 22
+                "name": "Agriculture",
+                "value": 34
             },
             {
-                "name": "Off-World",
-                "value": 38
+                "name": "Industry",
+                "value": 21
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "El Salvador": {
         "name": "El Salvador",
@@ -3319,22 +3181,22 @@ export const countryData = {
         "gdp": "$31.9B",
         "population": "6.3M",
         "growth": "+3.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 41
+                "name": "Services",
+                "value": 60
             },
             {
-                "name": "Bio-Tech",
-                "value": 21
+                "name": "Industry",
+                "value": 24
             },
             {
-                "name": "Off-World",
-                "value": 39
+                "name": "Agriculture",
+                "value": 5
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Somaliland": {
         "name": "Somaliland",
@@ -3342,22 +3204,22 @@ export const countryData = {
         "gdp": "$0.0B",
         "population": "0.0M",
         "growth": "0.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 40
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Bio-Tech",
-                "value": 20
+                "name": "Industry",
+                "value": 0
             },
             {
-                "name": "Off-World",
-                "value": 40
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Somalia": {
         "name": "Somalia",
@@ -3365,22 +3227,22 @@ export const countryData = {
         "gdp": "$10.2B",
         "population": "17.8M",
         "growth": "+2.7%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 0
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Serbia": {
         "name": "Serbia",
@@ -3388,22 +3250,22 @@ export const countryData = {
         "gdp": "$66.8B",
         "population": "6.7M",
         "growth": "+2.7%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 54
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 25
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 5
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Suriname": {
         "name": "Suriname",
@@ -3411,22 +3273,22 @@ export const countryData = {
         "gdp": "$3.8B",
         "population": "0.6M",
         "growth": "+2.4%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Services",
+                "value": 48
             },
             {
-                "name": "Bio-Tech",
-                "value": 28
-            },
-            {
-                "name": "Off-World",
+                "name": "Industry",
                 "value": 42
+            },
+            {
+                "name": "Agriculture",
+                "value": 7
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Slovakia": {
         "name": "Slovakia",
@@ -3434,22 +3296,22 @@ export const countryData = {
         "gdp": "$115.8B",
         "population": "5.4M",
         "growth": "+0.5%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Services",
+                "value": 61
             },
             {
-                "name": "Bio-Tech",
-                "value": 28
+                "name": "Industry",
+                "value": 27
             },
             {
-                "name": "Off-World",
-                "value": 42
+                "name": "Agriculture",
+                "value": 2
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Slovenia": {
         "name": "Slovenia",
@@ -3457,22 +3319,22 @@ export const countryData = {
         "gdp": "$59.9B",
         "population": "2.1M",
         "growth": "+2.7%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Services",
+                "value": 58
             },
             {
-                "name": "Bio-Tech",
+                "name": "Industry",
                 "value": 28
             },
             {
-                "name": "Off-World",
-                "value": 42
+                "name": "Agriculture",
+                "value": 2
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Sweden": {
         "name": "Sweden",
@@ -3480,22 +3342,22 @@ export const countryData = {
         "gdp": "$575.1B",
         "population": "10.5M",
         "growth": "+1.3%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 64
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 24
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 1
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Swaziland": {
         "name": "Swaziland",
@@ -3503,22 +3365,22 @@ export const countryData = {
         "gdp": "$4.7B",
         "population": "1.2M",
         "growth": "+0.4%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 39
+                "name": "Services",
+                "value": 51
             },
             {
-                "name": "Bio-Tech",
-                "value": 29
+                "name": "Industry",
+                "value": 35
             },
             {
-                "name": "Off-World",
-                "value": 41
+                "name": "Agriculture",
+                "value": 8
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Syria": {
         "name": "Syria",
@@ -3526,22 +3388,22 @@ export const countryData = {
         "gdp": "$23.6B",
         "population": "22.5M",
         "growth": "+0.7%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 35
-            },
-            {
-                "name": "Bio-Tech",
-                "value": 25
-            },
-            {
-                "name": "Off-World",
+                "name": "Services",
                 "value": 45
+            },
+            {
+                "name": "Agriculture",
+                "value": 43
+            },
+            {
+                "name": "Industry",
+                "value": 12
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Chad": {
         "name": "Chad",
@@ -3549,22 +3411,22 @@ export const countryData = {
         "gdp": "$17.8B",
         "population": "18.5M",
         "growth": "+4.1%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 34
+                "name": "Agriculture",
+                "value": 35
             },
             {
-                "name": "Bio-Tech",
-                "value": 24
+                "name": "Industry",
+                "value": 33
             },
             {
-                "name": "Off-World",
-                "value": 46
+                "name": "Services",
+                "value": 28
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Togo": {
         "name": "Togo",
@@ -3572,22 +3434,22 @@ export const countryData = {
         "gdp": "$8.6B",
         "population": "9.1M",
         "growth": "+6.3%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 34
+                "name": "Services",
+                "value": 49
             },
             {
-                "name": "Bio-Tech",
-                "value": 24
+                "name": "Industry",
+                "value": 21
             },
             {
-                "name": "Off-World",
-                "value": 46
+                "name": "Agriculture",
+                "value": 21
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Thailand": {
         "name": "Thailand",
@@ -3595,22 +3457,22 @@ export const countryData = {
         "gdp": "$495.6B",
         "population": "71.7M",
         "growth": "+2.6%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Services",
+                "value": 56
             },
             {
-                "name": "Bio-Tech",
-                "value": 28
+                "name": "Industry",
+                "value": 35
             },
             {
-                "name": "Off-World",
-                "value": 42
+                "name": "Agriculture",
+                "value": 9
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Tajikistan": {
         "name": "Tajikistan",
@@ -3618,22 +3480,22 @@ export const countryData = {
         "gdp": "$10.7B",
         "population": "10.2M",
         "growth": "+8.0%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 40
+                "name": "Industry",
+                "value": 35
             },
             {
-                "name": "Bio-Tech",
-                "value": 20
+                "name": "Services",
+                "value": 34
             },
             {
-                "name": "Off-World",
-                "value": 40
+                "name": "Agriculture",
+                "value": 23
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Turkmenistan": {
         "name": "Turkmenistan",
@@ -3641,22 +3503,22 @@ export const countryData = {
         "gdp": "$42.2B",
         "population": "7.2M",
         "growth": "+6.2%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 42
+                "name": "Services",
+                "value": 49
             },
             {
-                "name": "Bio-Tech",
-                "value": 22
+                "name": "Industry",
+                "value": 40
             },
             {
-                "name": "Off-World",
-                "value": 38
+                "name": "Agriculture",
+                "value": 11
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Timor-Leste": {
         "name": "Timor-Leste",
@@ -3664,22 +3526,22 @@ export const countryData = {
         "gdp": "$3.2B",
         "population": "1.4M",
         "growth": "-20.5%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 41
+                "name": "Industry",
+                "value": 55
             },
             {
-                "name": "Bio-Tech",
-                "value": 21
+                "name": "Services",
+                "value": 36
             },
             {
-                "name": "Off-World",
-                "value": 39
+                "name": "Agriculture",
+                "value": 10
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "High"
     },
     "Trinidad and Tobago": {
         "name": "Trinidad and Tobago",
@@ -3687,22 +3549,22 @@ export const countryData = {
         "gdp": "$28.3B",
         "population": "1.4M",
         "growth": "+0.9%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 49
+                "name": "Services",
+                "value": 51
             },
             {
-                "name": "Bio-Tech",
-                "value": 29
+                "name": "Industry",
+                "value": 46
             },
             {
-                "name": "Off-World",
-                "value": 31
+                "name": "Agriculture",
+                "value": 1
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Tunisia": {
         "name": "Tunisia",
@@ -3710,22 +3572,22 @@ export const countryData = {
         "gdp": "$44.9B",
         "population": "12.1M",
         "growth": "+2.8%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 61
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 26
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 11
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Turkey": {
         "name": "Turkey",
@@ -3733,22 +3595,22 @@ export const countryData = {
         "gdp": "$926.1B",
         "population": "85.0M",
         "growth": "+5.4%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 52
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 31
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 7
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Taiwan": {
         "name": "Taiwan",
@@ -3756,22 +3618,22 @@ export const countryData = {
         "gdp": "$0.0B",
         "population": "0.0M",
         "growth": "0.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 0
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Tanzania": {
         "name": "Tanzania",
@@ -3779,22 +3641,22 @@ export const countryData = {
         "gdp": "$75.7B",
         "population": "64.7M",
         "growth": "+4.6%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Services",
+                "value": 31
             },
             {
-                "name": "Bio-Tech",
+                "name": "Industry",
                 "value": 28
             },
             {
-                "name": "Off-World",
-                "value": 42
+                "name": "Agriculture",
+                "value": 24
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Uganda": {
         "name": "Uganda",
@@ -3802,22 +3664,22 @@ export const countryData = {
         "gdp": "$45.6B",
         "population": "47.3M",
         "growth": "+4.6%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 42
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 27
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 24
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Ukraine": {
         "name": "Ukraine",
@@ -3825,22 +3687,22 @@ export const countryData = {
         "gdp": "$162.0B",
         "population": "41.0M",
         "growth": "-28.8%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 62
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 18
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 9
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "High"
     },
     "Uruguay": {
         "name": "Uruguay",
@@ -3848,22 +3710,22 @@ export const countryData = {
         "gdp": "$70.6B",
         "population": "3.4M",
         "growth": "+4.5%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 64
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 18
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 7
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "United States of America": {
         "name": "United States of America",
@@ -3871,22 +3733,22 @@ export const countryData = {
         "gdp": "$25.6T",
         "population": "334.0M",
         "growth": "+2.5%",
-        "activeUsers": "3M",
-        "risk": "Low",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 34
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Bio-Tech",
-                "value": 24
+                "name": "Industry",
+                "value": 0
             },
             {
-                "name": "Off-World",
-                "value": 26
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "3M",
+        "risk": "Low"
     },
     "Uzbekistan": {
         "name": "Uzbekistan",
@@ -3894,22 +3756,45 @@ export const countryData = {
         "gdp": "$90.1B",
         "population": "34.9M",
         "growth": "+6.0%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 40
+                "name": "Services",
+                "value": 42
             },
             {
-                "name": "Bio-Tech",
-                "value": 20
+                "name": "Industry",
+                "value": 31
             },
             {
-                "name": "Off-World",
-                "value": 40
+                "name": "Agriculture",
+                "value": 21
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
+    },
+    "Venezuela": {
+        "name": "Venezuela",
+        "code": "VE",
+        "gdp": "$89.0B",
+        "population": "28.2M",
+        "growth": "+8.0%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 0
+            },
+            {
+                "name": "Industry",
+                "value": 0
+            },
+            {
+                "name": "Agriculture",
+                "value": 0
+            }
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Vietnam": {
         "name": "Vietnam",
@@ -3917,22 +3802,22 @@ export const countryData = {
         "gdp": "$413.4B",
         "population": "99.7M",
         "growth": "+8.5%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 41
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Industry",
+                "value": 38
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Agriculture",
+                "value": 12
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Vanuatu": {
         "name": "Vanuatu",
@@ -3940,22 +3825,22 @@ export const countryData = {
         "gdp": "$1.1B",
         "population": "0.3M",
         "growth": "+5.2%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 37
+                "name": "Services",
+                "value": 59
             },
             {
-                "name": "Bio-Tech",
-                "value": 27
+                "name": "Agriculture",
+                "value": 24
             },
             {
-                "name": "Off-World",
-                "value": 43
+                "name": "Industry",
+                "value": 7
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Yemen": {
         "name": "Yemen",
@@ -3963,22 +3848,22 @@ export const countryData = {
         "gdp": "$0.0B",
         "population": "38.2M",
         "growth": "0.0%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 35
+                "name": "Services",
+                "value": 0
             },
             {
-                "name": "Bio-Tech",
-                "value": 25
+                "name": "Industry",
+                "value": 0
             },
             {
-                "name": "Off-World",
-                "value": 45
+                "name": "Agriculture",
+                "value": 0
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "South Africa": {
         "name": "South Africa",
@@ -3986,22 +3871,22 @@ export const countryData = {
         "gdp": "$407.6B",
         "population": "62.4M",
         "growth": "+2.1%",
-        "activeUsers": "0M",
-        "risk": "Medium",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 42
+                "name": "Services",
+                "value": 62
             },
             {
-                "name": "Bio-Tech",
-                "value": 22
+                "name": "Industry",
+                "value": 25
             },
             {
-                "name": "Off-World",
-                "value": 38
+                "name": "Agriculture",
+                "value": 3
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Zambia": {
         "name": "Zambia",
@@ -4009,22 +3894,22 @@ export const countryData = {
         "gdp": "$29.2B",
         "population": "20.2M",
         "growth": "+5.2%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 36
+                "name": "Services",
+                "value": 56
             },
             {
-                "name": "Bio-Tech",
-                "value": 26
+                "name": "Industry",
+                "value": 35
             },
             {
-                "name": "Off-World",
-                "value": 44
+                "name": "Agriculture",
+                "value": 3
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     },
     "Zimbabwe": {
         "name": "Zimbabwe",
@@ -4032,21 +3917,21 @@ export const countryData = {
         "gdp": "$40.8B",
         "population": "16.1M",
         "growth": "+6.1%",
-        "activeUsers": "0M",
-        "risk": "High",
         "segments": [
             {
-                "name": "Cybernetics",
-                "value": 38
+                "name": "Industry",
+                "value": 46
             },
             {
-                "name": "Bio-Tech",
-                "value": 28
+                "name": "Services",
+                "value": 29
             },
             {
-                "name": "Off-World",
-                "value": 42
+                "name": "Agriculture",
+                "value": 17
             }
-        ]
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
     }
 };
