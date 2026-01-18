@@ -3,60 +3,93 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { BarChart3, Users, Landmark, Activity, X, AlertTriangle } from 'lucide-react';
 import { countryData } from '../data/mockData';
 
+const StatCard = ({ label, value, color = "text-white" }) => (
+    <div className="p-3 rounded-xl bg-white/5 border border-white/5">
+        <div className="text-xs text-white/40 mb-1 uppercase">{label}</div>
+        <div className={`text-xl font-bold font-mono ${color}`}>{value || "-"}</div>
+    </div>
+);
+
+// Utility: Calculate Live Number based on Annual Growth Rate
+const useLiveEstimate = (baseValueStr, growthRateStr, baseYear) => {
+    const [liveValue, setLiveValue] = useState(baseValueStr);
+
+    useEffect(() => {
+        // Clean strings to numbers (e.g., "334.9M" -> 334900000)
+        const parseValue = (str) => {
+            if (!str) return 0;
+            const num = parseFloat(str.replace(/[^0-9.-]/g, ''));
+            if (str.includes('T')) return num * 1000000000000;
+            if (str.includes('B')) return num * 1000000000;
+            if (str.includes('M')) return num * 1000000;
+            return num;
+        };
+
+        const baseVal = parseValue(baseValueStr);
+        const growthRate = parseFloat(growthRateStr) / 100; // e.g. "2.5%" -> 0.025
+
+        if (!baseVal || isNaN(growthRate) || !baseYear) {
+            setLiveValue(baseValueStr);
+            return;
+        }
+
+        const tick = () => {
+            const now = new Date();
+            // Calculate exact years passed since Jan 1st of the base year
+            const startOfBaseYear = new Date(baseYear, 0, 1);
+            const millisecondsDiff = now - startOfBaseYear;
+            const yearsElapsed = millisecondsDiff / (1000 * 60 * 60 * 24 * 365.25);
+
+            // Linear interpolation formula: Base * (1 + (rate * years))
+            // For population, this adds people every second
+            const currentEst = baseVal * (1 + (growthRate * yearsElapsed));
+
+            // Formatting back to string
+            if (baseValueStr.includes('T') || baseValueStr.includes('B')) {
+                // Keep money formats simpler, maybe update less often
+                setLiveValue(`$${(currentEst / (baseValueStr.includes('T') ? 1e12 : 1e9)).toFixed(3)}${baseValueStr.includes('T') ? 'T' : 'B'}`);
+            } else {
+                // For population, show full integer with commas for that "Ticker" feel
+                setLiveValue(Math.floor(currentEst).toLocaleString());
+            }
+        };
+
+        const interval = setInterval(tick, 50); // Update every 50ms for smooth effect
+        tick(); // Run immediately
+        return () => clearInterval(interval);
+    }, [baseValueStr, growthRateStr, baseYear]);
+
+    return liveValue;
+};
+
+// New Component to display Official + Live Data
+const DualStatCard = ({ label, baseValue, growth, year }) => {
+    const liveValue = useLiveEstimate(baseValue, growth, year);
+
+    return (
+        <div className="p-3 rounded-xl bg-white/5 border border-white/5">
+            <div className="text-xs text-white/40 mb-1 uppercase">{label}</div>
+
+            {/* Live Number */}
+            <div className="text-lg font-bold font-mono text-white tracking-tight">
+                {liveValue}
+                <span className="text-[10px] text-cyan-400 font-normal ml-2 animate-pulse">
+                    ● LIVE
+                </span>
+            </div>
+
+            {/* Official Number */}
+            <div className="text-[10px] text-white/30 mt-1 font-mono">
+                Official ({year}): {baseValue}
+            </div>
+        </div>
+    );
+};
+
 const Dashboard = ({ selectedCountryName, onClose }) => {
     const [activeTab, setActiveTab] = useState('overview');
 
-    // Utility: Calculate Live Number based on Annual Growth Rate
-    const useLiveEstimate = (baseValueStr, growthRateStr, baseYear) => {
-        const [liveValue, setLiveValue] = useState(baseValueStr);
 
-        useEffect(() => {
-            // Clean strings to numbers (e.g., "334.9M" -> 334900000)
-            const parseValue = (str) => {
-                if (!str) return 0;
-                const num = parseFloat(str.replace(/[^0-9.-]/g, ''));
-                if (str.includes('T')) return num * 1000000000000;
-                if (str.includes('B')) return num * 1000000000;
-                if (str.includes('M')) return num * 1000000;
-                return num;
-            };
-
-            const baseVal = parseValue(baseValueStr);
-            const growthRate = parseFloat(growthRateStr) / 100; // e.g. "2.5%" -> 0.025
-
-            if (!baseVal || isNaN(growthRate) || !baseYear) {
-                setLiveValue(baseValueStr);
-                return;
-            }
-
-            const tick = () => {
-                const now = new Date();
-                // Calculate exact years passed since Jan 1st of the base year
-                const startOfBaseYear = new Date(baseYear, 0, 1);
-                const millisecondsDiff = now - startOfBaseYear;
-                const yearsElapsed = millisecondsDiff / (1000 * 60 * 60 * 24 * 365.25);
-
-                // Linear interpolation formula: Base * (1 + (rate * years))
-                // For population, this adds people every second
-                const currentEst = baseVal * (1 + (growthRate * yearsElapsed));
-
-                // Formatting back to string
-                if (baseValueStr.includes('T') || baseValueStr.includes('B')) {
-                    // Keep money formats simpler, maybe update less often
-                    setLiveValue(`$${(currentEst / (baseValueStr.includes('T') ? 1e12 : 1e9)).toFixed(3)}${baseValueStr.includes('T') ? 'T' : 'B'}`);
-                } else {
-                    // For population, show full integer with commas for that "Ticker" feel
-                    setLiveValue(Math.floor(currentEst).toLocaleString());
-                }
-            };
-
-            const interval = setInterval(tick, 50); // Update every 50ms for smooth effect
-            tick(); // Run immediately
-            return () => clearInterval(interval);
-        }, [baseValueStr, growthRateStr, baseYear]);
-
-        return liveValue;
-    };
 
     // DEBUG LOGGING: Open your browser console to see these
     useEffect(() => {
