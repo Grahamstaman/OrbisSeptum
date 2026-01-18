@@ -631,15 +631,15 @@ export const countryData = {
         "segments": [
             {
                 "name": "Services",
-                "value": 0
+                "value": 70
             },
             {
                 "name": "Industry",
-                "value": 0
+                "value": 28
             },
             {
                 "name": "Agriculture",
-                "value": 0
+                "value": 2
             }
         ],
         "activeUsers": "0M",
@@ -694,25 +694,32 @@ export const countryData = {
     "China": {
         "name": "China",
         "code": "CN",
-        "gdp": "$18.3T",
-        "population": "1.41B",
-        "growth": "+3.1%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 55
-            },
-            {
-                "name": "Industry",
-                "value": 38
-            },
-            {
-                "name": "Agriculture",
-                "value": 7
-            }
-        ],
+        "gdp": "$17.79T",
+        "population": "1409670000",
+        "growth": "-0.15%",
+        "dataYear": 2023,
         "activeUsers": "14M",
-        "risk": "Low"
+        "risk": "Medium",
+        "segments": [
+            { "name": "Services", "value": 54 },
+            { "name": "Industry", "value": 38 },
+            { "name": "Agriculture", "value": 8 }
+        ],
+        "demographics": {
+            "age": [
+                { "name": "0-14", "value": 16 },
+                { "name": "15-64", "value": 69 },
+                { "name": "65+", "value": 15 }
+            ],
+            "gender": [
+                { "name": "Male", "value": 51.0 },
+                { "name": "Female", "value": 49.0 }
+            ],
+            "ethnicity": [
+                { "name": "Han Chinese", "value": 91 },
+                { "name": "Ethnic Minorities", "value": 9 }
+            ]
+        }
     },
     "Côte d'Ivoire": {
         "name": "Côte d'Ivoire",
@@ -3868,25 +3875,35 @@ export const countryData = {
     "United States of America": {
         "name": "United States of America",
         "code": "US",
-        "gdp": "$25.6T",
-        "population": "334.0M",
-        "growth": "+2.5%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 0
-            },
-            {
-                "name": "Industry",
-                "value": 0
-            },
-            {
-                "name": "Agriculture",
-                "value": 0
-            }
-        ],
+        "gdp": "$27.36T",
+        "population": "334914895",
+        "growth": "+0.5%",
+        "dataYear": 2023,
         "activeUsers": "3M",
-        "risk": "Low"
+        "risk": "Low",
+        "segments": [
+            { "name": "Services", "value": 80 },
+            { "name": "Industry", "value": 19 },
+            { "name": "Agriculture", "value": 1 }
+        ],
+        "demographics": {
+            "age": [
+                { "name": "0-14", "value": 18 },
+                { "name": "15-64", "value": 63 },
+                { "name": "65+", "value": 19 }
+            ],
+            "gender": [
+                { "name": "Male", "value": 49.5 },
+                { "name": "Female", "value": 50.5 }
+            ],
+            "ethnicity": [
+                { "name": "White (Non-Hispanic)", "value": 58 },
+                { "name": "Hispanic / Latino", "value": 19 },
+                { "name": "Black / African American", "value": 13 },
+                { "name": "Asian", "value": 6 },
+                { "name": "Two or More / Other", "value": 4 }
+            ]
+        }
     },
     "Uzbekistan": {
         "name": "Uzbekistan",

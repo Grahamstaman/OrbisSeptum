@@ -33,7 +33,7 @@ const GlobeComponent = ({ onCountryClick, isRotationPaused }) => {
                 polygonStrokeColor={() => '#111'}
                 polygonLabel={({ properties: d }) => `
           <div class="px-2 py-1 bg-gray-900/90 text-white text-xs rounded border border-cyan-500 shadow-xl font-mono">
-            ${d.NAME} (${d.ISO_A2})
+            ${d.NAME} (${d.ISO_A2 === '-99' ? 'FR' : d.ISO_A2})
           </div>
         `}
                 onPolygonHover={setHoverD}

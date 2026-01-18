@@ -6,6 +6,58 @@ import { countryData } from '../data/mockData';
 const Dashboard = ({ selectedCountryName, onClose }) => {
     const [activeTab, setActiveTab] = useState('overview');
 
+    // Utility: Calculate Live Number based on Annual Growth Rate
+    const useLiveEstimate = (baseValueStr, growthRateStr, baseYear) => {
+        const [liveValue, setLiveValue] = useState(baseValueStr);
+
+        useEffect(() => {
+            // Clean strings to numbers (e.g., "334.9M" -> 334900000)
+            const parseValue = (str) => {
+                if (!str) return 0;
+                const num = parseFloat(str.replace(/[^0-9.-]/g, ''));
+                if (str.includes('T')) return num * 1000000000000;
+                if (str.includes('B')) return num * 1000000000;
+                if (str.includes('M')) return num * 1000000;
+                return num;
+            };
+
+            const baseVal = parseValue(baseValueStr);
+            const growthRate = parseFloat(growthRateStr) / 100; // e.g. "2.5%" -> 0.025
+
+            if (!baseVal || isNaN(growthRate) || !baseYear) {
+                setLiveValue(baseValueStr);
+                return;
+            }
+
+            const tick = () => {
+                const now = new Date();
+                // Calculate exact years passed since Jan 1st of the base year
+                const startOfBaseYear = new Date(baseYear, 0, 1);
+                const millisecondsDiff = now - startOfBaseYear;
+                const yearsElapsed = millisecondsDiff / (1000 * 60 * 60 * 24 * 365.25);
+
+                // Linear interpolation formula: Base * (1 + (rate * years))
+                // For population, this adds people every second
+                const currentEst = baseVal * (1 + (growthRate * yearsElapsed));
+
+                // Formatting back to string
+                if (baseValueStr.includes('T') || baseValueStr.includes('B')) {
+                    // Keep money formats simpler, maybe update less often
+                    setLiveValue(`$${(currentEst / (baseValueStr.includes('T') ? 1e12 : 1e9)).toFixed(3)}${baseValueStr.includes('T') ? 'T' : 'B'}`);
+                } else {
+                    // For population, show full integer with commas for that "Ticker" feel
+                    setLiveValue(Math.floor(currentEst).toLocaleString());
+                }
+            };
+
+            const interval = setInterval(tick, 50); // Update every 50ms for smooth effect
+            tick(); // Run immediately
+            return () => clearInterval(interval);
+        }, [baseValueStr, growthRateStr, baseYear]);
+
+        return liveValue;
+    };
+
     // DEBUG LOGGING: Open your browser console to see these
     useEffect(() => {
         console.log("Dashboard Mounted.");
@@ -174,10 +226,19 @@ const Dashboard = ({ selectedCountryName, onClose }) => {
                             )}
                             {activeTab === 'economics' && (
                                 <div className="grid grid-cols-2 gap-4">
-                                    <StatCard label="GDP" value={country.gdp} />
+                                    <DualStatCard
+                                        label="Population"
+                                        baseValue={country.population}
+                                        growth={country.growth}
+                                        year={country.dataYear || 2023}
+                                    />
+                                    <DualStatCard
+                                        label="GDP"
+                                        baseValue={country.gdp}
+                                        growth={country.growth}
+                                        year={country.dataYear || 2023}
+                                    />
                                     <StatCard label="Growth" value={country.growth} color="text-green-400" />
-                                    <StatCard label="Population" value={country.population} />
-                                    {/* REPLACED HARDCODED VALUE WITH DYNAMIC CALCULATION */}
                                     <StatCard
                                         label="GDP Per Capita"
                                         value={calculatePerCapita(country.gdp, country.population)}
@@ -185,9 +246,50 @@ const Dashboard = ({ selectedCountryName, onClose }) => {
                                 </div>
                             )}
                             {activeTab === 'demographics' && (
-                                <div className="text-center py-8 text-white/30">
-                                    <Users size={48} className="mx-auto mb-4 opacity-50" />
-                                    <p>Demographic breakdown visualization placeholder.</p>
+                                <div className="space-y-6">
+                                    {country.demographics ? (
+                                        <>
+                                            {/* Age Distribution */}
+                                            <div className="p-4 rounded-xl bg-white/5 border border-white/5">
+                                                <h3 className="text-white/70 text-sm mb-3">Age Structure</h3>
+                                                <div className="flex gap-1 h-2 rounded-full overflow-hidden mb-2">
+                                                    {country.demographics.age.map((item, i) => (
+                                                        <div
+                                                            key={item.name}
+                                                            style={{ width: `${item.value}%` }}
+                                                            className={`h-full ${i === 0 ? 'bg-cyan-500' : i === 1 ? 'bg-blue-500' : 'bg-indigo-500'}`}
+                                                        />
+                                                    ))}
+                                                </div>
+                                                <div className="flex justify-between text-xs text-white/40">
+                                                    {country.demographics.age.map((item, i) => (
+                                                        <div key={item.name} className="flex items-center gap-1">
+                                                            <div className={`w-2 h-2 rounded-full ${i === 0 ? 'bg-cyan-500' : i === 1 ? 'bg-blue-500' : 'bg-indigo-500'}`} />
+                                                            {item.name}: {item.value}%
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            </div>
+
+                                            {/* Ethnicity List */}
+                                            <div className="p-4 rounded-xl bg-white/5 border border-white/5">
+                                                <h3 className="text-white/70 text-sm mb-3">Ethnic Groups</h3>
+                                                <div className="space-y-2">
+                                                    {country.demographics.ethnicity.map(eth => (
+                                                        <div key={eth.name} className="flex justify-between items-center text-xs">
+                                                            <span className="text-white/60">{eth.name}</span>
+                                                            <span className="text-white font-mono">{eth.value}%</span>
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        </>
+                                    ) : (
+                                        <div className="text-center py-8 text-white/30">
+                                            <AlertTriangle className="mx-auto mb-2 opacity-50" />
+                                            No detailed demographic data for this region.
+                                        </div>
+                                    )}
                                 </div>
                             )}
                         </motion.div>
@@ -209,5 +311,29 @@ const StatCard = ({ label, value, color = "text-white" }) => (
         <div className={`text-xl font-bold font-mono ${color}`}>{value || "-"}</div>
     </div>
 );
+
+// New Component to display Official + Live Data
+const DualStatCard = ({ label, baseValue, growth, year }) => {
+    const liveValue = useLiveEstimate(baseValue, growth, year);
+
+    return (
+        <div className="p-3 rounded-xl bg-white/5 border border-white/5">
+            <div className="text-xs text-white/40 mb-1 uppercase">{label}</div>
+
+            {/* Live Number */}
+            <div className="text-lg font-bold font-mono text-white tracking-tight">
+                {liveValue}
+                <span className="text-[10px] text-cyan-400 font-normal ml-2 animate-pulse">
+                    ● LIVE
+                </span>
+            </div>
+
+            {/* Official Number */}
+            <div className="text-[10px] text-white/30 mt-1 font-mono">
+                Official ({year}): {baseValue}
+            </div>
+        </div>
+    );
+};
 
 export default Dashboard;
