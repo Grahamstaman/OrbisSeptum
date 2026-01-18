@@ -1197,6 +1197,29 @@ export const countryData = {
         "activeUsers": "1M",
         "risk": "Low"
     },
+    "Finland": {
+        "name": "Finland",
+        "code": "FI",
+        "gdp": "$280.3B",
+        "population": "5.6M",
+        "growth": "+0.8%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 59
+            },
+            {
+                "name": "Industry",
+                "value": 25
+            },
+            {
+                "name": "Agriculture",
+                "value": 2
+            }
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
+    },
     "Fiji": {
         "name": "Fiji",
         "code": "FJ",
@@ -1565,6 +1588,29 @@ export const countryData = {
         "activeUsers": "0M",
         "risk": "Medium"
     },
+    "Croatia": {
+        "name": "Croatia",
+        "code": "HR",
+        "gdp": "$71.2B",
+        "population": "3.9M",
+        "growth": "+7.3%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 60
+            },
+            {
+                "name": "Industry",
+                "value": 20
+            },
+            {
+                "name": "Agriculture",
+                "value": 3
+            }
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
+    },
     "Haiti": {
         "name": "Haiti",
         "code": "HT",
@@ -1772,6 +1818,29 @@ export const countryData = {
         "activeUsers": "0M",
         "risk": "Low"
     },
+    "Italy": {
+        "name": "Italy",
+        "code": "IT",
+        "gdp": "$2.1T",
+        "population": "59.0M",
+        "growth": "+4.8%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 65
+            },
+            {
+                "name": "Industry",
+                "value": 23
+            },
+            {
+                "name": "Agriculture",
+                "value": 2
+            }
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
+    },
     "Jamaica": {
         "name": "Jamaica",
         "code": "JM",
@@ -1840,6 +1909,29 @@ export const countryData = {
         ],
         "activeUsers": "1M",
         "risk": "Medium"
+    },
+    "Kazakhstan": {
+        "name": "Kazakhstan",
+        "code": "KZ",
+        "gdp": "$225.5B",
+        "population": "20.0M",
+        "growth": "+3.2%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 53
+            },
+            {
+                "name": "Industry",
+                "value": 35
+            },
+            {
+                "name": "Agriculture",
+                "value": 5
+            }
+        ],
+        "activeUsers": "0M",
+        "risk": "Low"
     },
     "Kenya": {
         "name": "Kenya",
@@ -2434,6 +2526,29 @@ export const countryData = {
             {
                 "name": "Agriculture",
                 "value": 21
+            }
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
+    },
+    "Malawi": {
+        "name": "Malawi",
+        "code": "MW",
+        "gdp": "$12.4B",
+        "population": "20.6M",
+        "growth": "+0.9%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 49
+            },
+            {
+                "name": "Agriculture",
+                "value": 28
+            },
+            {
+                "name": "Industry",
+                "value": 17
             }
         ],
         "activeUsers": "0M",
@@ -3124,6 +3239,29 @@ export const countryData = {
             {
                 "name": "Agriculture",
                 "value": 0
+            }
+        ],
+        "activeUsers": "0M",
+        "risk": "Medium"
+    },
+    "Senegal": {
+        "name": "Senegal",
+        "code": "SN",
+        "gdp": "$27.8B",
+        "population": "17.7M",
+        "growth": "+3.9%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 50
+            },
+            {
+                "name": "Industry",
+                "value": 25
+            },
+            {
+                "name": "Agriculture",
+                "value": 16
             }
         ],
         "activeUsers": "0M",
@@ -3935,3 +4073,549 @@ export const countryData = {
         "risk": "Medium"
     }
 };
+
+export const globalEvents = [
+    {
+        "id": "EONET_17207",
+        "title": "Tropical Storm Nokaen",
+        "type": "Severe Storms",
+        "lat": 12,
+        "lng": 128,
+        "date": "2026-01-16T06:00:00Z"
+    },
+    {
+        "id": "EONET_17227",
+        "title": "Calf Fire Wildfire, Pittsburg, Oklahoma",
+        "type": "Wildfires",
+        "lat": 34.9602778,
+        "lng": -96.0813889,
+        "date": "2026-01-16T04:07:00Z"
+    },
+    {
+        "id": "EONET_17223",
+        "title": "Keown Falls RX Prescribed Fire, Walker, Georgia",
+        "type": "Wildfires",
+        "lat": 34.617153,
+        "lng": -85.084547,
+        "date": "2026-01-15T13:45:00Z"
+    },
+    {
+        "id": "EONET_17224",
+        "title": "RX CAT BU 46 Prescribed Fire, Grant, Louisiana",
+        "type": "Wildfires",
+        "lat": 31.601963,
+        "lng": -92.52455,
+        "date": "2026-01-15T09:30:00Z"
+    },
+    {
+        "id": "EONET_17231",
+        "title": "SHELL CREEK Wildfire, McIntosh, Oklahoma",
+        "type": "Wildfires",
+        "lat": 35.318056,
+        "lng": -95.855278,
+        "date": "2026-01-15T09:22:00Z"
+    },
+    {
+        "id": "EONET_17228",
+        "title": "RX CALV BU 234-235-236 Prescribed Fire, Vernon, Louisiana",
+        "type": "Wildfires",
+        "lat": 31.052,
+        "lng": -92.965,
+        "date": "2026-01-15T09:15:00Z"
+    },
+    {
+        "id": "EONET_17232",
+        "title": "RX Milam Prescribed Fire, Milam, Texas",
+        "type": "Wildfires",
+        "lat": 30.89277778,
+        "lng": -96.72333333,
+        "date": "2026-01-15T09:05:00Z"
+    },
+    {
+        "id": "EONET_17230",
+        "title": "RX KIS BU 61-62 Prescribed Fire, Natchitoches, Louisiana",
+        "type": "Wildfires",
+        "lat": 31.377667,
+        "lng": -93.1537,
+        "date": "2026-01-15T09:00:00Z"
+    },
+    {
+        "id": "EONET_17233",
+        "title": "RX Kleberg Prescribed Fire, Kleberg, Texas",
+        "type": "Wildfires",
+        "lat": 27.309122,
+        "lng": -97.619391,
+        "date": "2026-01-14T17:12:00Z"
+    },
+    {
+        "id": "EONET_17237",
+        "title": "RX Gib Road Prescribed Fire, Baxter, Arkansas",
+        "type": "Wildfires",
+        "lat": 36.0178,
+        "lng": -92.3294,
+        "date": "2026-01-13T08:47:00Z"
+    },
+    {
+        "id": "EONET_17236",
+        "title": "RX Blowout Prescribed Fire, Montgomery, Arkansas",
+        "type": "Wildfires",
+        "lat": 34.688333,
+        "lng": -93.810556,
+        "date": "2026-01-13T08:35:00Z"
+    },
+    {
+        "id": "EONET_17235",
+        "title": "RX Pedestal Rocks Prescribed Fire, Pope, Arkansas",
+        "type": "Wildfires",
+        "lat": 35.687897,
+        "lng": -93.028483,
+        "date": "2026-01-13T08:23:00Z"
+    },
+    {
+        "id": "EONET_17239",
+        "title": "Fayne Creek RX Prescribed Fire, Talladega, Alabama",
+        "type": "Wildfires",
+        "lat": 33.403611,
+        "lng": -85.934167,
+        "date": "2026-01-12T16:35:00Z"
+    },
+    {
+        "id": "EONET_17101",
+        "title": "RX Bill Bolen 2 Prescribed Fire, Pontotoc, Oklahoma",
+        "type": "Wildfires",
+        "lat": 34.5344,
+        "lng": -96.6082,
+        "date": "2026-01-12T11:04:00Z"
+    },
+    {
+        "id": "EONET_17238",
+        "title": "RX Tacket Mtn Prescribed Fire, Van Buren, Arkansas",
+        "type": "Wildfires",
+        "lat": 35.473233,
+        "lng": -92.792192,
+        "date": "2026-01-12T09:08:00Z"
+    },
+    {
+        "id": "EONET_17240",
+        "title": "RX Turkey Hollow Prescribed Fire, Johnson, Arkansas",
+        "type": "Wildfires",
+        "lat": 35.64505,
+        "lng": -93.297117,
+        "date": "2026-01-12T08:35:00Z"
+    },
+    {
+        "id": "EONET_17226",
+        "title": "ANF BU 215 Rx 0112 Prescribed Fire, Leon, Florida",
+        "type": "Wildfires",
+        "lat": 30.387333,
+        "lng": -84.4835,
+        "date": "2026-01-12T07:40:00Z"
+    },
+    {
+        "id": "EONET_17225",
+        "title": "ANF BU 218 Rx 0112 Prescribed Fire, Leon, Florida",
+        "type": "Wildfires",
+        "lat": 30.3895,
+        "lng": -84.393,
+        "date": "2026-01-12T07:09:00Z"
+    },
+    {
+        "id": "EONET_17080",
+        "title": "Tropical Cyclone Dudzai",
+        "type": "Severe Storms",
+        "lat": -13.4,
+        "lng": 76.1,
+        "date": "2026-01-11T12:00:00Z"
+    },
+    {
+        "id": "EONET_17103",
+        "title": "MIR 9.2 ABC Rx 0111 Prescribed Fire, Brevard, Florida",
+        "type": "Wildfires",
+        "lat": 28.631728,
+        "lng": -80.675053,
+        "date": "2026-01-11T08:33:00Z"
+    }
+];
+
+export const seismicData = [
+    {
+        "id": "ak2026bfhgvo",
+        "type": "Seismic",
+        "lat": 60.15,
+        "lng": -147.864,
+        "val": 2.5,
+        "location": "12 km NE of Chenega, Alaska",
+        "timestamp": 1768697879289,
+        "title": "M 2.5 Earthquake"
+    },
+    {
+        "id": "hv74878592",
+        "type": "Seismic",
+        "lat": 19.4155006408691,
+        "lng": -155.859329223633,
+        "val": 3.1,
+        "location": "4 km S of Honaunau-Napoopoo, Hawaii",
+        "timestamp": 1768695162580,
+        "title": "M 3.1 Earthquake"
+    },
+    {
+        "id": "ak2026bfeeez",
+        "type": "Seismic",
+        "lat": 57.232,
+        "lng": -136.195,
+        "val": 2.6,
+        "location": "55 km WNW of Sitka, Alaska",
+        "timestamp": 1768692257305,
+        "title": "M 2.6 Earthquake"
+    },
+    {
+        "id": "ci41160695",
+        "type": "Seismic",
+        "lat": 36.0934982299805,
+        "lng": -117.896667480469,
+        "val": 3.06552346245291,
+        "location": "7 km NE of Coso Junction, CA",
+        "timestamp": 1768689809710,
+        "title": "M 3.06552346245291 Earthquake"
+    },
+    {
+        "id": "ak2026bfcnsa",
+        "type": "Seismic",
+        "lat": 56.608,
+        "lng": -135.64,
+        "val": 2.5,
+        "location": "53 km SSW of Sitka, Alaska",
+        "timestamp": 1768689304782,
+        "title": "M 2.5 Earthquake"
+    },
+    {
+        "id": "ak2026bfclod",
+        "type": "Seismic",
+        "lat": 57.269,
+        "lng": -136.178,
+        "val": 2.9,
+        "location": "56 km WNW of Sitka, Alaska",
+        "timestamp": 1768689148811,
+        "title": "M 2.9 Earthquake"
+    },
+    {
+        "id": "ak2026bfbrjr",
+        "type": "Seismic",
+        "lat": 57.288,
+        "lng": -136.121,
+        "val": 2.6,
+        "location": "54 km WNW of Sitka, Alaska",
+        "timestamp": 1768687766026,
+        "title": "M 2.6 Earthquake"
+    },
+    {
+        "id": "ak2026bfaxka",
+        "type": "Seismic",
+        "lat": 57.17,
+        "lng": -136.272,
+        "val": 4,
+        "location": "58 km WNW of Sitka, Alaska",
+        "timestamp": 1768686351739,
+        "title": "M 4 Earthquake"
+    },
+    {
+        "id": "us7000rqbx",
+        "type": "Seismic",
+        "lat": 4.243,
+        "lng": 97.499,
+        "val": 4.3,
+        "location": "57 km WSW of Langsa, Indonesia",
+        "timestamp": 1768681419068,
+        "title": "M 4.3 Earthquake"
+    },
+    {
+        "id": "us7000rqbj",
+        "type": "Seismic",
+        "lat": -21.4465,
+        "lng": -176.5984,
+        "val": 4.4,
+        "location": "137 km WSW of Houma, Tonga",
+        "timestamp": 1768675794132,
+        "title": "M 4.4 Earthquake"
+    },
+    {
+        "id": "ak2026beuhei",
+        "type": "Seismic",
+        "lat": 61.203,
+        "lng": -151.306,
+        "val": 3.5,
+        "location": "13 km WNW of Beluga, Alaska",
+        "timestamp": 1768674362748,
+        "title": "M 3.5 Earthquake"
+    },
+    {
+        "id": "us7000rqbc",
+        "type": "Seismic",
+        "lat": -55.7583,
+        "lng": -28.8763,
+        "val": 5.4,
+        "location": "South Sandwich Islands region",
+        "timestamp": 1768672825258,
+        "title": "M 5.4 Earthquake"
+    },
+    {
+        "id": "us7000rqb4",
+        "type": "Seismic",
+        "lat": 24.2892,
+        "lng": 121.8974,
+        "val": 4.4,
+        "location": "45 km NE of Hualien City, Taiwan",
+        "timestamp": 1768669289809,
+        "title": "M 4.4 Earthquake"
+    },
+    {
+        "id": "ak2026belrda",
+        "type": "Seismic",
+        "lat": 60.936,
+        "lng": -147.165,
+        "val": 3.8,
+        "location": "27 km WNW of Tatitlek, Alaska",
+        "timestamp": 1768658760917,
+        "title": "M 3.8 Earthquake"
+    },
+    {
+        "id": "nc75297096",
+        "type": "Seismic",
+        "lat": 36.6565017700195,
+        "lng": -121.307167053223,
+        "val": 3.33,
+        "location": "15 km S of Tres Pinos, CA",
+        "timestamp": 1768658004810,
+        "title": "M 3.33 Earthquake"
+    },
+    {
+        "id": "ok2026behm",
+        "type": "Seismic",
+        "lat": 35.96683333,
+        "lng": -98.2275,
+        "val": 2.57,
+        "location": "9 km W of Loyal, Oklahoma",
+        "timestamp": 1768657897509,
+        "title": "M 2.57 Earthquake"
+    },
+    {
+        "id": "us7000rqbp",
+        "type": "Seismic",
+        "lat": 51.5514,
+        "lng": -173.2995,
+        "val": 3.1,
+        "location": "94 km SE of Atka, Alaska",
+        "timestamp": 1768656793071,
+        "title": "M 3.1 Earthquake"
+    },
+    {
+        "id": "ak2026bejitt",
+        "type": "Seismic",
+        "lat": 51.437,
+        "lng": 178.811,
+        "val": 3.1,
+        "location": "Rat Islands, Aleutian Islands, Alaska",
+        "timestamp": 1768654560081,
+        "title": "M 3.1 Earthquake"
+    },
+    {
+        "id": "tx2026beiwut",
+        "type": "Seismic",
+        "lat": 31.534,
+        "lng": -104.018,
+        "val": 3.1,
+        "location": "32 km NW of Toyah, Texas",
+        "timestamp": 1768653726701,
+        "title": "M 3.1 Earthquake"
+    },
+    {
+        "id": "pr2026017000",
+        "type": "Seismic",
+        "lat": 18.7338,
+        "lng": -68.4263,
+        "val": 3.67,
+        "location": "16 km N of Punta Cana, Dominican Republic",
+        "timestamp": 1768652823680,
+        "title": "M 3.67 Earthquake"
+    },
+    {
+        "id": "us7000rqah",
+        "type": "Seismic",
+        "lat": 17.7148,
+        "lng": -68.5886,
+        "val": 2.8,
+        "location": "73 km S of Boca de Yuma, Dominican Republic",
+        "timestamp": 1768652821445,
+        "title": "M 2.8 Earthquake"
+    },
+    {
+        "id": "us7000rqae",
+        "type": "Seismic",
+        "lat": 48.9557,
+        "lng": 154.8262,
+        "val": 4.5,
+        "location": "212 km SSW of Severo-Kuril’sk, Russia",
+        "timestamp": 1768650285625,
+        "title": "M 4.5 Earthquake"
+    },
+    {
+        "id": "us7000rqa5",
+        "type": "Seismic",
+        "lat": 60.6047,
+        "lng": -139.8501,
+        "val": 3.1,
+        "location": "118 km N of Yakutat, Alaska",
+        "timestamp": 1768646335608,
+        "title": "M 3.1 Earthquake"
+    },
+    {
+        "id": "ak2026bedmlc",
+        "type": "Seismic",
+        "lat": 63.573,
+        "lng": -147.766,
+        "val": 3.6,
+        "location": "59 km ESE of Denali Park, Alaska",
+        "timestamp": 1768643951684,
+        "title": "M 3.6 Earthquake"
+    },
+    {
+        "id": "nc75296981",
+        "type": "Seismic",
+        "lat": 36.0914993286133,
+        "lng": -120.184669494629,
+        "val": 2.79,
+        "location": "11 km NNW of Avenal, CA",
+        "timestamp": 1768642496690,
+        "title": "M 2.79 Earthquake"
+    },
+    {
+        "id": "us7000rq9n",
+        "type": "Seismic",
+        "lat": 52.6246,
+        "lng": 160.7609,
+        "val": 4.3,
+        "location": "151 km ESE of Petropavlovsk-Kamchatsky, Russia",
+        "timestamp": 1768634550058,
+        "title": "M 4.3 Earthquake"
+    },
+    {
+        "id": "pr71505338",
+        "type": "Seismic",
+        "lat": 18.966,
+        "lng": -67.313,
+        "val": 3.15,
+        "location": "57 km NNW of San Antonio, Puerto Rico",
+        "timestamp": 1768633665230,
+        "title": "M 3.15 Earthquake"
+    },
+    {
+        "id": "us7000rq9h",
+        "type": "Seismic",
+        "lat": 52.391,
+        "lng": 160.877,
+        "val": 5.3,
+        "location": "169 km ESE of Petropavlovsk-Kamchatsky, Russia",
+        "timestamp": 1768632401001,
+        "title": "M 5.3 Earthquake"
+    },
+    {
+        "id": "ak2026bdvdkd",
+        "type": "Seismic",
+        "lat": 61.349,
+        "lng": -149.95,
+        "val": 2.7,
+        "location": "1 km SE of Point MacKenzie, Alaska",
+        "timestamp": 1768628839729,
+        "title": "M 2.7 Earthquake"
+    },
+    {
+        "id": "us7000rq9c",
+        "type": "Seismic",
+        "lat": 50.6613,
+        "lng": -175.0208,
+        "val": 2.8,
+        "location": "175 km SE of Adak, Alaska",
+        "timestamp": 1768625963320,
+        "title": "M 2.8 Earthquake"
+    },
+    {
+        "id": "us7000rq95",
+        "type": "Seismic",
+        "lat": 23.9051,
+        "lng": 122.437,
+        "val": 5,
+        "location": "84 km SW of Yonakuni, Japan",
+        "timestamp": 1768623491421,
+        "title": "M 5 Earthquake"
+    },
+    {
+        "id": "nc75296806",
+        "type": "Seismic",
+        "lat": 36.0906677246094,
+        "lng": -120.187835693359,
+        "val": 2.66,
+        "location": "11 km NNW of Avenal, CA",
+        "timestamp": 1768621230870,
+        "title": "M 2.66 Earthquake"
+    },
+    {
+        "id": "pr71505328",
+        "type": "Seismic",
+        "lat": 17.8726666666667,
+        "lng": -66.8465,
+        "val": 2.52,
+        "location": "12 km SSE of Maria Antonia, Puerto Rico",
+        "timestamp": 1768620969460,
+        "title": "M 2.52 Earthquake"
+    },
+    {
+        "id": "us7000rq8y",
+        "type": "Seismic",
+        "lat": -30.5065,
+        "lng": -178.2309,
+        "val": 5.2,
+        "location": "Kermadec Islands, New Zealand",
+        "timestamp": 1768620842525,
+        "title": "M 5.2 Earthquake"
+    },
+    {
+        "id": "ak2026bdqshd",
+        "type": "Seismic",
+        "lat": 57.057,
+        "lng": -155.571,
+        "val": 2.7,
+        "location": "85 km W of Akhiok, Alaska",
+        "timestamp": 1768620816383,
+        "title": "M 2.7 Earthquake"
+    },
+    {
+        "id": "us7000rq8s",
+        "type": "Seismic",
+        "lat": 37.1231,
+        "lng": -105.0136,
+        "val": 2.5,
+        "location": "3 km SE of Stonewall Gap, Colorado",
+        "timestamp": 1768618631446,
+        "title": "M 2.5 Earthquake"
+    },
+    {
+        "id": "ak2026bdpgre",
+        "type": "Seismic",
+        "lat": 61.335,
+        "lng": -149.975,
+        "val": 2.6,
+        "location": "2 km S of Point MacKenzie, Alaska",
+        "timestamp": 1768618207347,
+        "title": "M 2.6 Earthquake"
+    },
+    {
+        "id": "us7000rq8k",
+        "type": "Seismic",
+        "lat": 61.3107,
+        "lng": 137.9216,
+        "val": 4.3,
+        "location": "114 km N of Solnechnyy, Russia",
+        "timestamp": 1768615066766,
+        "title": "M 4.3 Earthquake"
+    }
+];

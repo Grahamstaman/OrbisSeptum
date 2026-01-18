@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import GlobeComponent from './components/GlobeComponent';
 import Dashboard from './components/Dashboard';
+import GlobalEventsPanel from './components/GlobalEventsPanel';
+import IntelligenceSearch from './components/IntelligenceSearch';
 import { AnimatePresence } from 'framer-motion';
 
 function App() {
@@ -40,6 +42,12 @@ function App() {
           </button>
         </div>
       </div>
+
+      {/* Left-Hand Global Events Panel */}
+      <GlobalEventsPanel />
+
+      {/* New Reporting Tool */}
+      <IntelligenceSearch />
 
       {/* Dashboard Side Panel */}
       <AnimatePresence>
