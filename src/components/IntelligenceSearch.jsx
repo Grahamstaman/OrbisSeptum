@@ -24,8 +24,10 @@ const IntelligenceSearch = () => {
         setResults([]);
 
         try {
-            // 1. Fetch News
-            const res = await fetch(`https://newsapi.org/v2/everything?q=${encodeURIComponent(query)}&language=en&sortBy=publishedAt&pageSize=15&apiKey=${API_KEY}`);
+            // 1. Fetch News (Optimized)
+            // searchIn=title: Ensures keyword is in the headline (fixes "Mexico" appearing in random articles)
+            // sortBy=relevance: Prioritizes best matches over newest execution (fixes "Russian Avalanche" noise)
+            const res = await fetch(`https://newsapi.org/v2/everything?q=${encodeURIComponent(query)}&searchIn=title&language=en&sortBy=relevance&pageSize=15&apiKey=${API_KEY}`);
             const data = await res.json();
 
             if (data.status === 'error') throw new Error(data.message);
