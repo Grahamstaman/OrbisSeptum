@@ -11,7 +11,7 @@ const WB_BASE = "http://api.worldbank.org/v2/country";
 const TARGET_ISO_CODES = ["USA", "CHN", "IND", "DEU", "BRA", "JPN", "GBR", "FRA", "RUS", "CAN", "AUS"];
 
 async function fetchCountryStats(iso3) {
-    const format = "format=json&per_page=1&date=2024";
+    const format = "format=json&per_page=1&mrnev=1";
 
     // Indicators:
     // GDP (NY.GDP.MKTP.CD)
@@ -176,7 +176,11 @@ async function main() {
             console.log("OK");
             count++;
         } else {
-            console.log("FAILED");
+            console.log("FAILED - PRESERVING EXISTING DATA");
+            // If fetch fails, keep existing data if present
+            if (existingData[name]) {
+                outputData[name] = existingData[name];
+            }
         }
     }
 
