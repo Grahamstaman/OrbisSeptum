@@ -53,6 +53,27 @@ const Dashboard = ({ selectedCountryName, onClose }) => {
         { id: 'demographics', label: 'Demographics', icon: Users },
     ];
 
+    // Helper to estimate GDP Per Capita from string values (e.g., "$14.5B" / "40.6M")
+    const calculatePerCapita = (gdpStr, popStr) => {
+        if (!gdpStr || !popStr || gdpStr === "N/A" || popStr === "N/A") return "N/A";
+
+        const parseValue = (str) => {
+            const num = parseFloat(str.replace(/[^0-9.]/g, ''));
+            if (str.includes('T')) return num * 1000000000000;
+            if (str.includes('B')) return num * 1000000000;
+            if (str.includes('M')) return num * 1000000;
+            return num;
+        };
+
+        const gdpVal = parseValue(gdpStr);
+        const popVal = parseValue(popStr);
+
+        if (!popVal) return "N/A";
+
+        const perCapita = Math.round(gdpVal / popVal);
+        return `$${perCapita.toLocaleString()}`;
+    };
+
     return (
         <motion.div
             initial={{ x: 400, opacity: 0 }}
@@ -85,15 +106,12 @@ const Dashboard = ({ selectedCountryName, onClose }) => {
 
                     <div className="flex gap-4 mt-4">
                         <div className="flex flex-col">
-                            <span className="text-xs text-white/40 uppercase tracking-widest">Risk Level</span>
+                            <span className="text-xs text-white/40 uppercase tracking-widest">Stability Risk</span>
                             <span className={`text-sm font-semibold ${country.risk === 'Low' ? 'text-green-400' : country.risk === 'Medium' ? 'text-yellow-400' : 'text-red-400'}`}>
                                 {country.risk || "N/A"}
                             </span>
                         </div>
-                        <div className="flex flex-col">
-                            <span className="text-xs text-white/40 uppercase tracking-widest">Est. Users</span>
-                            <span className="text-sm font-semibold text-cyan-300">{country.activeUsers || "0"}</span>
-                        </div>
+                        {/* Removed 'Est. Users' as per request */}
                     </div>
                 </div>
 
@@ -159,7 +177,11 @@ const Dashboard = ({ selectedCountryName, onClose }) => {
                                     <StatCard label="GDP" value={country.gdp} />
                                     <StatCard label="Growth" value={country.growth} color="text-green-400" />
                                     <StatCard label="Population" value={country.population} />
-                                    <StatCard label="Avg. Income" value="$45k" />
+                                    {/* REPLACED HARDCODED VALUE WITH DYNAMIC CALCULATION */}
+                                    <StatCard
+                                        label="GDP Per Capita"
+                                        value={calculatePerCapita(country.gdp, country.population)}
+                                    />
                                 </div>
                             )}
                             {activeTab === 'demographics' && (

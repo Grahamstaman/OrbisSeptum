@@ -1268,26 +1268,26 @@ export const countryData = {
     },
     "France": {
         "name": "France",
-        "code": "-99",
-        "gdp": "$0.0B",
-        "population": "0.0M",
-        "growth": "0.0%",
+        "code": "FR",
+        "gdp": "$3.0T",
+        "population": "67.9M",
+        "growth": "+0.7%",
         "segments": [
             {
                 "name": "Services",
-                "value": 0
+                "value": 70
             },
             {
                 "name": "Industry",
-                "value": 0
+                "value": 19
             },
             {
                 "name": "Agriculture",
-                "value": 0
+                "value": 2
             }
         ],
-        "activeUsers": "0M",
-        "risk": "Medium"
+        "activeUsers": "5M",
+        "risk": "Low"
     },
     "Gabon": {
         "name": "Gabon",
