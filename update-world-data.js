@@ -149,14 +149,31 @@ async function main() {
 
     for (const feature of geoData.features) {
         const name = feature.properties.NAME;
-        const iso3 = feature.properties.ISO_A3;
-        const iso2 = feature.properties.ISO_A2;
+        let iso3 = feature.properties.ISO_A3;
+        let iso2 = feature.properties.ISO_A2;
+
+        // Manual Fixes for known GeoJSON issues
+        if (name === "France" || iso3 === "FRA" || iso3 === "-99") { // France is sometimes -99
+            if (name === "France") {
+                iso2 = "FR";
+                iso3 = "FRA";
+            }
+        }
+        if (name === "Norway" || iso3 === "NOR" || iso3 === "-99") {
+            if (name === "Norway") {
+                iso2 = "NO";
+                iso3 = "NOR";
+            }
+        }
 
         // if (!TARGET_ISO_CODES.includes(iso3)) continue;
 
         process.stdout.write(`   Processing ${name} (${iso3})... `);
 
         const wbStats = await fetchCountryStats(iso3);
+
+        // Add delay to prevent rate limiting
+        await new Promise(resolve => setTimeout(resolve, 300));
 
         if (wbStats) {
             const intelligence = generateIntelligence(name, wbStats);

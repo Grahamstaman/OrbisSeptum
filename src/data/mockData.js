@@ -24,6 +24,75 @@ export const countryData = {
         "activeUsers": "0.4M",
         "risk": "Medium"
     },
+    "Angola": {
+        "name": "Angola",
+        "code": "AO",
+        "gdp": "$101.0B",
+        "population": "37.9M",
+        "growth": "+4.4%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 41
+            },
+            {
+                "name": "Industry",
+                "value": 35
+            },
+            {
+                "name": "Agriculture",
+                "value": 22
+            }
+        ],
+        "activeUsers": "0.4M",
+        "risk": "Low"
+    },
+    "Albania": {
+        "name": "Albania",
+        "code": "AL",
+        "gdp": "$27.0B",
+        "population": "2.4M",
+        "growth": "+4.0%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 49
+            },
+            {
+                "name": "Industry",
+                "value": 22
+            },
+            {
+                "name": "Agriculture",
+                "value": 15
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
+    },
+    "United Arab Emirates": {
+        "name": "United Arab Emirates",
+        "code": "AE",
+        "gdp": "$552.3B",
+        "population": "11.0M",
+        "growth": "+4.0%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 55
+            },
+            {
+                "name": "Industry",
+                "value": 44
+            },
+            {
+                "name": "Agriculture",
+                "value": 1
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "Low"
+    },
     "Argentina": {
         "name": "Argentina",
         "code": "AR",
@@ -46,6 +115,29 @@ export const countryData = {
         ],
         "activeUsers": "0.5M",
         "risk": "High"
+    },
+    "Armenia": {
+        "name": "Armenia",
+        "code": "AM",
+        "gdp": "$26.0B",
+        "population": "3.0M",
+        "growth": "+5.9%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 62
+            },
+            {
+                "name": "Industry",
+                "value": 23
+            },
+            {
+                "name": "Agriculture",
+                "value": 8
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
     },
     "Antarctica": {
         "name": "Antarctica",
@@ -208,6 +300,29 @@ export const countryData = {
         "activeUsers": "0.1M",
         "risk": "Medium"
     },
+    "Benin": {
+        "name": "Benin",
+        "code": "BJ",
+        "gdp": "$21.5B",
+        "population": "14.5M",
+        "growth": "+7.5%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 49
+            },
+            {
+                "name": "Agriculture",
+                "value": 24
+            },
+            {
+                "name": "Industry",
+                "value": 17
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "Medium"
+    },
     "Burkina Faso": {
         "name": "Burkina Faso",
         "code": "BF",
@@ -300,6 +415,29 @@ export const countryData = {
         "activeUsers": "0.0M",
         "risk": "Medium"
     },
+    "Bosnia and Herz.": {
+        "name": "Bosnia and Herz.",
+        "code": "BA",
+        "gdp": "$29.6B",
+        "population": "3.2M",
+        "growth": "+3.0%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 57
+            },
+            {
+                "name": "Industry",
+                "value": 22
+            },
+            {
+                "name": "Agriculture",
+                "value": 5
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
+    },
     "Belarus": {
         "name": "Belarus",
         "code": "BY",
@@ -321,6 +459,29 @@ export const countryData = {
             }
         ],
         "activeUsers": "0.1M",
+        "risk": "Medium"
+    },
+    "Belize": {
+        "name": "Belize",
+        "code": "BZ",
+        "gdp": "$3.2B",
+        "population": "0.4M",
+        "growth": "+3.5%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 62
+            },
+            {
+                "name": "Industry",
+                "value": 15
+            },
+            {
+                "name": "Agriculture",
+                "value": 8
+            }
+        ],
+        "activeUsers": "0.0M",
         "risk": "Medium"
     },
     "Bolivia": {
@@ -345,6 +506,29 @@ export const countryData = {
         ],
         "activeUsers": "0.1M",
         "risk": "High"
+    },
+    "Brazil": {
+        "name": "Brazil",
+        "code": "BR",
+        "gdp": "$2.2T",
+        "population": "212.0M",
+        "growth": "+3.4%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 59
+            },
+            {
+                "name": "Industry",
+                "value": 21
+            },
+            {
+                "name": "Agriculture",
+                "value": 6
+            }
+        ],
+        "activeUsers": "2.1M",
+        "risk": "Low"
     },
     "Brunei": {
         "name": "Brunei",
@@ -392,6 +576,29 @@ export const countryData = {
         "activeUsers": "0.0M",
         "risk": "Medium"
     },
+    "Botswana": {
+        "name": "Botswana",
+        "code": "BW",
+        "gdp": "$19.4B",
+        "population": "2.5M",
+        "growth": "-3.0%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 63
+            },
+            {
+                "name": "Industry",
+                "value": 29
+            },
+            {
+                "name": "Agriculture",
+                "value": 2
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "High"
+    },
     "Central African Rep.": {
         "name": "Central African Rep.",
         "code": "CF",
@@ -438,6 +645,29 @@ export const countryData = {
         "activeUsers": "0.4M",
         "risk": "Medium"
     },
+    "Switzerland": {
+        "name": "Switzerland",
+        "code": "CH",
+        "gdp": "$936.6B",
+        "population": "9.0M",
+        "growth": "+1.3%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 72
+            },
+            {
+                "name": "Industry",
+                "value": 25
+            },
+            {
+                "name": "Agriculture",
+                "value": 1
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "Medium"
+    },
     "Chile": {
         "name": "Chile",
         "code": "CL",
@@ -459,6 +689,29 @@ export const countryData = {
             }
         ],
         "activeUsers": "0.2M",
+        "risk": "Low"
+    },
+    "China": {
+        "name": "China",
+        "code": "CN",
+        "gdp": "$18.7T",
+        "population": "1.41B",
+        "growth": "+5.0%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 57
+            },
+            {
+                "name": "Industry",
+                "value": 36
+            },
+            {
+                "name": "Agriculture",
+                "value": 7
+            }
+        ],
+        "activeUsers": "14.1M",
         "risk": "Low"
     },
     "Côte d'Ivoire": {
@@ -505,6 +758,29 @@ export const countryData = {
             }
         ],
         "activeUsers": "0.3M",
+        "risk": "Medium"
+    },
+    "Dem. Rep. Congo": {
+        "name": "Dem. Rep. Congo",
+        "code": "CD",
+        "gdp": "$71.0B",
+        "population": "109.3M",
+        "growth": "+6.1%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 47
+            },
+            {
+                "name": "Industry",
+                "value": 40
+            },
+            {
+                "name": "Agriculture",
+                "value": 10
+            }
+        ],
+        "activeUsers": "1.1M",
         "risk": "Medium"
     },
     "Congo": {
@@ -576,6 +852,29 @@ export const countryData = {
         "activeUsers": "0.1M",
         "risk": "Medium"
     },
+    "Cuba": {
+        "name": "Cuba",
+        "code": "CU",
+        "gdp": "$107.4B",
+        "population": "11.0M",
+        "growth": "-1.1%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 73
+            },
+            {
+                "name": "Industry",
+                "value": 24
+            },
+            {
+                "name": "Agriculture",
+                "value": 1
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "High"
+    },
     "N. Cyprus": {
         "name": "N. Cyprus",
         "code": "-99",
@@ -597,6 +896,52 @@ export const countryData = {
             }
         ],
         "activeUsers": "0.0M",
+        "risk": "Medium"
+    },
+    "Cyprus": {
+        "name": "Cyprus",
+        "code": "CY",
+        "gdp": "$37.6B",
+        "population": "1.4M",
+        "growth": "+3.9%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 76
+            },
+            {
+                "name": "Industry",
+                "value": 11
+            },
+            {
+                "name": "Agriculture",
+                "value": 1
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
+    },
+    "Czechia": {
+        "name": "Czechia",
+        "code": "CZ",
+        "gdp": "$347.0B",
+        "population": "10.9M",
+        "growth": "+1.2%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 60
+            },
+            {
+                "name": "Industry",
+                "value": 29
+            },
+            {
+                "name": "Agriculture",
+                "value": 2
+            }
+        ],
+        "activeUsers": "0.1M",
         "risk": "Medium"
     },
     "Germany": {
@@ -621,6 +966,29 @@ export const countryData = {
         ],
         "activeUsers": "0.8M",
         "risk": "High"
+    },
+    "Djibouti": {
+        "name": "Djibouti",
+        "code": "DJ",
+        "gdp": "$4.2B",
+        "population": "1.2M",
+        "growth": "+7.0%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 76
+            },
+            {
+                "name": "Industry",
+                "value": 16
+            },
+            {
+                "name": "Agriculture",
+                "value": 3
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
     },
     "Denmark": {
         "name": "Denmark",
@@ -668,6 +1036,98 @@ export const countryData = {
         "activeUsers": "0.1M",
         "risk": "Low"
     },
+    "Algeria": {
+        "name": "Algeria",
+        "code": "DZ",
+        "gdp": "$269.3B",
+        "population": "46.8M",
+        "growth": "+3.7%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 47
+            },
+            {
+                "name": "Industry",
+                "value": 36
+            },
+            {
+                "name": "Agriculture",
+                "value": 14
+            }
+        ],
+        "activeUsers": "0.5M",
+        "risk": "Low"
+    },
+    "Ecuador": {
+        "name": "Ecuador",
+        "code": "EC",
+        "gdp": "$124.7B",
+        "population": "18.1M",
+        "growth": "-2.0%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 57
+            },
+            {
+                "name": "Industry",
+                "value": 27
+            },
+            {
+                "name": "Agriculture",
+                "value": 9
+            }
+        ],
+        "activeUsers": "0.2M",
+        "risk": "High"
+    },
+    "Egypt": {
+        "name": "Egypt",
+        "code": "EG",
+        "gdp": "$389.1B",
+        "population": "116.5M",
+        "growth": "+2.4%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 49
+            },
+            {
+                "name": "Industry",
+                "value": 33
+            },
+            {
+                "name": "Agriculture",
+                "value": 14
+            }
+        ],
+        "activeUsers": "1.2M",
+        "risk": "Low"
+    },
+    "Eritrea": {
+        "name": "Eritrea",
+        "code": "ER",
+        "gdp": "$2.1B",
+        "population": "3.5M",
+        "growth": "+8.7%",
+        "segments": [
+            {
+                "name": "Industry",
+                "value": 22
+            },
+            {
+                "name": "Agriculture",
+                "value": 14
+            },
+            {
+                "name": "Services",
+                "value": 0
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
+    },
     "Spain": {
         "name": "Spain",
         "code": "ES",
@@ -713,6 +1173,29 @@ export const countryData = {
         ],
         "activeUsers": "0.0M",
         "risk": "High"
+    },
+    "Ethiopia": {
+        "name": "Ethiopia",
+        "code": "ET",
+        "gdp": "$149.7B",
+        "population": "132.1M",
+        "growth": "+7.6%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 37
+            },
+            {
+                "name": "Agriculture",
+                "value": 35
+            },
+            {
+                "name": "Industry",
+                "value": 25
+            }
+        ],
+        "activeUsers": "1.3M",
+        "risk": "Low"
     },
     "Finland": {
         "name": "Finland",
@@ -785,22 +1268,45 @@ export const countryData = {
     },
     "France": {
         "name": "France",
-        "code": "-99",
-        "gdp": "$0.0B",
-        "population": "0.0M",
-        "growth": "0.0%",
+        "code": "FR",
+        "gdp": "$3.2T",
+        "population": "68.6M",
+        "growth": "+1.2%",
         "segments": [
             {
                 "name": "Services",
-                "value": 0
+                "value": 71
             },
             {
                 "name": "Industry",
-                "value": 0
+                "value": 17
             },
             {
                 "name": "Agriculture",
-                "value": 0
+                "value": 1
+            }
+        ],
+        "activeUsers": "0.7M",
+        "risk": "Medium"
+    },
+    "Gabon": {
+        "name": "Gabon",
+        "code": "GA",
+        "gdp": "$20.9B",
+        "population": "2.5M",
+        "growth": "+3.4%",
+        "segments": [
+            {
+                "name": "Industry",
+                "value": 53
+            },
+            {
+                "name": "Services",
+                "value": 37
+            },
+            {
+                "name": "Agriculture",
+                "value": 7
             }
         ],
         "activeUsers": "0.0M",
@@ -875,6 +1381,29 @@ export const countryData = {
         "activeUsers": "0.3M",
         "risk": "Medium"
     },
+    "Guinea": {
+        "name": "Guinea",
+        "code": "GN",
+        "gdp": "$25.0B",
+        "population": "14.8M",
+        "growth": "+5.4%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 36
+            },
+            {
+                "name": "Agriculture",
+                "value": 31
+            },
+            {
+                "name": "Industry",
+                "value": 25
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "Medium"
+    },
     "Gambia": {
         "name": "Gambia",
         "code": "GM",
@@ -943,6 +1472,29 @@ export const countryData = {
         ],
         "activeUsers": "0.0M",
         "risk": "Medium"
+    },
+    "Greece": {
+        "name": "Greece",
+        "code": "GR",
+        "gdp": "$256.2B",
+        "population": "10.4M",
+        "growth": "+2.1%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 68
+            },
+            {
+                "name": "Industry",
+                "value": 15
+            },
+            {
+                "name": "Agriculture",
+                "value": 4
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "Low"
     },
     "Greenland": {
         "name": "Greenland",
@@ -1059,6 +1611,29 @@ export const countryData = {
         "activeUsers": "0.0M",
         "risk": "Medium"
     },
+    "Haiti": {
+        "name": "Haiti",
+        "code": "HT",
+        "gdp": "$25.2B",
+        "population": "11.8M",
+        "growth": "-4.2%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 48
+            },
+            {
+                "name": "Industry",
+                "value": 33
+            },
+            {
+                "name": "Agriculture",
+                "value": 16
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "High"
+    },
     "Hungary": {
         "name": "Hungary",
         "code": "HU",
@@ -1081,6 +1656,29 @@ export const countryData = {
         ],
         "activeUsers": "0.1M",
         "risk": "Medium"
+    },
+    "Indonesia": {
+        "name": "Indonesia",
+        "code": "ID",
+        "gdp": "$1.4T",
+        "population": "283.5M",
+        "growth": "+5.0%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 44
+            },
+            {
+                "name": "Industry",
+                "value": 39
+            },
+            {
+                "name": "Agriculture",
+                "value": 13
+            }
+        ],
+        "activeUsers": "2.8M",
+        "risk": "Low"
     },
     "India": {
         "name": "India",
@@ -1128,6 +1726,29 @@ export const countryData = {
         "activeUsers": "0.1M",
         "risk": "Low"
     },
+    "Iran": {
+        "name": "Iran",
+        "code": "IR",
+        "gdp": "$475.3B",
+        "population": "91.6M",
+        "growth": "+3.7%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 50
+            },
+            {
+                "name": "Industry",
+                "value": 36
+            },
+            {
+                "name": "Agriculture",
+                "value": 11
+            }
+        ],
+        "activeUsers": "0.9M",
+        "risk": "Low"
+    },
     "Iraq": {
         "name": "Iraq",
         "code": "IQ",
@@ -1149,6 +1770,29 @@ export const countryData = {
             }
         ],
         "activeUsers": "0.5M",
+        "risk": "High"
+    },
+    "Iceland": {
+        "name": "Iceland",
+        "code": "IS",
+        "gdp": "$33.3B",
+        "population": "0.4M",
+        "growth": "-1.0%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 65
+            },
+            {
+                "name": "Industry",
+                "value": 20
+            },
+            {
+                "name": "Agriculture",
+                "value": 4
+            }
+        ],
+        "activeUsers": "0.0M",
         "risk": "High"
     },
     "Israel": {
@@ -1196,6 +1840,29 @@ export const countryData = {
         ],
         "activeUsers": "0.6M",
         "risk": "Medium"
+    },
+    "Jamaica": {
+        "name": "Jamaica",
+        "code": "JM",
+        "gdp": "$22.0B",
+        "population": "2.8M",
+        "growth": "-0.5%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 60
+            },
+            {
+                "name": "Industry",
+                "value": 16
+            },
+            {
+                "name": "Agriculture",
+                "value": 8
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "High"
     },
     "Jordan": {
         "name": "Jordan",
@@ -1265,6 +1932,52 @@ export const countryData = {
         ],
         "activeUsers": "0.2M",
         "risk": "Low"
+    },
+    "Kenya": {
+        "name": "Kenya",
+        "code": "KE",
+        "gdp": "$120.3B",
+        "population": "56.4M",
+        "growth": "+4.7%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 55
+            },
+            {
+                "name": "Agriculture",
+                "value": 22
+            },
+            {
+                "name": "Industry",
+                "value": 16
+            }
+        ],
+        "activeUsers": "0.6M",
+        "risk": "Low"
+    },
+    "Kyrgyzstan": {
+        "name": "Kyrgyzstan",
+        "code": "KG",
+        "gdp": "$17.5B",
+        "population": "7.2M",
+        "growth": "+9.0%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 52
+            },
+            {
+                "name": "Industry",
+                "value": 25
+            },
+            {
+                "name": "Agriculture",
+                "value": 9
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "Medium"
     },
     "Cambodia": {
         "name": "Cambodia",
@@ -1358,6 +2071,52 @@ export const countryData = {
         "activeUsers": "0.0M",
         "risk": "High"
     },
+    "Laos": {
+        "name": "Laos",
+        "code": "LA",
+        "gdp": "$16.5B",
+        "population": "7.8M",
+        "growth": "+4.1%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 44
+            },
+            {
+                "name": "Industry",
+                "value": 29
+            },
+            {
+                "name": "Agriculture",
+                "value": 17
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "Medium"
+    },
+    "Lebanon": {
+        "name": "Lebanon",
+        "code": "LB",
+        "gdp": "$20.1B",
+        "population": "5.8M",
+        "growth": "-0.8%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 42
+            },
+            {
+                "name": "Industry",
+                "value": 2
+            },
+            {
+                "name": "Agriculture",
+                "value": 1
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "High"
+    },
     "Liberia": {
         "name": "Liberia",
         "code": "LR",
@@ -1404,6 +2163,29 @@ export const countryData = {
         "activeUsers": "0.1M",
         "risk": "Medium"
     },
+    "Sri Lanka": {
+        "name": "Sri Lanka",
+        "code": "LK",
+        "gdp": "$99.0B",
+        "population": "21.9M",
+        "growth": "+5.0%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 57
+            },
+            {
+                "name": "Industry",
+                "value": 26
+            },
+            {
+                "name": "Agriculture",
+                "value": 8
+            }
+        ],
+        "activeUsers": "0.2M",
+        "risk": "Medium"
+    },
     "Lesotho": {
         "name": "Lesotho",
         "code": "LS",
@@ -1426,6 +2208,75 @@ export const countryData = {
         ],
         "activeUsers": "0.0M",
         "risk": "Medium"
+    },
+    "Lithuania": {
+        "name": "Lithuania",
+        "code": "LT",
+        "gdp": "$84.9B",
+        "population": "2.9M",
+        "growth": "+2.8%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 64
+            },
+            {
+                "name": "Industry",
+                "value": 23
+            },
+            {
+                "name": "Agriculture",
+                "value": 3
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
+    },
+    "Luxembourg": {
+        "name": "Luxembourg",
+        "code": "LU",
+        "gdp": "$93.3B",
+        "population": "0.7M",
+        "growth": "+0.4%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 81
+            },
+            {
+                "name": "Industry",
+                "value": 10
+            },
+            {
+                "name": "Agriculture",
+                "value": 0
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
+    },
+    "Latvia": {
+        "name": "Latvia",
+        "code": "LV",
+        "gdp": "$43.7B",
+        "population": "1.9M",
+        "growth": "-0.0%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 65
+            },
+            {
+                "name": "Industry",
+                "value": 18
+            },
+            {
+                "name": "Agriculture",
+                "value": 4
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "High"
     },
     "Morocco": {
         "name": "Morocco",
@@ -1473,6 +2324,29 @@ export const countryData = {
         "activeUsers": "0.0M",
         "risk": "Medium"
     },
+    "Madagascar": {
+        "name": "Madagascar",
+        "code": "MG",
+        "gdp": "$17.4B",
+        "population": "32.0M",
+        "growth": "+4.2%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 48
+            },
+            {
+                "name": "Industry",
+                "value": 23
+            },
+            {
+                "name": "Agriculture",
+                "value": 22
+            }
+        ],
+        "activeUsers": "0.3M",
+        "risk": "Medium"
+    },
     "Mexico": {
         "name": "Mexico",
         "code": "MX",
@@ -1494,6 +2368,52 @@ export const countryData = {
             }
         ],
         "activeUsers": "1.3M",
+        "risk": "Medium"
+    },
+    "Macedonia": {
+        "name": "Macedonia",
+        "code": "MK",
+        "gdp": "$17.0B",
+        "population": "1.8M",
+        "growth": "+3.0%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 56
+            },
+            {
+                "name": "Industry",
+                "value": 24
+            },
+            {
+                "name": "Agriculture",
+                "value": 6
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
+    },
+    "Mali": {
+        "name": "Mali",
+        "code": "ML",
+        "gdp": "$26.8B",
+        "population": "24.5M",
+        "growth": "+5.0%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 36
+            },
+            {
+                "name": "Agriculture",
+                "value": 33
+            },
+            {
+                "name": "Industry",
+                "value": 23
+            }
+        ],
+        "activeUsers": "0.2M",
         "risk": "Medium"
     },
     "Myanmar": {
@@ -1519,6 +2439,29 @@ export const countryData = {
         "activeUsers": "0.5M",
         "risk": "High"
     },
+    "Montenegro": {
+        "name": "Montenegro",
+        "code": "ME",
+        "gdp": "$8.3B",
+        "population": "0.6M",
+        "growth": "+3.2%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 64
+            },
+            {
+                "name": "Industry",
+                "value": 12
+            },
+            {
+                "name": "Agriculture",
+                "value": 3
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
+    },
     "Mongolia": {
         "name": "Mongolia",
         "code": "MN",
@@ -1540,6 +2483,29 @@ export const countryData = {
             }
         ],
         "activeUsers": "0.0M",
+        "risk": "Medium"
+    },
+    "Mozambique": {
+        "name": "Mozambique",
+        "code": "MZ",
+        "gdp": "$22.7B",
+        "population": "34.6M",
+        "growth": "+2.1%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 41
+            },
+            {
+                "name": "Agriculture",
+                "value": 25
+            },
+            {
+                "name": "Industry",
+                "value": 22
+            }
+        ],
+        "activeUsers": "0.3M",
         "risk": "Medium"
     },
     "Mauritania": {
@@ -1588,6 +2554,29 @@ export const countryData = {
         "activeUsers": "0.2M",
         "risk": "Medium"
     },
+    "Malaysia": {
+        "name": "Malaysia",
+        "code": "MY",
+        "gdp": "$422.2B",
+        "population": "35.6M",
+        "growth": "+5.1%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 54
+            },
+            {
+                "name": "Industry",
+                "value": 37
+            },
+            {
+                "name": "Agriculture",
+                "value": 8
+            }
+        ],
+        "activeUsers": "0.4M",
+        "risk": "Low"
+    },
     "Namibia": {
         "name": "Namibia",
         "code": "NA",
@@ -1633,6 +2622,29 @@ export const countryData = {
         ],
         "activeUsers": "0.0M",
         "risk": "High"
+    },
+    "Niger": {
+        "name": "Niger",
+        "code": "NE",
+        "gdp": "$19.9B",
+        "population": "27.0M",
+        "growth": "+10.3%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 45
+            },
+            {
+                "name": "Agriculture",
+                "value": 34
+            },
+            {
+                "name": "Industry",
+                "value": 18
+            }
+        ],
+        "activeUsers": "0.3M",
+        "risk": "Medium"
     },
     "Nigeria": {
         "name": "Nigeria",
@@ -1680,28 +2692,51 @@ export const countryData = {
         "activeUsers": "0.1M",
         "risk": "Medium"
     },
-    "Norway": {
-        "name": "Norway",
-        "code": "-99",
-        "gdp": "$0.0B",
-        "population": "0.0M",
-        "growth": "0.0%",
+    "Netherlands": {
+        "name": "Netherlands",
+        "code": "NL",
+        "gdp": "$1.2T",
+        "population": "18.0M",
+        "growth": "+1.1%",
         "segments": [
             {
                 "name": "Services",
-                "value": 0
+                "value": 70
             },
             {
                 "name": "Industry",
-                "value": 0
+                "value": 18
             },
             {
                 "name": "Agriculture",
-                "value": 0
+                "value": 2
             }
         ],
-        "activeUsers": "0.0M",
+        "activeUsers": "0.2M",
         "risk": "Medium"
+    },
+    "Norway": {
+        "name": "Norway",
+        "code": "NO",
+        "gdp": "$483.6B",
+        "population": "5.6M",
+        "growth": "+2.1%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 52
+            },
+            {
+                "name": "Industry",
+                "value": 37
+            },
+            {
+                "name": "Agriculture",
+                "value": 2
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "Low"
     },
     "Nepal": {
         "name": "Nepal",
@@ -1794,6 +2829,29 @@ export const countryData = {
         ],
         "activeUsers": "2.5M",
         "risk": "Low"
+    },
+    "Panama": {
+        "name": "Panama",
+        "code": "PA",
+        "gdp": "$86.5B",
+        "population": "4.5M",
+        "growth": "+2.7%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 69
+            },
+            {
+                "name": "Industry",
+                "value": 26
+            },
+            {
+                "name": "Agriculture",
+                "value": 3
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
     },
     "Peru": {
         "name": "Peru",
@@ -2048,6 +3106,29 @@ export const countryData = {
         "activeUsers": "0.2M",
         "risk": "Medium"
     },
+    "Russia": {
+        "name": "Russia",
+        "code": "RU",
+        "gdp": "$2.2T",
+        "population": "143.5M",
+        "growth": "+4.3%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 58
+            },
+            {
+                "name": "Industry",
+                "value": 31
+            },
+            {
+                "name": "Agriculture",
+                "value": 3
+            }
+        ],
+        "activeUsers": "1.4M",
+        "risk": "Low"
+    },
     "Rwanda": {
         "name": "Rwanda",
         "code": "RW",
@@ -2138,6 +3219,29 @@ export const countryData = {
             }
         ],
         "activeUsers": "0.5M",
+        "risk": "High"
+    },
+    "S. Sudan": {
+        "name": "S. Sudan",
+        "code": "SS",
+        "gdp": "$12.0B",
+        "population": "11.9M",
+        "growth": "-10.8%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 57
+            },
+            {
+                "name": "Industry",
+                "value": 33
+            },
+            {
+                "name": "Agriculture",
+                "value": 10
+            }
+        ],
+        "activeUsers": "0.1M",
         "risk": "High"
     },
     "Senegal": {
@@ -2462,6 +3566,52 @@ export const countryData = {
         "activeUsers": "0.2M",
         "risk": "Medium"
     },
+    "Togo": {
+        "name": "Togo",
+        "code": "TG",
+        "gdp": "$10.7B",
+        "population": "9.5M",
+        "growth": "+6.5%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 49
+            },
+            {
+                "name": "Agriculture",
+                "value": 21
+            },
+            {
+                "name": "Industry",
+                "value": 20
+            }
+        ],
+        "activeUsers": "0.1M",
+        "risk": "Medium"
+    },
+    "Thailand": {
+        "name": "Thailand",
+        "code": "TH",
+        "gdp": "$526.5B",
+        "population": "71.7M",
+        "growth": "+2.5%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 59
+            },
+            {
+                "name": "Industry",
+                "value": 32
+            },
+            {
+                "name": "Agriculture",
+                "value": 9
+            }
+        ],
+        "activeUsers": "0.7M",
+        "risk": "Low"
+    },
     "Tajikistan": {
         "name": "Tajikistan",
         "code": "TJ",
@@ -2530,6 +3680,29 @@ export const countryData = {
         ],
         "activeUsers": "0.0M",
         "risk": "High"
+    },
+    "Trinidad and Tobago": {
+        "name": "Trinidad and Tobago",
+        "code": "TT",
+        "gdp": "$25.6B",
+        "population": "1.4M",
+        "growth": "+2.5%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 59
+            },
+            {
+                "name": "Industry",
+                "value": 35
+            },
+            {
+                "name": "Agriculture",
+                "value": 1
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
     },
     "Tunisia": {
         "name": "Tunisia",
@@ -2646,6 +3819,29 @@ export const countryData = {
         "activeUsers": "0.5M",
         "risk": "Medium"
     },
+    "Ukraine": {
+        "name": "Ukraine",
+        "code": "UA",
+        "gdp": "$190.7B",
+        "population": "37.9M",
+        "growth": "+2.9%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 61
+            },
+            {
+                "name": "Industry",
+                "value": 19
+            },
+            {
+                "name": "Agriculture",
+                "value": 7
+            }
+        ],
+        "activeUsers": "0.4M",
+        "risk": "Low"
+    },
     "Uruguay": {
         "name": "Uruguay",
         "code": "UY",
@@ -2669,98 +3865,6 @@ export const countryData = {
         "activeUsers": "0.0M",
         "risk": "Medium"
     },
-    "Venezuela": {
-        "name": "Venezuela",
-        "code": "VE",
-        "gdp": "$119.8B",
-        "population": "28.4M",
-        "growth": "+5.3%",
-        "segments": [
-            {
-                "name": "Industry",
-                "value": 49
-            },
-            {
-                "name": "Services",
-                "value": 39
-            },
-            {
-                "name": "Agriculture",
-                "value": 5
-            }
-        ],
-        "activeUsers": "0.3M",
-        "risk": "Low"
-    },
-    "Yemen": {
-        "name": "Yemen",
-        "code": "YE",
-        "gdp": "$21.6B",
-        "population": "40.6M",
-        "growth": "+0.8%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 42
-            },
-            {
-                "name": "Agriculture",
-                "value": 29
-            },
-            {
-                "name": "Industry",
-                "value": 25
-            }
-        ],
-        "activeUsers": "0.4M",
-        "risk": "Medium"
-    },
-    "South Africa": {
-        "name": "South Africa",
-        "code": "ZA",
-        "gdp": "$401.1B",
-        "population": "64.0M",
-        "growth": "+0.5%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 63
-            },
-            {
-                "name": "Industry",
-                "value": 24
-            },
-            {
-                "name": "Agriculture",
-                "value": 3
-            }
-        ],
-        "activeUsers": "0.6M",
-        "risk": "Medium"
-    },
-    "Zimbabwe": {
-        "name": "Zimbabwe",
-        "code": "ZW",
-        "gdp": "$41.5B",
-        "population": "16.6M",
-        "growth": "+1.7%",
-        "segments": [
-            {
-                "name": "Services",
-                "value": 51
-            },
-            {
-                "name": "Industry",
-                "value": 35
-            },
-            {
-                "name": "Agriculture",
-                "value": 9
-            }
-        ],
-        "activeUsers": "0.2M",
-        "risk": "Medium"
-    },
     "United States of America": {
         "name": "United States of America",
         "code": "US",
@@ -2774,7 +3878,7 @@ export const countryData = {
             },
             {
                 "name": "Industry",
-                "value": 21
+                "value": 18
             },
             {
                 "name": "Agriculture",
@@ -2832,10 +3936,338 @@ export const countryData = {
             ]
         },
         "dataYear": 2024
+    },
+    "Uzbekistan": {
+        "name": "Uzbekistan",
+        "code": "UZ",
+        "gdp": "$115.0B",
+        "population": "36.4M",
+        "growth": "+6.5%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 45
+            },
+            {
+                "name": "Industry",
+                "value": 32
+            },
+            {
+                "name": "Agriculture",
+                "value": 18
+            }
+        ],
+        "activeUsers": "0.4M",
+        "risk": "Low"
+    },
+    "Venezuela": {
+        "name": "Venezuela",
+        "code": "VE",
+        "gdp": "$119.8B",
+        "population": "28.4M",
+        "growth": "+5.3%",
+        "segments": [
+            {
+                "name": "Industry",
+                "value": 49
+            },
+            {
+                "name": "Services",
+                "value": 39
+            },
+            {
+                "name": "Agriculture",
+                "value": 5
+            }
+        ],
+        "activeUsers": "0.3M",
+        "risk": "Low"
+    },
+    "Vietnam": {
+        "name": "Vietnam",
+        "code": "VN",
+        "gdp": "$476.4B",
+        "population": "101.0M",
+        "growth": "+7.1%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 42
+            },
+            {
+                "name": "Industry",
+                "value": 38
+            },
+            {
+                "name": "Agriculture",
+                "value": 12
+            }
+        ],
+        "activeUsers": "1.0M",
+        "risk": "Low"
+    },
+    "Vanuatu": {
+        "name": "Vanuatu",
+        "code": "VU",
+        "gdp": "$1.1B",
+        "population": "0.3M",
+        "growth": "+0.9%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 59
+            },
+            {
+                "name": "Agriculture",
+                "value": 24
+            },
+            {
+                "name": "Industry",
+                "value": 7
+            }
+        ],
+        "activeUsers": "0.0M",
+        "risk": "Medium"
+    },
+    "Yemen": {
+        "name": "Yemen",
+        "code": "YE",
+        "gdp": "$21.6B",
+        "population": "40.6M",
+        "growth": "+0.8%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 42
+            },
+            {
+                "name": "Agriculture",
+                "value": 29
+            },
+            {
+                "name": "Industry",
+                "value": 25
+            }
+        ],
+        "activeUsers": "0.4M",
+        "risk": "Medium"
+    },
+    "South Africa": {
+        "name": "South Africa",
+        "code": "ZA",
+        "gdp": "$401.1B",
+        "population": "64.0M",
+        "growth": "+0.5%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 63
+            },
+            {
+                "name": "Industry",
+                "value": 24
+            },
+            {
+                "name": "Agriculture",
+                "value": 3
+            }
+        ],
+        "activeUsers": "0.6M",
+        "risk": "Medium"
+    },
+    "Zambia": {
+        "name": "Zambia",
+        "code": "ZM",
+        "gdp": "$25.3B",
+        "population": "21.3M",
+        "growth": "+3.8%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 57
+            },
+            {
+                "name": "Industry",
+                "value": 35
+            },
+            {
+                "name": "Agriculture",
+                "value": 3
+            }
+        ],
+        "activeUsers": "0.2M",
+        "risk": "Medium"
+    },
+    "Zimbabwe": {
+        "name": "Zimbabwe",
+        "code": "ZW",
+        "gdp": "$41.5B",
+        "population": "16.6M",
+        "growth": "+1.7%",
+        "segments": [
+            {
+                "name": "Services",
+                "value": 51
+            },
+            {
+                "name": "Industry",
+                "value": 35
+            },
+            {
+                "name": "Agriculture",
+                "value": 9
+            }
+        ],
+        "activeUsers": "0.2M",
+        "risk": "Medium"
     }
 };
 
 export const globalEvents = [
+    {
+        "id": "EONET_17317",
+        "title": "Compartment 45 RX Prescribed Fire, Bibb, Alabama",
+        "type": "Wildfires",
+        "lat": 32.93305,
+        "lng": -87.374133,
+        "date": "2026-01-19T13:10:00Z"
+    },
+    {
+        "id": "EONET_17318",
+        "title": "Compartment 13A RX Prescribed Fire, Bibb, Alabama",
+        "type": "Wildfires",
+        "lat": 32.980217,
+        "lng": -87.378367,
+        "date": "2026-01-19T13:10:00Z"
+    },
+    {
+        "id": "EONET_17319",
+        "title": "RX Mason 0453 Prescribed Fire, Mason, Texas",
+        "type": "Wildfires",
+        "lat": 30.6123,
+        "lng": -99.4524,
+        "date": "2026-01-19T08:02:00Z"
+    },
+    {
+        "id": "EONET_17320",
+        "title": "RX Calhoun 0486 Prescribed Fire, Calhoun, Texas",
+        "type": "Wildfires",
+        "lat": 28.48305556,
+        "lng": -96.46388889,
+        "date": "2026-01-19T08:00:00Z"
+    },
+    {
+        "id": "EONET_17316",
+        "title": "OCF CPT 267 Shockley East Rx 0119 Prescribed Fire, Lake, Florida",
+        "type": "Wildfires",
+        "lat": 29.024133,
+        "lng": -81.583083,
+        "date": "2026-01-19T07:23:00Z"
+    },
+    {
+        "id": "EONET_17321",
+        "title": "AGRICOLA Wildfire, Polk, Florida",
+        "type": "Wildfires",
+        "lat": 27.7961111,
+        "lng": -81.8927778,
+        "date": "2026-01-18T18:18:00Z"
+    },
+    {
+        "id": "EONET_17322",
+        "title": "Rx PCS Pilot Mountain Prescribed Fire, Scott, Arkansas",
+        "type": "Wildfires",
+        "lat": 35.00509,
+        "lng": -94.047957,
+        "date": "2026-01-18T10:12:00Z"
+    },
+    {
+        "id": "EONET_17323",
+        "title": "RX CALV BU 246-250 Prescribed Fire, Vernon, Louisiana",
+        "type": "Wildfires",
+        "lat": 31.023,
+        "lng": -93.108,
+        "date": "2026-01-18T10:08:00Z"
+    },
+    {
+        "id": "EONET_17324",
+        "title": "POND CEMETERY ROAD Wildfire, Hamilton, Florida",
+        "type": "Wildfires",
+        "lat": 30.4547222,
+        "lng": -82.7788889,
+        "date": "2026-01-17T18:53:00Z"
+    },
+    {
+        "id": "EONET_17327",
+        "title": "Compartment 49A RX Prescribed Fire, Bibb, Alabama",
+        "type": "Wildfires",
+        "lat": 32.91355,
+        "lng": -87.383133,
+        "date": "2026-01-17T11:01:00Z"
+    },
+    {
+        "id": "EONET_17328",
+        "title": "Upper Shoal B RX Prescribed Fire, Cleburne, Alabama",
+        "type": "Wildfires",
+        "lat": 33.79591,
+        "lng": -85.517744,
+        "date": "2026-01-17T11:01:00Z"
+    },
+    {
+        "id": "EONET_17326",
+        "title": "LXR Eagle Nest Rx 0117 Prescribed Fire, Palm Beach, Florida",
+        "type": "Wildfires",
+        "lat": 26.53615,
+        "lng": -80.39685,
+        "date": "2026-01-17T06:58:00Z"
+    },
+    {
+        "id": "EONET_17333",
+        "title": "RX Blackfork 31 Prescribed Fire, Scott, Arkansas",
+        "type": "Wildfires",
+        "lat": 34.7425,
+        "lng": -94.445278,
+        "date": "2026-01-16T16:37:00Z"
+    },
+    {
+        "id": "EONET_17329",
+        "title": "RX PSC East Hon Prescribed Fire, Scott, Arkansas",
+        "type": "Wildfires",
+        "lat": 34.964561,
+        "lng": -94.15641,
+        "date": "2026-01-16T13:06:00Z"
+    },
+    {
+        "id": "EONET_17330",
+        "title": "RX CALV BU 247-248-249-250 Prescribed Fire, Vernon, Louisiana",
+        "type": "Wildfires",
+        "lat": 31.0373,
+        "lng": -93.089417,
+        "date": "2026-01-16T10:01:00Z"
+    },
+    {
+        "id": "EONET_17334",
+        "title": "RX CAT BU 94 Prescribed Fire, Grant, Louisiana",
+        "type": "Wildfires",
+        "lat": 31.4759,
+        "lng": -92.554439,
+        "date": "2026-01-16T09:22:00Z"
+    },
+    {
+        "id": "EONET_17332",
+        "title": "RX KIS BU 35 Prescribed Fire, Natchitoches, Louisiana",
+        "type": "Wildfires",
+        "lat": 31.46275,
+        "lng": -93.164333,
+        "date": "2026-01-16T08:58:00Z"
+    },
+    {
+        "id": "EONET_17331",
+        "title": "ANF BU 342 Rx 0116 Prescribed Fire, Wakulla, Florida",
+        "type": "Wildfires",
+        "lat": 30.102333,
+        "lng": -84.584833,
+        "date": "2026-01-16T08:21:00Z"
+    },
     {
         "id": "EONET_17207",
         "title": "Tropical Storm Nokaen",
@@ -2851,542 +4283,458 @@ export const globalEvents = [
         "lat": 34.9602778,
         "lng": -96.0813889,
         "date": "2026-01-16T04:07:00Z"
-    },
-    {
-        "id": "EONET_17223",
-        "title": "Keown Falls RX Prescribed Fire, Walker, Georgia",
-        "type": "Wildfires",
-        "lat": 34.617153,
-        "lng": -85.084547,
-        "date": "2026-01-15T13:45:00Z"
-    },
-    {
-        "id": "EONET_17224",
-        "title": "RX CAT BU 46 Prescribed Fire, Grant, Louisiana",
-        "type": "Wildfires",
-        "lat": 31.601963,
-        "lng": -92.52455,
-        "date": "2026-01-15T09:30:00Z"
-    },
-    {
-        "id": "EONET_17231",
-        "title": "SHELL CREEK Wildfire, McIntosh, Oklahoma",
-        "type": "Wildfires",
-        "lat": 35.318056,
-        "lng": -95.855278,
-        "date": "2026-01-15T09:22:00Z"
-    },
-    {
-        "id": "EONET_17228",
-        "title": "RX CALV BU 234-235-236 Prescribed Fire, Vernon, Louisiana",
-        "type": "Wildfires",
-        "lat": 31.052,
-        "lng": -92.965,
-        "date": "2026-01-15T09:15:00Z"
-    },
-    {
-        "id": "EONET_17232",
-        "title": "RX Milam Prescribed Fire, Milam, Texas",
-        "type": "Wildfires",
-        "lat": 30.89277778,
-        "lng": -96.72333333,
-        "date": "2026-01-15T09:05:00Z"
-    },
-    {
-        "id": "EONET_17230",
-        "title": "RX KIS BU 61-62 Prescribed Fire, Natchitoches, Louisiana",
-        "type": "Wildfires",
-        "lat": 31.377667,
-        "lng": -93.1537,
-        "date": "2026-01-15T09:00:00Z"
-    },
-    {
-        "id": "EONET_17233",
-        "title": "RX Kleberg Prescribed Fire, Kleberg, Texas",
-        "type": "Wildfires",
-        "lat": 27.309122,
-        "lng": -97.619391,
-        "date": "2026-01-14T17:12:00Z"
-    },
-    {
-        "id": "EONET_17237",
-        "title": "RX Gib Road Prescribed Fire, Baxter, Arkansas",
-        "type": "Wildfires",
-        "lat": 36.0178,
-        "lng": -92.3294,
-        "date": "2026-01-13T08:47:00Z"
-    },
-    {
-        "id": "EONET_17236",
-        "title": "RX Blowout Prescribed Fire, Montgomery, Arkansas",
-        "type": "Wildfires",
-        "lat": 34.688333,
-        "lng": -93.810556,
-        "date": "2026-01-13T08:35:00Z"
-    },
-    {
-        "id": "EONET_17235",
-        "title": "RX Pedestal Rocks Prescribed Fire, Pope, Arkansas",
-        "type": "Wildfires",
-        "lat": 35.687897,
-        "lng": -93.028483,
-        "date": "2026-01-13T08:23:00Z"
-    },
-    {
-        "id": "EONET_17239",
-        "title": "Fayne Creek RX Prescribed Fire, Talladega, Alabama",
-        "type": "Wildfires",
-        "lat": 33.403611,
-        "lng": -85.934167,
-        "date": "2026-01-12T16:35:00Z"
-    },
-    {
-        "id": "EONET_17101",
-        "title": "RX Bill Bolen 2 Prescribed Fire, Pontotoc, Oklahoma",
-        "type": "Wildfires",
-        "lat": 34.5344,
-        "lng": -96.6082,
-        "date": "2026-01-12T11:04:00Z"
-    },
-    {
-        "id": "EONET_17238",
-        "title": "RX Tacket Mtn Prescribed Fire, Van Buren, Arkansas",
-        "type": "Wildfires",
-        "lat": 35.473233,
-        "lng": -92.792192,
-        "date": "2026-01-12T09:08:00Z"
-    },
-    {
-        "id": "EONET_17240",
-        "title": "RX Turkey Hollow Prescribed Fire, Johnson, Arkansas",
-        "type": "Wildfires",
-        "lat": 35.64505,
-        "lng": -93.297117,
-        "date": "2026-01-12T08:35:00Z"
-    },
-    {
-        "id": "EONET_17226",
-        "title": "ANF BU 215 Rx 0112 Prescribed Fire, Leon, Florida",
-        "type": "Wildfires",
-        "lat": 30.387333,
-        "lng": -84.4835,
-        "date": "2026-01-12T07:40:00Z"
-    },
-    {
-        "id": "EONET_17225",
-        "title": "ANF BU 218 Rx 0112 Prescribed Fire, Leon, Florida",
-        "type": "Wildfires",
-        "lat": 30.3895,
-        "lng": -84.393,
-        "date": "2026-01-12T07:09:00Z"
-    },
-    {
-        "id": "EONET_17080",
-        "title": "Tropical Cyclone Dudzai",
-        "type": "Severe Storms",
-        "lat": -13.4,
-        "lng": 76.1,
-        "date": "2026-01-11T12:00:00Z"
-    },
-    {
-        "id": "EONET_17103",
-        "title": "MIR 9.2 ABC Rx 0111 Prescribed Fire, Brevard, Florida",
-        "type": "Wildfires",
-        "lat": 28.631728,
-        "lng": -80.675053,
-        "date": "2026-01-11T08:33:00Z"
     }
 ];
 
 export const seismicData = [
     {
-        "id": "ak2026bfkveq",
+        "id": "ak2026biqyxo",
         "type": "Seismic",
-        "lat": 61.882,
-        "lng": -150.787,
-        "val": 4.2,
-        "location": "34 km ESE of Skwentna, Alaska",
-        "timestamp": 1768704301188,
-        "title": "M 4.2 Earthquake"
-    },
-    {
-        "id": "ak2026bfkhca",
-        "type": "Seismic",
-        "lat": 60.143,
-        "lng": -147.858,
-        "val": 2.5,
-        "location": "12 km NE of Chenega, Alaska",
-        "timestamp": 1768703320592,
-        "title": "M 2.5 Earthquake"
-    },
-    {
-        "id": "us7000rqcz",
-        "type": "Seismic",
-        "lat": -2.6457,
-        "lng": 139.305,
-        "val": 4.9,
-        "location": "147 km W of Abepura, Indonesia",
-        "timestamp": 1768698911821,
-        "title": "M 4.9 Earthquake"
-    },
-    {
-        "id": "ak2026bfhgvo",
-        "type": "Seismic",
-        "lat": 60.15,
-        "lng": -147.864,
-        "val": 2.5,
-        "location": "12 km NE of Chenega, Alaska",
-        "timestamp": 1768697879289,
-        "title": "M 2.5 Earthquake"
-    },
-    {
-        "id": "hv74878592",
-        "type": "Seismic",
-        "lat": 19.4155006408691,
-        "lng": -155.859329223633,
-        "val": 3.1,
-        "location": "4 km S of Honaunau-Napoopoo, Hawaii",
-        "timestamp": 1768695162580,
-        "title": "M 3.1 Earthquake"
-    },
-    {
-        "id": "ak2026bfeeez",
-        "type": "Seismic",
-        "lat": 57.232,
-        "lng": -136.195,
-        "val": 2.6,
-        "location": "55 km WNW of Sitka, Alaska",
-        "timestamp": 1768692257305,
-        "title": "M 2.6 Earthquake"
-    },
-    {
-        "id": "ci41160695",
-        "type": "Seismic",
-        "lat": 36.0934982299805,
-        "lng": -117.896667480469,
-        "val": 3.06552346245291,
-        "location": "7 km NE of Coso Junction, CA",
-        "timestamp": 1768689809710,
-        "title": "M 3.06552346245291 Earthquake"
-    },
-    {
-        "id": "ak2026bfcnsa",
-        "type": "Seismic",
-        "lat": 56.608,
-        "lng": -135.64,
-        "val": 2.5,
-        "location": "53 km SSW of Sitka, Alaska",
-        "timestamp": 1768689304782,
-        "title": "M 2.5 Earthquake"
-    },
-    {
-        "id": "ak2026bfclod",
-        "type": "Seismic",
-        "lat": 57.269,
-        "lng": -136.178,
+        "lat": 59.839,
+        "lng": -152.494,
         "val": 2.9,
-        "location": "56 km WNW of Sitka, Alaska",
-        "timestamp": 1768689148811,
+        "location": "37 km W of Anchor Point, Alaska",
+        "timestamp": 1768856623152,
         "title": "M 2.9 Earthquake"
     },
     {
-        "id": "ak2026bfbrjr",
+        "id": "us7000rqmu",
         "type": "Seismic",
-        "lat": 57.288,
-        "lng": -136.121,
-        "val": 2.6,
-        "location": "54 km WNW of Sitka, Alaska",
-        "timestamp": 1768687766026,
-        "title": "M 2.6 Earthquake"
+        "lat": 6.3342,
+        "lng": 123.7955,
+        "val": 4.7,
+        "location": "30 km WSW of Sangay, Philippines",
+        "timestamp": 1768852441668,
+        "title": "M 4.7 Earthquake"
     },
     {
-        "id": "ak2026bfaxka",
+        "id": "nn00909686",
         "type": "Seismic",
-        "lat": 57.17,
-        "lng": -136.272,
-        "val": 4,
-        "location": "58 km WNW of Sitka, Alaska",
-        "timestamp": 1768686351739,
-        "title": "M 4 Earthquake"
+        "lat": 40.5831,
+        "lng": -119.6008,
+        "val": 3.45,
+        "location": "21 km W of Empire, Nevada",
+        "timestamp": 1768849742555,
+        "title": "M 3.45 Earthquake"
     },
     {
-        "id": "us7000rqbx",
+        "id": "us7000rqmd",
         "type": "Seismic",
-        "lat": 4.243,
-        "lng": 97.499,
-        "val": 4.3,
-        "location": "57 km WSW of Langsa, Indonesia",
-        "timestamp": 1768681419068,
-        "title": "M 4.3 Earthquake"
-    },
-    {
-        "id": "us7000rqbj",
-        "type": "Seismic",
-        "lat": -21.4465,
-        "lng": -176.5984,
-        "val": 4.4,
-        "location": "137 km WSW of Houma, Tonga",
-        "timestamp": 1768675794132,
-        "title": "M 4.4 Earthquake"
-    },
-    {
-        "id": "ak2026beuhei",
-        "type": "Seismic",
-        "lat": 61.203,
-        "lng": -151.306,
-        "val": 3.5,
-        "location": "13 km WNW of Beluga, Alaska",
-        "timestamp": 1768674362748,
-        "title": "M 3.5 Earthquake"
-    },
-    {
-        "id": "us7000rqbc",
-        "type": "Seismic",
-        "lat": -55.7583,
-        "lng": -28.8763,
-        "val": 5.4,
-        "location": "South Sandwich Islands region",
-        "timestamp": 1768672825258,
-        "title": "M 5.4 Earthquake"
-    },
-    {
-        "id": "us7000rqb4",
-        "type": "Seismic",
-        "lat": 24.2892,
-        "lng": 121.8974,
-        "val": 4.4,
-        "location": "45 km NE of Hualien City, Taiwan",
-        "timestamp": 1768669289809,
-        "title": "M 4.4 Earthquake"
-    },
-    {
-        "id": "ak2026belrda",
-        "type": "Seismic",
-        "lat": 60.936,
-        "lng": -147.165,
-        "val": 3.8,
-        "location": "27 km WNW of Tatitlek, Alaska",
-        "timestamp": 1768658760917,
-        "title": "M 3.8 Earthquake"
-    },
-    {
-        "id": "nc75297096",
-        "type": "Seismic",
-        "lat": 36.6565017700195,
-        "lng": -121.307167053223,
-        "val": 3.33,
-        "location": "15 km S of Tres Pinos, CA",
-        "timestamp": 1768658004810,
-        "title": "M 3.33 Earthquake"
-    },
-    {
-        "id": "ok2026behm",
-        "type": "Seismic",
-        "lat": 35.96683333,
-        "lng": -98.2275,
-        "val": 2.57,
-        "location": "9 km W of Loyal, Oklahoma",
-        "timestamp": 1768657897509,
-        "title": "M 2.57 Earthquake"
-    },
-    {
-        "id": "us7000rqbp",
-        "type": "Seismic",
-        "lat": 51.5514,
-        "lng": -173.2995,
-        "val": 3.1,
-        "location": "94 km SE of Atka, Alaska",
-        "timestamp": 1768656793071,
-        "title": "M 3.1 Earthquake"
-    },
-    {
-        "id": "ak2026bejitt",
-        "type": "Seismic",
-        "lat": 51.437,
-        "lng": 178.811,
-        "val": 3.1,
-        "location": "Rat Islands, Aleutian Islands, Alaska",
-        "timestamp": 1768654560081,
-        "title": "M 3.1 Earthquake"
-    },
-    {
-        "id": "tx2026beiwut",
-        "type": "Seismic",
-        "lat": 31.534,
-        "lng": -104.018,
-        "val": 3.1,
-        "location": "32 km NW of Toyah, Texas",
-        "timestamp": 1768653726701,
-        "title": "M 3.1 Earthquake"
-    },
-    {
-        "id": "pr2026017000",
-        "type": "Seismic",
-        "lat": 18.7338,
-        "lng": -68.4263,
-        "val": 3.67,
-        "location": "16 km N of Punta Cana, Dominican Republic",
-        "timestamp": 1768652823680,
-        "title": "M 3.67 Earthquake"
-    },
-    {
-        "id": "us7000rqah",
-        "type": "Seismic",
-        "lat": 17.7148,
-        "lng": -68.5886,
-        "val": 2.8,
-        "location": "73 km S of Boca de Yuma, Dominican Republic",
-        "timestamp": 1768652821445,
-        "title": "M 2.8 Earthquake"
-    },
-    {
-        "id": "us7000rqae",
-        "type": "Seismic",
-        "lat": 48.9557,
-        "lng": 154.8262,
-        "val": 4.5,
-        "location": "212 km SSW of Severo-Kuril’sk, Russia",
-        "timestamp": 1768650285625,
-        "title": "M 4.5 Earthquake"
-    },
-    {
-        "id": "us7000rqa5",
-        "type": "Seismic",
-        "lat": 60.6047,
-        "lng": -139.8501,
-        "val": 3.1,
-        "location": "118 km N of Yakutat, Alaska",
-        "timestamp": 1768646335608,
-        "title": "M 3.1 Earthquake"
-    },
-    {
-        "id": "ak2026bedmlc",
-        "type": "Seismic",
-        "lat": 63.573,
-        "lng": -147.766,
-        "val": 3.6,
-        "location": "59 km ESE of Denali Park, Alaska",
-        "timestamp": 1768643951684,
-        "title": "M 3.6 Earthquake"
-    },
-    {
-        "id": "nc75296981",
-        "type": "Seismic",
-        "lat": 36.0914993286133,
-        "lng": -120.184669494629,
-        "val": 2.79,
-        "location": "11 km NNW of Avenal, CA",
-        "timestamp": 1768642496690,
-        "title": "M 2.79 Earthquake"
-    },
-    {
-        "id": "us7000rq9n",
-        "type": "Seismic",
-        "lat": 52.6246,
-        "lng": 160.7609,
-        "val": 4.3,
-        "location": "151 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "timestamp": 1768634550058,
-        "title": "M 4.3 Earthquake"
-    },
-    {
-        "id": "pr71505338",
-        "type": "Seismic",
-        "lat": 18.966,
-        "lng": -67.313,
-        "val": 3.15,
-        "location": "57 km NNW of San Antonio, Puerto Rico",
-        "timestamp": 1768633665230,
-        "title": "M 3.15 Earthquake"
-    },
-    {
-        "id": "us7000rq9h",
-        "type": "Seismic",
-        "lat": 52.391,
-        "lng": 160.877,
+        "lat": 6.3871,
+        "lng": 123.7579,
         "val": 5.3,
-        "location": "169 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "timestamp": 1768632401001,
+        "location": "32 km WSW of Sangay, Philippines",
+        "timestamp": 1768849221828,
         "title": "M 5.3 Earthquake"
     },
     {
-        "id": "ak2026bdvdkd",
+        "id": "us7000rqmc",
         "type": "Seismic",
-        "lat": 61.349,
-        "lng": -149.95,
+        "lat": 6.4425,
+        "lng": 123.7837,
+        "val": 4.9,
+        "location": "28 km W of Sangay, Philippines",
+        "timestamp": 1768848815582,
+        "title": "M 4.9 Earthquake"
+    },
+    {
+        "id": "us7000rqm7",
+        "type": "Seismic",
+        "lat": 12.4911,
+        "lng": 141.6784,
+        "val": 4.9,
+        "location": "Mariana Islands region",
+        "timestamp": 1768845560277,
+        "title": "M 4.9 Earthquake"
+    },
+    {
+        "id": "us7000rql6",
+        "type": "Seismic",
+        "lat": -17.9685,
+        "lng": -178.3589,
+        "val": 4.4,
+        "location": "246 km E of Levuka, Fiji",
+        "timestamp": 1768843806258,
+        "title": "M 4.4 Earthquake"
+    },
+    {
+        "id": "pr71505438",
+        "type": "Seismic",
+        "lat": 18.2161666666667,
+        "lng": -64.8181666666667,
+        "val": 3.07,
+        "location": "13 km SSW of Cruz Bay, U.S. Virgin Islands",
+        "timestamp": 1768843424590,
+        "title": "M 3.07 Earthquake"
+    },
+    {
+        "id": "us7000rql0",
+        "type": "Seismic",
+        "lat": -11.5744,
+        "lng": 166.2735,
+        "val": 4.9,
+        "location": "107 km SSE of Lata, Solomon Islands",
+        "timestamp": 1768842102500,
+        "title": "M 4.9 Earthquake"
+    },
+    {
+        "id": "us7000rqkv",
+        "type": "Seismic",
+        "lat": 33.5671,
+        "lng": 138.4919,
+        "val": 4.5,
+        "location": "117 km SSE of Ōyama, Japan",
+        "timestamp": 1768840219258,
+        "title": "M 4.5 Earthquake"
+    },
+    {
+        "id": "us7000rqkq",
+        "type": "Seismic",
+        "lat": 54.3829,
+        "lng": -162.6701,
+        "val": 3.8,
+        "location": "71 km SE of False Pass, Alaska",
+        "timestamp": 1768838533893,
+        "title": "M 3.8 Earthquake"
+    },
+    {
+        "id": "pr71505423",
+        "type": "Seismic",
+        "lat": 18.0936666666667,
+        "lng": -67.6783333333333,
+        "val": 3.4,
+        "location": "52 km W of Puerto Real, Puerto Rico",
+        "timestamp": 1768837652270,
+        "title": "M 3.4 Earthquake"
+    },
+    {
+        "id": "tx2026bigirb",
+        "type": "Seismic",
+        "lat": 31.532,
+        "lng": -104.016,
         "val": 2.7,
-        "location": "1 km SE of Point MacKenzie, Alaska",
-        "timestamp": 1768628839729,
+        "location": "32 km NW of Toyah, Texas",
+        "timestamp": 1768837553794,
         "title": "M 2.7 Earthquake"
     },
     {
-        "id": "us7000rq9c",
+        "id": "us7000rql1",
         "type": "Seismic",
-        "lat": 50.6613,
-        "lng": -175.0208,
-        "val": 2.8,
-        "location": "175 km SE of Adak, Alaska",
-        "timestamp": 1768625963320,
-        "title": "M 2.8 Earthquake"
+        "lat": 17.3474,
+        "lng": 95.7827,
+        "val": 4.4,
+        "location": "33 km S of Tharyarwady, Burma (Myanmar)",
+        "timestamp": 1768837437283,
+        "title": "M 4.4 Earthquake"
     },
     {
-        "id": "us7000rq95",
+        "id": "nn00909679",
         "type": "Seismic",
-        "lat": 23.9051,
-        "lng": 122.437,
+        "lat": 40.5904,
+        "lng": -119.5973,
+        "val": 3.75,
+        "location": "21 km WSW of Gerlach, Nevada",
+        "timestamp": 1768836923415,
+        "title": "M 3.75 Earthquake"
+    },
+    {
+        "id": "us7000rqkl",
+        "type": "Seismic",
+        "lat": 51.3197,
+        "lng": -177.0658,
+        "val": 3.5,
+        "location": "68 km SSW of Adak, Alaska",
+        "timestamp": 1768831683054,
+        "title": "M 3.5 Earthquake"
+    },
+    {
+        "id": "ak2026bichpd",
+        "type": "Seismic",
+        "lat": 57.188,
+        "lng": -155.55,
+        "val": 3.5,
+        "location": "78 km WSW of Karluk, Alaska",
+        "timestamp": 1768830097057,
+        "title": "M 3.5 Earthquake"
+    },
+    {
+        "id": "us7000rqkj",
+        "type": "Seismic",
+        "lat": 51.7424,
+        "lng": 176.6326,
+        "val": 3.8,
+        "location": "265 km ESE of Attu Station, Alaska",
+        "timestamp": 1768828688121,
+        "title": "M 3.8 Earthquake"
+    },
+    {
+        "id": "us7000rqk2",
+        "type": "Seismic",
+        "lat": -11.404,
+        "lng": 118.497,
+        "val": 4.7,
+        "location": "233 km SSW of Tambolaka, Indonesia",
+        "timestamp": 1768828547239,
+        "title": "M 4.7 Earthquake"
+    },
+    {
+        "id": "us7000rqjy",
+        "type": "Seismic",
+        "lat": -22.4031,
+        "lng": 170.2333,
+        "val": 6,
+        "location": "260 km ESE of Tadine, New Caledonia",
+        "timestamp": 1768827740746,
+        "title": "M 6 Earthquake"
+    },
+    {
+        "id": "us7000rqjx",
+        "type": "Seismic",
+        "lat": -22.4227,
+        "lng": 170.3413,
         "val": 5,
-        "location": "84 km SW of Yonakuni, Japan",
-        "timestamp": 1768623491421,
+        "location": "272 km ESE of Tadine, New Caledonia",
+        "timestamp": 1768827661630,
         "title": "M 5 Earthquake"
     },
     {
-        "id": "nc75296806",
+        "id": "us7000rqjq",
         "type": "Seismic",
-        "lat": 36.0906677246094,
-        "lng": -120.187835693359,
-        "val": 2.66,
-        "location": "11 km NNW of Avenal, CA",
-        "timestamp": 1768621230870,
-        "title": "M 2.66 Earthquake"
+        "lat": 47.409,
+        "lng": -113.9108,
+        "val": 2.6,
+        "location": "13 km ESE of Kicking Horse, Montana",
+        "timestamp": 1768823836720,
+        "title": "M 2.6 Earthquake"
     },
     {
-        "id": "pr71505328",
+        "id": "us7000rqjl",
         "type": "Seismic",
-        "lat": 17.8726666666667,
-        "lng": -66.8465,
-        "val": 2.52,
-        "location": "12 km SSE of Maria Antonia, Puerto Rico",
-        "timestamp": 1768620969460,
-        "title": "M 2.52 Earthquake"
-    },
-    {
-        "id": "us7000rq8y",
-        "type": "Seismic",
-        "lat": -30.5065,
-        "lng": -178.2309,
+        "lat": 27.0913,
+        "lng": 103.4181,
         "val": 5.2,
-        "location": "Kermadec Islands, New Zealand",
-        "timestamp": 1768620842525,
+        "location": "38 km SW of Zhaotong, China",
+        "timestamp": 1768822326183,
         "title": "M 5.2 Earthquake"
     },
     {
-        "id": "ak2026bdqshd",
+        "id": "us7000rqjg",
         "type": "Seismic",
-        "lat": 57.057,
-        "lng": -155.571,
+        "lat": -2.6159,
+        "lng": 102.1725,
+        "val": 5,
+        "location": "102 km NNW of Curup, Indonesia",
+        "timestamp": 1768820569203,
+        "title": "M 5 Earthquake"
+    },
+    {
+        "id": "nc75298026",
+        "type": "Seismic",
+        "lat": 40.162166595459,
+        "lng": -123.285499572754,
+        "val": 2.5,
+        "location": "41 km N of Covelo, CA",
+        "timestamp": 1768817232330,
+        "title": "M 2.5 Earthquake"
+    },
+    {
+        "id": "ak2026bhujec",
+        "type": "Seismic",
+        "lat": 61.946,
+        "lng": -149.449,
+        "val": 2.8,
+        "location": "25 km NNW of Fishhook, Alaska",
+        "timestamp": 1768815705262,
+        "title": "M 2.8 Earthquake"
+    },
+    {
+        "id": "us7000rqj8",
+        "type": "Seismic",
+        "lat": -22.3622,
+        "lng": 170.3204,
+        "val": 4.7,
+        "location": "267 km ESE of Tadine, New Caledonia",
+        "timestamp": 1768814752744,
+        "title": "M 4.7 Earthquake"
+    },
+    {
+        "id": "ak2026bhtnbb",
+        "type": "Seismic",
+        "lat": 54.611,
+        "lng": -160.322,
         "val": 2.7,
-        "location": "85 km W of Akhiok, Alaska",
-        "timestamp": 1768620816383,
+        "location": "81 km S of Sand Point, Alaska",
+        "timestamp": 1768814162840,
         "title": "M 2.7 Earthquake"
     },
     {
-        "id": "us7000rq8s",
+        "id": "ak2026bhrwzw",
         "type": "Seismic",
-        "lat": 37.1231,
-        "lng": -105.0136,
+        "lat": 60.152,
+        "lng": -147.857,
         "val": 2.5,
-        "location": "3 km SE of Stonewall Gap, Colorado",
-        "timestamp": 1768618631446,
+        "location": "12 km NE of Chenega, Alaska",
+        "timestamp": 1768811238269,
         "title": "M 2.5 Earthquake"
+    },
+    {
+        "id": "us7000rqj1",
+        "type": "Seismic",
+        "lat": -7.5747,
+        "lng": 127.6134,
+        "val": 4.5,
+        "location": "124 km NNE of Lospalos, Timor Leste",
+        "timestamp": 1768808955742,
+        "title": "M 4.5 Earthquake"
+    },
+    {
+        "id": "us7000rqit",
+        "type": "Seismic",
+        "lat": -16.223,
+        "lng": -173.7599,
+        "val": 5.1,
+        "location": "29 km S of Hihifo, Tonga",
+        "timestamp": 1768804927663,
+        "title": "M 5.1 Earthquake"
+    },
+    {
+        "id": "us7000rqik",
+        "type": "Seismic",
+        "lat": 36.7055,
+        "lng": 74.4485,
+        "val": 5.6,
+        "location": "47 km NNW of Barishal, Pakistan",
+        "timestamp": 1768803672153,
+        "title": "M 5.6 Earthquake"
+    },
+    {
+        "id": "us7000rqig",
+        "type": "Seismic",
+        "lat": -3.1868,
+        "lng": 130.5645,
+        "val": 4.5,
+        "location": "177 km E of Masohi, Indonesia",
+        "timestamp": 1768800936782,
+        "title": "M 4.5 Earthquake"
+    },
+    {
+        "id": "us7000rqie",
+        "type": "Seismic",
+        "lat": 36.8492,
+        "lng": -115.9631,
+        "val": 2.5,
+        "location": "40 km NW of Indian Springs, Nevada",
+        "timestamp": 1768800745400,
+        "title": "M 2.5 Earthquake"
+    },
+    {
+        "id": "nc75297861",
+        "type": "Seismic",
+        "lat": 36.6766662597656,
+        "lng": -121.336669921875,
+        "val": 2.78,
+        "location": "13 km S of Tres Pinos, CA",
+        "timestamp": 1768798596420,
+        "title": "M 2.78 Earthquake"
+    },
+    {
+        "id": "ak2026bhhmua",
+        "type": "Seismic",
+        "lat": 57.998,
+        "lng": -152.445,
+        "val": 2.5,
+        "location": "9 km NNE of Ouzinkie, Alaska",
+        "timestamp": 1768792427777,
+        "title": "M 2.5 Earthquake"
+    },
+    {
+        "id": "us7000rqi1",
+        "type": "Seismic",
+        "lat": -20.6053,
+        "lng": -69.0982,
+        "val": 4,
+        "location": "65 km ESE of La Tirana, Chile",
+        "timestamp": 1768791388857,
+        "title": "M 4 Earthquake"
+    },
+    {
+        "id": "ak2026bhfvxl",
+        "type": "Seismic",
+        "lat": 61.533,
+        "lng": -149.941,
+        "val": 2.5,
+        "location": "1 km NNE of Big Lake, Alaska",
+        "timestamp": 1768789439611,
+        "title": "M 2.5 Earthquake"
+    },
+    {
+        "id": "us7000rqhx",
+        "type": "Seismic",
+        "lat": 53.5619,
+        "lng": -165.9446,
+        "val": 3.9,
+        "location": "52 km SE of Unalaska, Alaska",
+        "timestamp": 1768788400145,
+        "title": "M 3.9 Earthquake"
+    },
+    {
+        "id": "ci41161791",
+        "type": "Seismic",
+        "lat": 34.1578330993652,
+        "lng": -117.425163269043,
+        "val": 2.98310353964151,
+        "location": "7 km NNE of Fontana, CA",
+        "timestamp": 1768786885660,
+        "title": "M 2.98310353964151 Earthquake"
+    },
+    {
+        "id": "ak2026bhdkwu",
+        "type": "Seismic",
+        "lat": 58.957,
+        "lng": -152.243,
+        "val": 3,
+        "location": "48 km SSW of Nanwalek, Alaska",
+        "timestamp": 1768785081504,
+        "title": "M 3 Earthquake"
+    },
+    {
+        "id": "us7000rqht",
+        "type": "Seismic",
+        "lat": -5.7832,
+        "lng": 105.7613,
+        "val": 4.3,
+        "location": "56 km NW of Serang, Indonesia",
+        "timestamp": 1768785047912,
+        "title": "M 4.3 Earthquake"
+    },
+    {
+        "id": "nc75297786",
+        "type": "Seismic",
+        "lat": 40.3908333333333,
+        "lng": -125.0415,
+        "val": 4.17,
+        "location": "65 km W of Petrolia, CA",
+        "timestamp": 1768782033840,
+        "title": "M 4.17 Earthquake"
+    },
+    {
+        "id": "ak2026bhaaik",
+        "type": "Seismic",
+        "lat": 66.055,
+        "lng": -150.846,
+        "val": 2.5,
+        "location": "68 km NNW of Rampart, Alaska",
+        "timestamp": 1768778884538,
+        "title": "M 2.5 Earthquake"
+    },
+    {
+        "id": "us7000rqhd",
+        "type": "Seismic",
+        "lat": 43.1976,
+        "lng": 146.3171,
+        "val": 4.5,
+        "location": "61 km ESE of Nemuro, Japan",
+        "timestamp": 1768776063453,
+        "title": "M 4.5 Earthquake"
     }
 ];

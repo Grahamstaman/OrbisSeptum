@@ -3,6 +3,7 @@ import GlobeComponent from './components/GlobeComponent';
 import Dashboard from './components/Dashboard';
 import GlobalEventsPanel from './components/GlobalEventsPanel';
 import IntelligenceSearch from './components/IntelligenceSearch';
+import ErrorBoundary from './components/ErrorBoundary';
 import { AnimatePresence } from 'framer-motion';
 
 function App() {
@@ -16,10 +17,25 @@ function App() {
       <div className="absolute bottom-[-20%] right-[-20%] w-[50%] h-[50%] bg-blue-900/20 rounded-full blur-[120px] pointer-events-none" />
 
       {/* Globe Layer */}
-      <GlobeComponent
-        onCountryClick={setSelectedCountryData}
-        isRotationPaused={isRotationPaused}
-      />
+      <ErrorBoundary fallback={
+        <div className="absolute inset-0 z-0 flex items-center justify-center bg-[#050510]">
+          <div className="text-center p-8 border border-white/10 rounded-2xl bg-white/5 backdrop-blur-sm max-w-md">
+            <h3 className="text-xl font-bold text-red-400 mb-2">3D VISUALIZATION OFFLINE</h3>
+            <p className="text-sm text-white/50 mb-4">
+              Hardware acceleration is disabled or WebGL is not supported.
+              The dashboard is running in 2D fallback mode.
+            </p>
+            <div className="text-xs text-white/30 font-mono">
+              ERROR: WEBGL_CONTEXT_LOST
+            </div>
+          </div>
+        </div>
+      }>
+        <GlobeComponent
+          onCountryClick={setSelectedCountryData}
+          isRotationPaused={isRotationPaused}
+        />
+      </ErrorBoundary>
 
       {/* UI Overlay */}
       <div className="absolute top-8 left-8 z-10 pointer-events-auto">
